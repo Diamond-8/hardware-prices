@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T13:03:37+00:00",
+ "updated_at": "2026-10-28T18:10:21+00:00",
  "currency": "SAR",
  "demo": false,
  "categories": {
@@ -1605,7 +1605,7 @@
   {
    "name": "ASUS TUF Gaming X870-Plus WiFi",
    "category": "motherboard",
-   "image": null,
+   "image": "img/asus-tuf-gaming-x870-plus-wifi.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1633,7 +1633,7 @@
   {
    "name": "MSI MAG X870 Tomahawk WiFi",
    "category": "motherboard",
-   "image": null,
+   "image": "img/msi-mag-x870-tomahawk-wifi.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1661,7 +1661,7 @@
   {
    "name": "Gigabyte X870 Aorus Elite WiFi7",
    "category": "motherboard",
-   "image": null,
+   "image": "img/gigabyte-x870-aorus-elite-wifi7.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1689,7 +1689,7 @@
   {
    "name": "MSI MAG B550 Tomahawk",
    "category": "motherboard",
-   "image": null,
+   "image": "img/msi-mag-b550-tomahawk.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1724,7 +1724,7 @@
   {
    "name": "MSI MAG B550 Tomahawk Max WiFi",
    "category": "motherboard",
-   "image": null,
+   "image": "img/msi-mag-b550-tomahawk-max-wifi.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1752,7 +1752,7 @@
   {
    "name": "MSI B550M PRO-VDH WiFi",
    "category": "motherboard",
-   "image": null,
+   "image": "img/msi-b550m-pro-vdh-wifi.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1780,7 +1780,7 @@
   {
    "name": "Gigabyte B760M DS3H AX DDR5",
    "category": "motherboard",
-   "image": null,
+   "image": "img/gigabyte-b760m-ds3h-ax-ddr5.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1808,7 +1808,7 @@
   {
    "name": "MSI MAG Z790 Tomahawk WiFi DDR5",
    "category": "motherboard",
-   "image": null,
+   "image": "img/msi-mag-z790-tomahawk-wifi-ddr5.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1836,7 +1836,7 @@
   {
    "name": "ASUS TUF Gaming Z790-Plus WiFi",
    "category": "motherboard",
-   "image": null,
+   "image": "img/asus-tuf-gaming-z790-plus-wifi.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1864,7 +1864,7 @@
   {
    "name": "Kingston Fury Beast DDR5 32GB (2x16) 6000MHz CL30",
    "category": "ram",
-   "image": null,
+   "image": "img/kingston-fury-beast-ddr5-32gb-2x16-6000mhz-cl30.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1892,7 +1892,7 @@
   {
    "name": "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL30",
    "category": "ram",
-   "image": null,
+   "image": "img/corsair-vengeance-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1934,7 +1934,7 @@
   {
    "name": "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL30",
    "category": "ram",
-   "image": null,
+   "image": "img/g-skill-trident-z5-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1969,7 +1969,7 @@
   {
    "name": "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL36",
    "category": "ram",
-   "image": null,
+   "image": "img/g-skill-trident-z5-rgb-ddr5-32gb-2x16-6000mhz-cl36.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -1997,7 +1997,7 @@
   {
    "name": "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6000MHz CL30",
    "category": "ram",
-   "image": null,
+   "image": "img/teamgroup-t-force-delta-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -2025,7 +2025,7 @@
   {
    "name": "Kingston Fury Beast DDR4 16GB (2x8) 3200",
    "category": "ram",
-   "image": null,
+   "image": "img/kingston-fury-beast-ddr4-16gb-2x8-3200.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -2053,7 +2053,7 @@
   {
    "name": "Corsair Vengeance LPX DDR4 16GB (2x8) 3200",
    "category": "ram",
-   "image": null,
+   "image": "img/corsair-vengeance-lpx-ddr4-16gb-2x8-3200.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -2081,7 +2081,7 @@
   {
    "name": "Corsair Vengeance LPX DDR4 32GB (2x16) 3200",
    "category": "ram",
-   "image": null,
+   "image": "img/corsair-vengeance-lpx-ddr4-32gb-2x16-3200.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -2109,7 +2109,7 @@
   {
    "name": "Crucial DDR4 32GB (2x16) 3200",
    "category": "ram",
-   "image": null,
+   "image": "img/crucial-ddr4-32gb-2x16-3200.jpg",
    "offers": [
     {
      "store": "أمازون السعودية",
@@ -2131,6 +2131,825 @@
     {
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1640.83
+    }
+   ]
+  },
+  {
+   "name": "TeamGroup T-Force Delta RGB DDR4 32GB (2x16) 3600",
+   "category": "ram",
+   "image": "img/teamgroup-t-force-delta-rgb-ddr4-32gb-2x16-3600.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/TEAMGROUP-T-Force-Delta-Gaming-Memory/dp/B08CM4V24M",
+     "price": 1429.21,
+     "title": "TEAMGROUP Team T-Force Delta RGB DDR4 Gaming Memory, 2 x 16 GB, 3600 Mhz, 288 Pin DIMM, Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/TEAMGROUP-T-Force-Delta-Gaming-Memory/dp/B08CM4V24M",
+    "price": 1429.21,
+    "title": "TEAMGROUP Team T-Force Delta RGB DDR4 Gaming Memory, 2 x 16 GB, 3600 Mhz, 288 Pin DIMM, Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1429.21
+    }
+   ]
+  },
+  {
+   "name": "Kingston Fury Beast DDR5 16GB (2x8) 5600",
+   "category": "ram",
+   "image": "img/kingston-fury-beast-ddr5-16gb-2x8-5600.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Kingston-5600MT-Desktop-Gaming-Memory/dp/B0BRTJCLBJ",
+     "price": 1847.0,
+     "title": "Kingston FURY Beast Black EXPO DDR5 16 GB (2x8 GB) 5600MT/s DDR5 CL36 DIMM Desktop Gaming Memory Kit of 2 - KF556C36BBEK2-16",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Kingston-5600MT-Desktop-Gaming-Memory/dp/B0BRTJCLBJ",
+    "price": 1847.0,
+    "title": "Kingston FURY Beast Black EXPO DDR5 16 GB (2x8 GB) 5600MT/s DDR5 CL36 DIMM Desktop Gaming Memory Kit of 2 - KF556C36BBEK2-16",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1847.0
+    }
+   ]
+  },
+  {
+   "name": "G.Skill Trident Z5 RGB DDR5 64GB (2x32) 6000 CL30",
+   "category": "ram",
+   "image": "img/g-skill-trident-z5-rgb-ddr5-64gb-2x32-6000-cl30.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/G-SKILL-Trident-6000MHz-1-40V-Channel/dp/B0BSB94VC2",
+     "price": 6783.64,
+     "title": "G.SKILL 64GB DDR5 Trident Z5 Neo RGB 6000MHz CL30 1.40V Dual Channel Kit (2x 32GB) Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/G-SKILL-Trident-6000MHz-1-40V-Channel/dp/B0BSB94VC2",
+    "price": 6783.64,
+    "title": "G.SKILL 64GB DDR5 Trident Z5 Neo RGB 6000MHz CL30 1.40V Dual Channel Kit (2x 32GB) Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 6783.64
+    }
+   ]
+  },
+  {
+   "name": "Samsung 990 Pro 2TB NVMe",
+   "category": "storage",
+   "image": "img/samsung-990-pro-2tb-nvme.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Samsung-Internal-Solid-State-MZ-V9P2T0BW/dp/B0B9C4DKKG",
+     "price": 1740.54,
+     "title": "Samsung 990 PRO 2TB PCIe 4.0 (up to 7450 MB/s) NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V9P2T0BW)",
+     "in_stock": true
+    },
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Samsung-Transfer-Internal-MZ-V9P2T0B-EC/dp/B0BPXRY7N2",
+     "price": 1901.45,
+     "title": "Samsung 990 PRO 2TB PCIe Gen 4.0 x4 (Maximum Transfer Rate 7,450MB/s) NVMe M.2 (2280) Internal SSD MZ-V9P2T0B-IT/EC",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Samsung-Internal-Solid-State-MZ-V9P2T0BW/dp/B0B9C4DKKG",
+    "price": 1740.54,
+    "title": "Samsung 990 PRO 2TB PCIe 4.0 (up to 7450 MB/s) NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V9P2T0BW)",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1740.54
+    }
+   ]
+  },
+  {
+   "name": "Samsung 990 Pro 2TB NVMe (Heatsink)",
+   "category": "storage",
+   "image": "img/samsung-990-pro-2tb-nvme-heatsink.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Samsung-Nvme-Gen4-Heatsink-Capacity/dp/B0BM459NHM",
+     "price": 1885.0,
+     "title": "Samsung 990 Pro Nvme Gen4 SSD with Heatsink, 2 TB Capacity",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Samsung-Nvme-Gen4-Heatsink-Capacity/dp/B0BM459NHM",
+    "price": 1885.0,
+    "title": "Samsung 990 Pro Nvme Gen4 SSD with Heatsink, 2 TB Capacity",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1885.0
+    }
+   ]
+  },
+  {
+   "name": "WD Black SN850X 1TB NVMe",
+   "category": "storage",
+   "image": null,
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/WD_BLACK-SN850X-Internal-Gaming-Technology/dp/B0B7CKVCCV",
+     "price": 1091.44,
+     "title": "WD_BLACK SN850X NVMe SSD 1TB Internal SSD (Gaming Memory, PCIe Gen4 Technology, Read 7300MB/s, Write 6300MB/s) Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/WD_BLACK-SN850X-Internal-Gaming-Technology/dp/B0B7CKVCCV",
+    "price": 1091.44,
+    "title": "WD_BLACK SN850X NVMe SSD 1TB Internal SSD (Gaming Memory, PCIe Gen4 Technology, Read 7300MB/s, Write 6300MB/s) Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1091.44
+    }
+   ]
+  },
+  {
+   "name": "Kingston NV3 1TB NVMe",
+   "category": "storage",
+   "image": null,
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-1000G/dp/B0DBR3DZWG",
+     "price": 608.79,
+     "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 1TB M.2 2280-SNV3S/1000G",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-1000G/dp/B0DBR3DZWG",
+    "price": 608.79,
+    "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 1TB M.2 2280-SNV3S/1000G",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 608.79
+    }
+   ]
+  },
+  {
+   "name": "Crucial P3 Plus 1TB NVMe",
+   "category": "storage",
+   "image": "img/crucial-p3-plus-1tb-nvme.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/%D9%83%D8%B1%D9%88%D8%B4%D8%A7%D9%84-%D8%AA%D9%8A%D8%B1%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D8%A8%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-CT1000P3PSSD801/dp/B0BYWB6237",
+     "price": 900.0,
+     "title": "Crucial P3 Plus SSD 1TB M.2 PCIe Gen4 NVMe Internal SSD, 5,000 MB/s Read, 3,600 MB/s Write, Compatible with Laptop and Desktop, SSD Hard Drive - CT1000P3PSSD801",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/%D9%83%D8%B1%D9%88%D8%B4%D8%A7%D9%84-%D8%AA%D9%8A%D8%B1%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D8%A8%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-CT1000P3PSSD801/dp/B0BYWB6237",
+    "price": 900.0,
+    "title": "Crucial P3 Plus SSD 1TB M.2 PCIe Gen4 NVMe Internal SSD, 5,000 MB/s Read, 3,600 MB/s Write, Compatible with Laptop and Desktop, SSD Hard Drive - CT1000P3PSSD801",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 900.0
+    }
+   ]
+  },
+  {
+   "name": "Crucial T500 1TB NVMe",
+   "category": "storage",
+   "image": "img/crucial-t500-1tb-nvme.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Crucial-Internal-Playstation-Compatible-CT1000T500SSD5/dp/B0CK2S298S",
+     "price": 1157.61,
+     "title": "Crucial T500 1TB Gen4 NVMe M.2 Internal Gaming SSD with Heatsink, Up to 7300MB/s, Playstation 5 Compatible + 1mo Adobe CC All Apps- CT1000T500SSD5",
+     "in_stock": true
+    },
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Crucial-Internal-Gaming-Desktop-Compatible/dp/B0CK39YR9V",
+     "price": 1452.3,
+     "title": "Crucial T500 1TB Gen4 NVMe M.2 Internal Gaming SSD, Up to 7300MB/s, Laptop & Desktop Compatible + 1mo Adobe CC All Apps - CT1000T500SSD8",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Crucial-Internal-Playstation-Compatible-CT1000T500SSD5/dp/B0CK2S298S",
+    "price": 1157.61,
+    "title": "Crucial T500 1TB Gen4 NVMe M.2 Internal Gaming SSD with Heatsink, Up to 7300MB/s, Playstation 5 Compatible + 1mo Adobe CC All Apps- CT1000T500SSD5",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1157.61
+    }
+   ]
+  },
+  {
+   "name": "Lexar NM790 2TB NVMe",
+   "category": "storage",
+   "image": null,
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Lexar-Gen4x4-Internal-Professionals-LNM790X002T-RNNNG/dp/B0C4H4YH8V",
+     "price": 829.0,
+     "title": "Lexar NM790 1TB Internal SSD, M.2 2280 PCIe Gen4x4 NVMe 1.4 SSD, Up to 7400MB/s Read, 6500MB/s Write, Internal Solid State Drive for PS5, PC, Laptop and Gamer (LNM790X001T-RNNNG)",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Lexar-Gen4x4-Internal-Professionals-LNM790X002T-RNNNG/dp/B0C4H4YH8V",
+    "price": 829.0,
+    "title": "Lexar NM790 1TB Internal SSD, M.2 2280 PCIe Gen4x4 NVMe 1.4 SSD, Up to 7400MB/s Read, 6500MB/s Write, Internal Solid State Drive for PS5, PC, Laptop and Gamer (LNM790X001T-RNNNG)",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 829.0
+    }
+   ]
+  },
+  {
+   "name": "Samsung 990 EVO Plus 1TB",
+   "category": "storage",
+   "image": "img/samsung-990-evo-plus-1tb.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Technology-Intelligent-Turbowrite-MZ-V9S1T0B-AM/dp/B0DHLFWBQ1",
+     "price": 1238.09,
+     "title": "SAMSUNG 990 EVO Plus SSD 1TB, PCIe Gen 4x4 | Gen 5x2 M.2 2280, Speeds Up-to 7,150 MB/s, Upgrade Storage for PC/Laptops, HMB Technology and Intelligent Turbowrite 2.0, (MZ-V9S1T0B/AM)",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Technology-Intelligent-Turbowrite-MZ-V9S1T0B-AM/dp/B0DHLFWBQ1",
+    "price": 1238.09,
+    "title": "SAMSUNG 990 EVO Plus SSD 1TB, PCIe Gen 4x4 | Gen 5x2 M.2 2280, Speeds Up-to 7,150 MB/s, Upgrade Storage for PC/Laptops, HMB Technology and Intelligent Turbowrite 2.0, (MZ-V9S1T0B/AM)",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1238.09
+    }
+   ]
+  },
+  {
+   "name": "Samsung 990 Pro 1TB",
+   "category": "storage",
+   "image": "img/samsung-990-pro-1tb.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%AF%D9%8A%D9%85%D8%A9-MZ-V9P1T0BW-pc_card/dp/B0B9C3ZVHR",
+     "price": 988.15,
+     "title": "Samsung 990 PRO 1TB PCIe 4.0 (up to 7450 MB/s) NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V9P1T0BW)",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%AF%D9%8A%D9%85%D8%A9-MZ-V9P1T0BW-pc_card/dp/B0B9C3ZVHR",
+    "price": 988.15,
+    "title": "Samsung 990 PRO 1TB PCIe 4.0 (up to 7450 MB/s) NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V9P1T0BW)",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 988.15
+    }
+   ]
+  },
+  {
+   "name": "Samsung 990 Pro 4TB",
+   "category": "storage",
+   "image": "img/samsung-990-pro-4tb.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Samsung-7450MB-Internal-Editing-MZ-V9P4T0BW/dp/B0CBYZ6DD1",
+     "price": 3549.0,
+     "title": "Samsung 990 PRO NVMe M.2 SSD, 4TB, PCIe 4.0, 7450MB/s Read, 6900MB/s Write, Internal SSD, for Gaming and Video Editing, MZ-V9P4T0BW",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Samsung-7450MB-Internal-Editing-MZ-V9P4T0BW/dp/B0CBYZ6DD1",
+    "price": 3549.0,
+    "title": "Samsung 990 PRO NVMe M.2 SSD, 4TB, PCIe 4.0, 7450MB/s Read, 6900MB/s Write, Internal SSD, for Gaming and Video Editing, MZ-V9P4T0BW",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 3549.0
+    }
+   ]
+  },
+  {
+   "name": "Kingston NV3 500GB",
+   "category": "storage",
+   "image": null,
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Kingston-Internal-500GB-2280-SNV3S-500G/dp/B0DBR9RZLV",
+     "price": 398.97,
+     "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 500GB M.2 2280-SNV3S/500G",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Kingston-Internal-500GB-2280-SNV3S-500G/dp/B0DBR9RZLV",
+    "price": 398.97,
+    "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 500GB M.2 2280-SNV3S/500G",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 398.97
+    }
+   ]
+  },
+  {
+   "name": "Kingston NV3 2TB",
+   "category": "storage",
+   "image": null,
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-2000G/dp/B0DBR6TRZQ",
+     "price": 1118.97,
+     "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 2TB M.2 2280-SNV3S/2000G",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-2000G/dp/B0DBR6TRZQ",
+    "price": 1118.97,
+    "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 2TB M.2 2280-SNV3S/2000G",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1118.97
+    }
+   ]
+  },
+  {
+   "name": "Corsair RM850e 850W Gold",
+   "category": "psu",
+   "image": "img/corsair-rm850e-850w-gold.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/CORSAIR-RM850e-Modular-Low-Noise-12V-2x6/dp/B0F3DRP6B3",
+     "price": 529.0,
+     "title": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – White",
+     "in_stock": true
+    },
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Corsair-Modular-Compatible-Cybenetics-Capacitors/dp/B0DPR86ZC8",
+     "price": 662.52,
+     "title": "CORSAIR RM850e (2025) ATX 3.1 PCIe 5.1 Ready 850W Power Supply – Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/CORSAIR-RM850e-Modular-Low-Noise-12V-2x6/dp/B0F3DRP6B3",
+    "price": 529.0,
+    "title": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – White",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 529.0
+    }
+   ]
+  },
+  {
+   "name": "Corsair RM850x 850W Gold",
+   "category": "psu",
+   "image": "img/corsair-rm850x-850w-gold.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/CORSAIR-RM850x-Fully-Modular-Supply/dp/B0D9C1DT62",
+     "price": 623.81,
+     "title": "CORSAIR RM850x Fully Modular Quiet ATX Power Supply - ATX 3.1 Compliance - PCIe 5.1 Support - Cybenetics Gold Efficiency - Native 12V - 2x6 Connector - Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/CORSAIR-RM850x-Fully-Modular-Supply/dp/B0D9C1DT62",
+    "price": 623.81,
+    "title": "CORSAIR RM850x Fully Modular Quiet ATX Power Supply - ATX 3.1 Compliance - PCIe 5.1 Support - Cybenetics Gold Efficiency - Native 12V - 2x6 Connector - Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 623.81
+    }
+   ]
+  },
+  {
+   "name": "MSI MAG A850GL PCIE5 850W Gold",
+   "category": "psu",
+   "image": "img/msi-mag-a850gl-pcie5-850w-gold.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/MSI-850W-Power-Supply-Plus/dp/B0CB9MSJ5N",
+     "price": 621.3,
+     "title": "MSI MAG 850W Power Supply 80 Plus Gold - ATX 3.0 PCIe 5.0 Ready - 12VHPWR [MAG A850GL PCIE5]",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/MSI-850W-Power-Supply-Plus/dp/B0CB9MSJ5N",
+    "price": 621.3,
+    "title": "MSI MAG 850W Power Supply 80 Plus Gold - ATX 3.0 PCIe 5.0 Ready - 12VHPWR [MAG A850GL PCIE5]",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 621.3
+    }
+   ]
+  },
+  {
+   "name": "Cooler Master MWE Gold 850 V2 850W",
+   "category": "psu",
+   "image": "img/cooler-master-mwe-gold-850-v2-850w.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://amazon.sa/-/en/Cooler-Master-Certified-Modular-Supply/dp/B08H2PJS7G",
+     "price": 529.0,
+     "title": "Cooler Master MWE 850 Gold V2 Power Supply - Fully Modular | 80 Plus Gold Certified | 120 mm HDB Fan | DC to DC Circuit Design | 2 EPS Connectors | 850 Watt",
+     "in_stock": true
+    },
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Cooler-Master-Modular-Support-Cabling/dp/B0DHH1J3L1",
+     "price": 559.0,
+     "title": "Cooler Master MWE Gold 850 V2 ATX 3.1 Fully Modular Power Supply (UK Plug), ATX 3.1 Support, 80 PLUS Gold 850W Power Supply, PCIe 5.1 Cabling, 120 HDB Fan",
+     "in_stock": true
+    },
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Cooler-Master-Efficiency-Connectors-Semi-fanless/dp/B08M9M6DB9",
+     "price": 597.26,
+     "title": "Cooler Master MWE Gold 850 V2 Full Modular, 850W, 80+ Gold Efficiency, 2 EPS Connectors, 120mm HDB Fan, Semi-fanless Operation, 5 Year Warranty",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://amazon.sa/-/en/Cooler-Master-Certified-Modular-Supply/dp/B08H2PJS7G",
+    "price": 529.0,
+    "title": "Cooler Master MWE 850 Gold V2 Power Supply - Fully Modular | 80 Plus Gold Certified | 120 mm HDB Fan | DC to DC Circuit Design | 2 EPS Connectors | 850 Watt",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 529.0
+    }
+   ]
+  },
+  {
+   "name": "Corsair RM1000e 1000W Gold",
+   "category": "psu",
+   "image": "img/corsair-rm1000e-1000w-gold.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B6%D9%88%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%83%D9%88%D8%B1%D8%B3%D9%8A%D8%B1/dp/B0BYL3MPDC",
+     "price": 799.0,
+     "title": "Corsair RM1000e (2023) Fully Modular Low-Noise ATX Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 PLUS Gold Efficiency - Modern Standby Support - Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B6%D9%88%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%83%D9%88%D8%B1%D8%B3%D9%8A%D8%B1/dp/B0BYL3MPDC",
+    "price": 799.0,
+    "title": "Corsair RM1000e (2023) Fully Modular Low-Noise ATX Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 PLUS Gold Efficiency - Modern Standby Support - Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 799.0
+    }
+   ]
+  },
+  {
+   "name": "Corsair RM1000x 1000W Gold",
+   "category": "psu",
+   "image": "img/corsair-rm1000x-1000w-gold.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/CORSAIR-RM1000x-Fully-Modular-Supply/dp/B0D9C3P46P",
+     "price": 714.79,
+     "title": "CORSAIR RM1000x Fully Modular ATX Power Supply with Low Noise – ATX 3.1 Compliant – PCIe 5.1 Support – Cybenetics Gold Efficiency – Native 12V-2x6 Connection – Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/CORSAIR-RM1000x-Fully-Modular-Supply/dp/B0D9C3P46P",
+    "price": 714.79,
+    "title": "CORSAIR RM1000x Fully Modular ATX Power Supply with Low Noise – ATX 3.1 Compliant – PCIe 5.1 Support – Cybenetics Gold Efficiency – Native 12V-2x6 Connection – Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 714.79
+    }
+   ]
+  },
+  {
+   "name": "Cooler Master MWE Bronze 650 V2",
+   "category": "psu",
+   "image": "img/cooler-master-mwe-bronze-650-v2.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Cooler-Master-Bronze-Power-Supply/dp/B08H2J3G9K",
+     "price": 361.86,
+     "title": "Cooler Master MWE 650 Bronze V2 Power Supply - Non-Modular | 80 Plus Bronze Certified | 120mm HDB Fan | DC-to-DC Circuit Design | 2 EPS Connector | ATX 2.52 Version | 650 Watt",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Cooler-Master-Bronze-Power-Supply/dp/B08H2J3G9K",
+    "price": 361.86,
+    "title": "Cooler Master MWE 650 Bronze V2 Power Supply - Non-Modular | 80 Plus Bronze Certified | 120mm HDB Fan | DC-to-DC Circuit Design | 2 EPS Connector | ATX 2.52 Version | 650 Watt",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 361.86
+    }
+   ]
+  },
+  {
+   "name": "Corsair CX650",
+   "category": "psu",
+   "image": "img/corsair-cx650.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/CORSAIR-Bronze-Modular-Low-Noise-Supply/dp/B0CJRXX5WT",
+     "price": 269.0,
+     "title": "CORSAIR CX650 80 PLUS Bronze Non Modular Low-Noise ATX 650 Watt Power Supply - UK - Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/CORSAIR-Bronze-Modular-Low-Noise-Supply/dp/B0CJRXX5WT",
+    "price": 269.0,
+    "title": "CORSAIR CX650 80 PLUS Bronze Non Modular Low-Noise ATX 650 Watt Power Supply - UK - Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 269.0
+    }
+   ]
+  },
+  {
+   "name": "MSI MAG A750GL PCIE5 750W Gold",
+   "category": "psu",
+   "image": "img/msi-mag-a750gl-pcie5-750w-gold.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/MSI-MAG-750W-Power-Supply/dp/B0CC3QBGDL",
+     "price": 536.27,
+     "title": "MSI MAG 750W Power Supply 80 Plus Gold - -Native 16 pin Connector Design - -Full Modular Design - 7 Year Warranty -Industrial Level Protection with OVP,OCP,OPP,OTP, SCP, UVP [MAG A750GL PCIE5]",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/MSI-MAG-750W-Power-Supply/dp/B0CC3QBGDL",
+    "price": 536.27,
+    "title": "MSI MAG 750W Power Supply 80 Plus Gold - -Native 16 pin Connector Design - -Full Modular Design - 7 Year Warranty -Industrial Level Protection with OVP,OCP,OPP,OTP, SCP, UVP [MAG A750GL PCIE5]",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 536.27
+    }
+   ]
+  },
+  {
+   "name": "Corsair HX1200i 1200W Platinum",
+   "category": "psu",
+   "image": "img/corsair-hx1200i-1200w-platinum.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/CORSAIR-HX1200i-Modular-Ultra-Low-12V-2x6/dp/B0F3JD7M8M",
+     "price": 1068.02,
+     "title": "CORSAIR HX1200i (2025) Fully Modular Ultra-Low ATX Power Supply with Low Noise and 12V-2x6 Cable – ATX 3.1 & PCIe 5.1, Cybenetics Platinum Efficiency, Liquid-Dynamic Bearing Fan – Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/CORSAIR-HX1200i-Modular-Ultra-Low-12V-2x6/dp/B0F3JD7M8M",
+    "price": 1068.02,
+    "title": "CORSAIR HX1200i (2025) Fully Modular Ultra-Low ATX Power Supply with Low Noise and 12V-2x6 Cable – ATX 3.1 & PCIe 5.1, Cybenetics Platinum Efficiency, Liquid-Dynamic Bearing Fan – Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1068.02
+    }
+   ]
+  },
+  {
+   "name": "Corsair RM1200x Shift 1200W",
+   "category": "psu",
+   "image": "img/corsair-rm1200x-shift-1200w.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/CORSAIR-RM1200x-Shift-Modular-Supply/dp/B0CWLV1635",
+     "price": 2226.0,
+     "title": "CORSAIR RM1000x Shift Fully Modular ATX Power Supply - 80 Plus Gold - ATX 3.0 - PCIe 5.0 - Zero RPM - Modular Side Interface - White",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/CORSAIR-RM1200x-Shift-Modular-Supply/dp/B0CWLV1635",
+    "price": 2226.0,
+    "title": "CORSAIR RM1000x Shift Fully Modular ATX Power Supply - 80 Plus Gold - ATX 3.0 - PCIe 5.0 - Zero RPM - Modular Side Interface - White",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 2226.0
+    }
+   ]
+  },
+  {
+   "name": "Arctic Liquid Freezer III Pro 360",
+   "category": "cooler",
+   "image": "img/arctic-liquid-freezer-iii-pro-360.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/ARCTIC-Liquid-Freezer-Pro-360/dp/B0DLWGG85P",
+     "price": 494.53,
+     "title": "ARCTIC Liquid Freezer III Pro 360 - AIO CPU Cooler, 3 x 120 mm Water Cooling, 38 mm Radiator, PWM Pump, VRM Fan, AMD AM5/AM4, Intel LGA1851/1700 Contact Frame - Black",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/ARCTIC-Liquid-Freezer-Pro-360/dp/B0DLWGG85P",
+    "price": 494.53,
+    "title": "ARCTIC Liquid Freezer III Pro 360 - AIO CPU Cooler, 3 x 120 mm Water Cooling, 38 mm Radiator, PWM Pump, VRM Fan, AMD AM5/AM4, Intel LGA1851/1700 Contact Frame - Black",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 494.53
+    }
+   ]
+  },
+  {
+   "name": "NZXT Kraken 360 RGB",
+   "category": "cooler",
+   "image": null,
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/NZXT-Kraken-360-RGB-RL-KR360-B1-360mm/dp/B0BNYSKB3P",
+     "price": 839.0,
+     "title": "NZXT 360mm AIO Display RGB Black Liquid Cooler",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/NZXT-Kraken-360-RGB-RL-KR360-B1-360mm/dp/B0BNYSKB3P",
+    "price": 839.0,
+    "title": "NZXT 360mm AIO Display RGB Black Liquid Cooler",
+    "in_stock": true
+   },
+   "previous_best": null,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 839.0
     }
    ]
   }

@@ -1020,7 +1020,8 @@
    "store": "طبيب الكمبيوتر",
    "checked_at": "2026-10-28T13:03:37+00:00",
    "status": "out_of_stock",
-   "oos_since": "2026-10-28T13:03:37+00:00"
+   "oos_since": "2026-10-28T13:03:37+00:00",
+   "last_error": "HTTP 429"
   },
   "https://pcd.com.sa/en/product/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz-2": {
    "store": "طبيب الكمبيوتر",
@@ -1583,6 +1584,364 @@
    "image": "https://m.media-amazon.com/images/I/71e6YWJio-L._AC_SL1500_.jpg",
    "status": "out_of_stock",
    "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/TEAMGROUP-T-Force-Delta-Gaming-Memory/dp/B08CM4V24M": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "TEAMGROUP Team T-Force Delta RGB DDR4 Gaming Memory, 2 x 16 GB, 3600 Mhz, 288 Pin DIMM, Black",
+   "image": "https://m.media-amazon.com/images/I/71yyY+Y29WL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1429.21,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Kingston-5600MT-Desktop-Gaming-Memory/dp/B0BRTJCLBJ": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Kingston FURY Beast Black EXPO DDR5 16 GB (2x8 GB) 5600MT/s DDR5 CL36 DIMM Desktop Gaming Memory Kit of 2 - KF556C36BBEK2-16",
+   "image": "https://m.media-amazon.com/images/I/717cPftxQgL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1847.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/G-SKILL-Trident-6000MHz-1-40V-Channel/dp/B0BSB94VC2": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "G.SKILL 64GB DDR5 Trident Z5 Neo RGB 6000MHz CL30 1.40V Dual Channel Kit (2x 32GB) Black",
+   "image": "https://m.media-amazon.com/images/I/51jIjdpZBfL._AC_SL1040_.jpg",
+   "status": "available",
+   "price": 6783.64,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Samsung-Internal-Solid-State-MZ-V9P2T0BW/dp/B0B9C4DKKG": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Samsung 990 PRO 2TB PCIe 4.0 (up to 7450 MB/s) NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V9P2T0BW)",
+   "image": "https://m.media-amazon.com/images/I/71ByVZ1x2vL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1740.54,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Samsung-Transfer-Internal-MZ-V9P2T0B-EC/dp/B0BPXRY7N2": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Samsung 990 PRO 2TB PCIe Gen 4.0 x4 (Maximum Transfer Rate 7,450MB/s) NVMe M.2 (2280) Internal SSD MZ-V9P2T0B-IT/EC",
+   "image": "https://m.media-amazon.com/images/I/6139zPxPovL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1901.45,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Samsung-Nvme-Gen4-Heatsink-Capacity/dp/B0BM459NHM": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Samsung 990 Pro Nvme Gen4 SSD with Heatsink, 2 TB Capacity",
+   "image": "https://m.media-amazon.com/images/I/71ir8BlO9vL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1885.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/WD_BLACK-SN850X-Internal-Gaming-Technology/dp/B0B7CKVCCV": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "WD_BLACK SN850X NVMe SSD 1TB Internal SSD (Gaming Memory, PCIe Gen4 Technology, Read 7300MB/s, Write 6300MB/s) Black",
+   "image": "https://m.media-amazon.com/images/I/614ZXRwnMnL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1091.44,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-1000G/dp/B0DBR3DZWG": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 1TB M.2 2280-SNV3S/1000G",
+   "image": "https://m.media-amazon.com/images/I/71ZnK38jZzL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 608.79,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/%D9%83%D8%B1%D9%88%D8%B4%D8%A7%D9%84-%D8%AA%D9%8A%D8%B1%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D8%A8%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-CT1000P3PSSD801/dp/B0BYWB6237": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Crucial P3 Plus SSD 1TB M.2 PCIe Gen4 NVMe Internal SSD, 5,000 MB/s Read, 3,600 MB/s Write, Compatible with Laptop and Desktop, SSD Hard Drive - CT1000P3PSSD801",
+   "image": "https://m.media-amazon.com/images/I/51k5wAFZgFL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 900.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Crucial-Internal-Gaming-Desktop-Compatible/dp/B0CK39YR9V": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Crucial T500 1TB Gen4 NVMe M.2 Internal Gaming SSD, Up to 7300MB/s, Laptop & Desktop Compatible + 1mo Adobe CC All Apps - CT1000T500SSD8",
+   "image": "https://m.media-amazon.com/images/I/51oXLC2JFHL._AC_SL1080_.jpg",
+   "status": "available",
+   "price": 1452.3,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Crucial-Internal-Playstation-Compatible-CT1000T500SSD5/dp/B0CK2S298S": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Crucial T500 1TB Gen4 NVMe M.2 Internal Gaming SSD with Heatsink, Up to 7300MB/s, Playstation 5 Compatible + 1mo Adobe CC All Apps- CT1000T500SSD5",
+   "image": "https://m.media-amazon.com/images/I/51cl+g8zHpL._AC_SL1080_.jpg",
+   "status": "available",
+   "price": 1157.61,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Lexar-Gen4x4-Internal-Professionals-LNM790X002T-RNNNG/dp/B0C4H4YH8V": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Lexar NM790 1TB Internal SSD, M.2 2280 PCIe Gen4x4 NVMe 1.4 SSD, Up to 7400MB/s Read, 6500MB/s Write, Internal Solid State Drive for PS5, PC, Laptop and Gamer (LNM790X001T-RNNNG)",
+   "image": "https://m.media-amazon.com/images/I/61zDH17jTsL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 829.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Technology-Intelligent-Turbowrite-MZ-V9S1T0B-AM/dp/B0DHLFWBQ1": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "SAMSUNG 990 EVO Plus SSD 1TB, PCIe Gen 4x4 | Gen 5x2 M.2 2280, Speeds Up-to 7,150 MB/s, Upgrade Storage for PC/Laptops, HMB Technology and Intelligent Turbowrite 2.0, (MZ-V9S1T0B/AM)",
+   "image": "https://m.media-amazon.com/images/I/61ciknSL0lL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1238.09,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%AF%D9%8A%D9%85%D8%A9-MZ-V9P1T0BW-pc_card/dp/B0B9C3ZVHR": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Samsung 990 PRO 1TB PCIe 4.0 (up to 7450 MB/s) NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V9P1T0BW)",
+   "image": "https://m.media-amazon.com/images/I/71XHEQZZW+L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 988.15,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Samsung-7450MB-Internal-Editing-MZ-V9P4T0BW/dp/B0CBYZ6DD1": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Samsung 990 PRO NVMe M.2 SSD, 4TB, PCIe 4.0, 7450MB/s Read, 6900MB/s Write, Internal SSD, for Gaming and Video Editing, MZ-V9P4T0BW",
+   "image": "https://m.media-amazon.com/images/I/81WuG6lQuDL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3549.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Kingston-Internal-500GB-2280-SNV3S-500G/dp/B0DBR9RZLV": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 500GB M.2 2280-SNV3S/500G",
+   "image": "https://m.media-amazon.com/images/I/71lCFgczaBL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 398.97,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-2000G/dp/B0DBR6TRZQ": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Kingston NV3 NVMe PCIe 4.0 Internal SSD 2TB M.2 2280-SNV3S/2000G",
+   "image": "https://m.media-amazon.com/images/I/71sYA7JZeOL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1118.97,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Corsair-Modular-Compatible-Cybenetics-Capacitors/dp/B0DPR86ZC8": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR RM850e (2025) ATX 3.1 PCIe 5.1 Ready 850W Power Supply – Black",
+   "image": "https://m.media-amazon.com/images/I/71UlVM3qc5L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 662.52,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-RM850e-Modular-Low-Noise-12V-2x6/dp/B0F3DRP6B3": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – White",
+   "image": "https://m.media-amazon.com/images/I/51dHcEWsQGL._AC_SL1080_.jpg",
+   "status": "available",
+   "price": 529.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-RM850x-Fully-Modular-Supply/dp/B0D9C1DT62": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR RM850x Fully Modular Quiet ATX Power Supply - ATX 3.1 Compliance - PCIe 5.1 Support - Cybenetics Gold Efficiency - Native 12V - 2x6 Connector - Black",
+   "image": "https://m.media-amazon.com/images/I/61SDN69LRlL._AC_SL1100_.jpg",
+   "status": "available",
+   "price": 623.81,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-850W-Power-Supply-Plus/dp/B0CB9MSJ5N": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "MSI MAG 850W Power Supply 80 Plus Gold - ATX 3.0 PCIe 5.0 Ready - 12VHPWR [MAG A850GL PCIE5]",
+   "image": "https://m.media-amazon.com/images/I/71b3DFHWd7L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 621.3,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Cooler-Master-Efficiency-Connectors-Semi-fanless/dp/B08M9M6DB9": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Cooler Master MWE Gold 850 V2 Full Modular, 850W, 80+ Gold Efficiency, 2 EPS Connectors, 120mm HDB Fan, Semi-fanless Operation, 5 Year Warranty",
+   "image": "https://m.media-amazon.com/images/I/81O5AjPLxxL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 597.26,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://amazon.sa/-/en/Cooler-Master-Certified-Modular-Supply/dp/B08H2PJS7G": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Cooler Master MWE 850 Gold V2 Power Supply - Fully Modular | 80 Plus Gold Certified | 120 mm HDB Fan | DC to DC Circuit Design | 2 EPS Connectors | 850 Watt",
+   "image": "https://m.media-amazon.com/images/I/81xSZbfz8fL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 529.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Cooler-Master-Modular-Support-Cabling/dp/B0DHH1J3L1": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Cooler Master MWE Gold 850 V2 ATX 3.1 Fully Modular Power Supply (UK Plug), ATX 3.1 Support, 80 PLUS Gold 850W Power Supply, PCIe 5.1 Cabling, 120 HDB Fan",
+   "image": "https://m.media-amazon.com/images/I/91LNGOk1IyL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 559.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B6%D9%88%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%83%D9%88%D8%B1%D8%B3%D9%8A%D8%B1/dp/B0BYL3MPDC": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Corsair RM1000e (2023) Fully Modular Low-Noise ATX Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 PLUS Gold Efficiency - Modern Standby Support - Black",
+   "image": "https://m.media-amazon.com/images/I/613fWbdeh0L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 799.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Corsair-RM1000e-Modular-Silent-Supply/dp/B0BVKZ9GCB": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-RM1000x-Fully-Modular-Supply/dp/B0D9C3P46P": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR RM1000x Fully Modular ATX Power Supply with Low Noise – ATX 3.1 Compliant – PCIe 5.1 Support – Cybenetics Gold Efficiency – Native 12V-2x6 Connection – Black",
+   "image": "https://m.media-amazon.com/images/I/61OVNV+GEvL._AC_SL1100_.jpg",
+   "status": "available",
+   "price": 714.79,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Cooler-Master-Bronze-Power-Supply/dp/B08H2J3G9K": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "Cooler Master MWE 650 Bronze V2 Power Supply - Non-Modular | 80 Plus Bronze Certified | 120mm HDB Fan | DC-to-DC Circuit Design | 2 EPS Connector | ATX 2.52 Version | 650 Watt",
+   "image": "https://m.media-amazon.com/images/I/81821fewn-L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 361.86,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-Bronze-Modular-Low-Noise-Supply/dp/B0CJRXX5WT": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR CX650 80 PLUS Bronze Non Modular Low-Noise ATX 650 Watt Power Supply - UK - Black",
+   "image": "https://m.media-amazon.com/images/I/71kbWHXOYVL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 269.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-MAG-750W-Power-Supply/dp/B0CC3QBGDL": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "MSI MAG 750W Power Supply 80 Plus Gold - -Native 16 pin Connector Design - -Full Modular Design - 7 Year Warranty -Industrial Level Protection with OVP,OCP,OPP,OTP, SCP, UVP [MAG A750GL PCIE5]",
+   "image": "https://m.media-amazon.com/images/I/716c-SjLwPL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 536.27,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/DeepCool-PQ750M-Fully-Modular-Supply/dp/B09KX986YB": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-HX1200i-Modular-Ultra-Low-12V-2x6/dp/B0F3JD7M8M": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR HX1200i (2025) Fully Modular Ultra-Low ATX Power Supply with Low Noise and 12V-2x6 Cable – ATX 3.1 & PCIe 5.1, Cybenetics Platinum Efficiency, Liquid-Dynamic Bearing Fan – Black",
+   "image": "https://m.media-amazon.com/images/I/614VMmpKQgL._AC_SY300_SX300_QL70_ML2_.jpg",
+   "status": "available",
+   "price": 1068.02,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-RM1200x-Shift-Modular-Supply/dp/B0CWLV1635": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "CORSAIR RM1000x Shift Fully Modular ATX Power Supply - 80 Plus Gold - ATX 3.0 - PCIe 5.0 - Zero RPM - Modular Side Interface - White",
+   "image": "https://m.media-amazon.com/images/I/81J2qQrXAUL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 2226.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ARCTIC-Liquid-Freezer-Pro-360/dp/B0DLWGG85P": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "ARCTIC Liquid Freezer III Pro 360 - AIO CPU Cooler, 3 x 120 mm Water Cooling, 38 mm Radiator, PWM Pump, VRM Fan, AMD AM5/AM4, Intel LGA1851/1700 Contact Frame - Black",
+   "image": "https://m.media-amazon.com/images/I/61NTew7Du+L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 494.53,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/NZXT-Kraken-360-RGB-RL-KR360-B1-360mm/dp/B0BNYSKB3P": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T18:10:21+00:00",
+   "title": "NZXT 360mm AIO Display RGB Black Liquid Cooler",
+   "image": "https://m.media-amazon.com/images/I/51kKFTDlESL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 839.0,
+   "seen_at": "2026-10-28T18:10:21+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/DEEP-COOL-R-LT720-BKAMNF-G-1-DeepCool-LT720/dp/B0BLYQ6VDN": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/DeepCool-LT720-WH/dp/B0BRXW7XL1": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/DEEPCOOL-AK400-Performance-CPU-Cooler/dp/B0BB6W1JS3": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/DeepCool-All-Black-1850RPM-Suitable-LGA1700/dp/B0BZRK9HZZ": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://amazon.sa/-/en/AK620-Zero-Dark-ALL-Black-Dual-Tower/dp/B0B6FGMSNM": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
   }
  },
  "products": {
@@ -2083,7 +2442,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1269.63
     }
-   ]
+   ],
+   "image": "img/asus-tuf-gaming-x870-plus-wifi.jpg"
   },
   "MSI MAG X870 Tomahawk WiFi": {
    "history": [
@@ -2091,7 +2451,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1240.25
     }
-   ]
+   ],
+   "image": "img/msi-mag-x870-tomahawk-wifi.jpg"
   },
   "Gigabyte X870 Aorus Elite WiFi7": {
    "history": [
@@ -2099,7 +2460,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1149.0
     }
-   ]
+   ],
+   "image": "img/gigabyte-x870-aorus-elite-wifi7.jpg"
   },
   "MSI MAG B550 Tomahawk": {
    "history": [
@@ -2107,7 +2469,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1212.93
     }
-   ]
+   ],
+   "image": "img/msi-mag-b550-tomahawk.jpg"
   },
   "MSI MAG B550 Tomahawk Max WiFi": {
    "history": [
@@ -2115,7 +2478,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1974.26
     }
-   ]
+   ],
+   "image": "img/msi-mag-b550-tomahawk-max-wifi.jpg"
   },
   "MSI B550M PRO-VDH WiFi": {
    "history": [
@@ -2123,19 +2487,29 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 448.33
     }
-   ]
+   ],
+   "image": "img/msi-b550m-pro-vdh-wifi.jpg"
   },
-  "MSI MAG B550M Mortar WiFi": {},
-  "ASRock B550M Phantom Gaming 4": {},
-  "Gigabyte B760M DS3H DDR4": {},
-  "Gigabyte B760M DS3H DDR5": {},
+  "MSI MAG B550M Mortar WiFi": {
+   "image": "img/msi-mag-b550m-mortar-wifi.jpg"
+  },
+  "ASRock B550M Phantom Gaming 4": {
+   "search_tried_at": "2026-10-28T18:26:43+00:00"
+  },
+  "Gigabyte B760M DS3H DDR4": {
+   "image": "img/gigabyte-b760m-ds3h-ddr4.jpg"
+  },
+  "Gigabyte B760M DS3H DDR5": {
+   "search_tried_at": "2026-10-28T18:26:47+00:00"
+  },
   "Gigabyte B760M DS3H AX DDR5": {
    "history": [
     {
      "t": "2026-10-28T13:03:37+00:00",
      "price": 686.0
     }
-   ]
+   ],
+   "image": "img/gigabyte-b760m-ds3h-ax-ddr5.jpg"
   },
   "MSI MAG Z790 Tomahawk WiFi DDR5": {
    "history": [
@@ -2143,7 +2517,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1311.35
     }
-   ]
+   ],
+   "image": "img/msi-mag-z790-tomahawk-wifi-ddr5.jpg"
   },
   "ASUS TUF Gaming Z790-Plus WiFi": {
    "history": [
@@ -2151,7 +2526,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1099.0
     }
-   ]
+   ],
+   "image": "img/asus-tuf-gaming-z790-plus-wifi.jpg"
   },
   "Kingston Fury Beast DDR5 32GB (2x16) 6000MHz CL30": {
    "history": [
@@ -2159,27 +2535,38 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 3386.0
     }
-   ]
+   ],
+   "image": "img/kingston-fury-beast-ddr5-32gb-2x16-6000mhz-cl30.jpg"
   },
-  "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL30": {},
-  "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL36": {},
+  "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL30": {
+   "image": "img/kingston-fury-beast-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg"
+  },
+  "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL36": {
+   "image": "img/kingston-fury-beast-rgb-ddr5-32gb-2x16-6000mhz-cl36.jpg"
+  },
   "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL30": {
    "history": [
     {
      "t": "2026-10-28T13:03:37+00:00",
      "price": 2676.44
     }
-   ]
+   ],
+   "image": "img/corsair-vengeance-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg"
   },
-  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL36": {},
-  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL40": {},
+  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL36": {
+   "image": "img/corsair-vengeance-rgb-ddr5-32gb-2x16-6000mhz-cl36.jpg"
+  },
+  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL40": {
+   "image": "img/corsair-vengeance-rgb-ddr5-32gb-2x16-6000mhz-cl40.jpg"
+  },
   "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL30": {
    "history": [
     {
      "t": "2026-10-28T13:03:37+00:00",
      "price": 2846.67
     }
-   ]
+   ],
+   "image": "img/g-skill-trident-z5-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg"
   },
   "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL36": {
    "history": [
@@ -2187,7 +2574,8 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 2719.0
     }
-   ]
+   ],
+   "image": "img/g-skill-trident-z5-rgb-ddr5-32gb-2x16-6000mhz-cl36.jpg"
   },
   "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6000MHz CL30": {
    "history": [
@@ -2195,16 +2583,20 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 2686.43
     }
-   ]
+   ],
+   "image": "img/teamgroup-t-force-delta-rgb-ddr5-32gb-2x16-6000mhz-cl30.jpg"
   },
-  "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6400MHz CL40": {},
+  "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6400MHz CL40": {
+   "search_tried_at": "2026-10-28T18:26:51+00:00"
+  },
   "Kingston Fury Beast DDR4 16GB (2x8) 3200": {
    "history": [
     {
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1025.7
     }
-   ]
+   ],
+   "image": "img/kingston-fury-beast-ddr4-16gb-2x8-3200.jpg"
   },
   "Corsair Vengeance LPX DDR4 16GB (2x8) 3200": {
    "history": [
@@ -2212,17 +2604,23 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 766.56
     }
-   ]
+   ],
+   "image": "img/corsair-vengeance-lpx-ddr4-16gb-2x8-3200.jpg"
   },
-  "Corsair Vengeance RGB Pro DDR4 16GB (2x8) 3200": {},
-  "Kingston Fury Beast DDR4 32GB (2x16) 3200": {},
+  "Corsair Vengeance RGB Pro DDR4 16GB (2x8) 3200": {
+   "search_tried_at": "2026-10-28T18:26:55+00:00"
+  },
+  "Kingston Fury Beast DDR4 32GB (2x16) 3200": {
+   "image": "img/kingston-fury-beast-ddr4-32gb-2x16-3200.jpg"
+  },
   "Corsair Vengeance LPX DDR4 32GB (2x16) 3200": {
    "history": [
     {
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1817.0
     }
-   ]
+   ],
+   "image": "img/corsair-vengeance-lpx-ddr4-32gb-2x16-3200.jpg"
   },
   "Crucial DDR4 32GB (2x16) 3200": {
    "history": [
@@ -2230,93 +2628,449 @@
      "t": "2026-10-28T13:03:37+00:00",
      "price": 1640.83
     }
+   ],
+   "search_tried_at": "2026-10-28T18:26:59+00:00",
+   "image": "img/crucial-ddr4-32gb-2x16-3200.jpg"
+  },
+  "G.Skill Ripjaws V DDR4 32GB (2x16) 3600": {
+   "image": "img/g-skill-ripjaws-v-ddr4-32gb-2x16-3600.jpg"
+  },
+  "Corsair Vengeance RGB Pro DDR4 32GB (2x16) 3600": {
+   "image": "img/corsair-vengeance-rgb-pro-ddr4-32gb-2x16-3600.jpg"
+  },
+  "TeamGroup T-Force Delta RGB DDR4 32GB (2x16) 3600": {
+   "image": "img/teamgroup-t-force-delta-rgb-ddr4-32gb-2x16-3600.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1429.21
+    }
    ]
   },
-  "G.Skill Ripjaws V DDR4 32GB (2x16) 3600": {},
-  "Corsair Vengeance RGB Pro DDR4 32GB (2x16) 3600": {},
-  "TeamGroup T-Force Delta RGB DDR4 32GB (2x16) 3600": {},
-  "Crucial DDR5 16GB (2x8) 5600": {},
-  "Kingston Fury Beast DDR5 16GB (2x8) 5600": {},
-  "Kingston Fury Beast DDR5 64GB (2x32) 6000": {},
-  "Crucial Pro DDR5 64GB (2x32) 6000": {},
-  "G.Skill Trident Z5 RGB DDR5 64GB (2x32) 6000 CL30": {},
-  "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30": {},
-  "Samsung 990 Pro 2TB NVMe": {},
-  "Samsung 990 Pro 2TB NVMe (Heatsink)": {},
-  "WD Black SN850X 2TB NVMe": {},
-  "WD Black SN850X 2TB NVMe (Heatsink)": {},
-  "WD Black SN850X 1TB NVMe": {},
-  "Kingston NV3 1TB NVMe": {},
-  "Crucial P3 Plus 1TB NVMe": {},
-  "Crucial T500 1TB NVMe": {},
-  "Lexar NM790 2TB NVMe": {},
-  "Lexar NM790 1TB NVMe": {},
-  "Samsung 990 EVO Plus 1TB": {},
-  "Samsung 990 Pro 1TB": {},
-  "Samsung 990 Pro 4TB": {},
-  "Kingston NV3 500GB": {},
-  "Kingston NV3 2TB": {},
-  "Crucial P3 1TB": {},
-  "WD Blue SN580 1TB": {},
-  "Samsung 870 EVO 1TB SATA": {},
-  "Crucial MX500 1TB SATA": {},
-  "Seagate Barracuda 2TB HDD": {},
-  "WD Blue 1TB HDD": {},
-  "Corsair RM850e 850W Gold": {},
-  "Corsair RM850x 850W Gold": {},
-  "MSI MAG A850GL PCIE5 850W Gold": {},
-  "Cooler Master MWE Gold 850 V2 850W": {},
-  "Corsair RM1000e 1000W Gold": {},
-  "Corsair RM1000x 1000W Gold": {},
-  "Cooler Master MWE Bronze 650 V2": {},
-  "Corsair CX650": {},
-  "Corsair RM750e 750W Gold": {},
-  "MSI MAG A750GL PCIE5 750W Gold": {},
-  "DeepCool PQ750M 750W Gold": {},
-  "Corsair HX1200i 1200W Platinum": {},
-  "Corsair RM1200x Shift 1200W": {},
-  "Arctic Liquid Freezer III 360": {},
-  "Arctic Liquid Freezer III Pro 360": {},
-  "NZXT Kraken 360 RGB": {},
-  "NZXT Kraken Plus 360 RGB": {},
-  "NZXT Kraken Elite 360 RGB": {},
-  "NZXT Kraken Elite 360 RGB (2024)": {},
-  "Corsair iCUE H150i Elite LCD XT 360": {},
-  "Corsair iCUE H150i Elite Capellix XT 360": {},
-  "DeepCool LT720 360": {},
-  "DeepCool LS720 360": {},
-  "DeepCool Mystique 360": {},
-  "DeepCool LD360": {},
-  "DeepCool AK400": {},
-  "DeepCool AK400 Zero Dark": {},
-  "DeepCool AK400 Digital": {},
-  "DeepCool AK620": {},
-  "DeepCool AK620 Digital": {},
-  "Thermalright Peerless Assassin 120 SE": {},
-  "Thermalright Peerless Assassin 120 SE ARGB": {},
-  "Noctua NH-D15": {},
-  "Noctua NH-D15 chromax.black": {},
-  "Cooler Master Hyper 212 Black Edition": {},
-  "Cooler Master Hyper 212 Halo": {},
-  "Cooler Master Hyper 212 ARGB": {},
-  "Arctic Liquid Freezer III 240": {},
-  "Arctic Liquid Freezer III Pro 240": {},
-  "DeepCool LT520 240": {},
-  "NZXT Kraken 240 RGB": {},
-  "NZXT Kraken Elite 240 RGB": {},
-  "Corsair iCUE H100i RGB 240": {},
-  "Lian Li O11 Dynamic EVO": {},
-  "Lian Li O11 Dynamic EVO RGB": {},
-  "Lian Li O11 Dynamic EVO XL": {},
-  "NZXT H6 Flow": {},
-  "NZXT H6 Flow RGB": {},
-  "Corsair 4000D Airflow": {},
-  "Corsair iCUE 4000D RGB Airflow": {},
-  "Lian Li Lancool 216": {},
-  "Lian Li Lancool 207": {},
-  "Montech AIR 903 MAX": {},
-  "Corsair 3500X": {},
-  "HYTE Y60": {},
+  "Crucial DDR5 16GB (2x8) 5600": {
+   "search_tried_at": "2026-10-28T18:27:02+00:00",
+   "image": "img/crucial-ddr5-16gb-2x8-5600.jpg"
+  },
+  "Kingston Fury Beast DDR5 16GB (2x8) 5600": {
+   "image": "img/kingston-fury-beast-ddr5-16gb-2x8-5600.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1847.0
+    }
+   ]
+  },
+  "Kingston Fury Beast DDR5 64GB (2x32) 6000": {
+   "search_tried_at": "2026-10-28T18:27:05+00:00"
+  },
+  "Crucial Pro DDR5 64GB (2x32) 6000": {
+   "search_tried_at": "2026-10-28T18:27:09+00:00",
+   "image": "img/crucial-pro-ddr5-64gb-2x32-6000.jpg"
+  },
+  "G.Skill Trident Z5 RGB DDR5 64GB (2x32) 6000 CL30": {
+   "image": "img/g-skill-trident-z5-rgb-ddr5-64gb-2x32-6000-cl30.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 6783.64
+    }
+   ]
+  },
+  "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30": {
+   "search_tried_at": "2026-10-28T18:27:11+00:00"
+  },
+  "Samsung 990 Pro 2TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:14+00:00",
+   "image": "img/samsung-990-pro-2tb-nvme.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1740.54
+    }
+   ]
+  },
+  "Samsung 990 Pro 2TB NVMe (Heatsink)": {
+   "image": "img/samsung-990-pro-2tb-nvme-heatsink.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1885.0
+    }
+   ]
+  },
+  "WD Black SN850X 2TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:18+00:00"
+  },
+  "WD Black SN850X 2TB NVMe (Heatsink)": {
+   "search_tried_at": "2026-10-28T18:27:21+00:00"
+  },
+  "WD Black SN850X 1TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:25+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1091.44
+    }
+   ]
+  },
+  "Kingston NV3 1TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:27+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 608.79
+    }
+   ]
+  },
+  "Crucial P3 Plus 1TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:31+00:00",
+   "image": "img/crucial-p3-plus-1tb-nvme.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 900.0
+    }
+   ]
+  },
+  "Crucial T500 1TB NVMe": {
+   "image": "img/crucial-t500-1tb-nvme.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1157.61
+    }
+   ]
+  },
+  "Lexar NM790 2TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:34+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 829.0
+    }
+   ]
+  },
+  "Lexar NM790 1TB NVMe": {
+   "search_tried_at": "2026-10-28T18:27:37+00:00"
+  },
+  "Samsung 990 EVO Plus 1TB": {
+   "search_tried_at": "2026-10-28T18:27:40+00:00",
+   "image": "img/samsung-990-evo-plus-1tb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1238.09
+    }
+   ]
+  },
+  "Samsung 990 Pro 1TB": {
+   "search_tried_at": "2026-10-28T18:27:42+00:00",
+   "image": "img/samsung-990-pro-1tb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 988.15
+    }
+   ]
+  },
+  "Samsung 990 Pro 4TB": {
+   "search_tried_at": "2026-10-28T18:27:46+00:00",
+   "image": "img/samsung-990-pro-4tb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 3549.0
+    }
+   ]
+  },
+  "Kingston NV3 500GB": {
+   "search_tried_at": "2026-10-28T18:27:50+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 398.97
+    }
+   ]
+  },
+  "Kingston NV3 2TB": {
+   "search_tried_at": "2026-10-28T18:27:53+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1118.97
+    }
+   ]
+  },
+  "Crucial P3 1TB": {
+   "search_tried_at": "2026-10-28T18:27:56+00:00",
+   "image": "img/crucial-p3-1tb.jpg"
+  },
+  "WD Blue SN580 1TB": {
+   "search_tried_at": "2026-10-28T18:27:59+00:00"
+  },
+  "Samsung 870 EVO 1TB SATA": {
+   "search_tried_at": "2026-10-28T18:28:02+00:00",
+   "image": "img/samsung-870-evo-1tb-sata.jpg"
+  },
+  "Crucial MX500 1TB SATA": {
+   "search_tried_at": "2026-10-28T18:28:05+00:00",
+   "image": "img/crucial-mx500-1tb-sata.jpg"
+  },
+  "Seagate Barracuda 2TB HDD": {
+   "search_tried_at": "2026-10-28T18:28:08+00:00"
+  },
+  "WD Blue 1TB HDD": {
+   "search_tried_at": "2026-10-28T18:28:11+00:00"
+  },
+  "Corsair RM850e 850W Gold": {
+   "image": "img/corsair-rm850e-850w-gold.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 529.0
+    }
+   ]
+  },
+  "Corsair RM850x 850W Gold": {
+   "image": "img/corsair-rm850x-850w-gold.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 623.81
+    }
+   ]
+  },
+  "MSI MAG A850GL PCIE5 850W Gold": {
+   "image": "img/msi-mag-a850gl-pcie5-850w-gold.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 621.3
+    }
+   ]
+  },
+  "Cooler Master MWE Gold 850 V2 850W": {
+   "image": "img/cooler-master-mwe-gold-850-v2-850w.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 529.0
+    }
+   ]
+  },
+  "Corsair RM1000e 1000W Gold": {
+   "image": "img/corsair-rm1000e-1000w-gold.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 799.0
+    }
+   ]
+  },
+  "Corsair RM1000x 1000W Gold": {
+   "image": "img/corsair-rm1000x-1000w-gold.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 714.79
+    }
+   ]
+  },
+  "Cooler Master MWE Bronze 650 V2": {
+   "image": "img/cooler-master-mwe-bronze-650-v2.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 361.86
+    }
+   ]
+  },
+  "Corsair CX650": {
+   "image": "img/corsair-cx650.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 269.0
+    }
+   ]
+  },
+  "Corsair RM750e 750W Gold": {
+   "search_tried_at": "2026-10-28T18:28:15+00:00"
+  },
+  "MSI MAG A750GL PCIE5 750W Gold": {
+   "image": "img/msi-mag-a750gl-pcie5-750w-gold.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 536.27
+    }
+   ]
+  },
+  "DeepCool PQ750M 750W Gold": {
+   "search_tried_at": "2026-10-28T18:28:18+00:00"
+  },
+  "Corsair HX1200i 1200W Platinum": {
+   "image": "img/corsair-hx1200i-1200w-platinum.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1068.02
+    }
+   ]
+  },
+  "Corsair RM1200x Shift 1200W": {
+   "image": "img/corsair-rm1200x-shift-1200w.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 2226.0
+    }
+   ]
+  },
+  "Arctic Liquid Freezer III 360": {
+   "search_tried_at": "2026-10-28T18:28:21+00:00",
+   "image": "img/arctic-liquid-freezer-iii-360.jpg"
+  },
+  "Arctic Liquid Freezer III Pro 360": {
+   "image": "img/arctic-liquid-freezer-iii-pro-360.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 494.53
+    }
+   ]
+  },
+  "NZXT Kraken 360 RGB": {
+   "search_tried_at": "2026-10-28T18:28:26+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 839.0
+    }
+   ]
+  },
+  "NZXT Kraken Plus 360 RGB": {
+   "search_tried_at": "2026-10-28T18:28:29+00:00"
+  },
+  "NZXT Kraken Elite 360 RGB": {
+   "search_tried_at": "2026-10-28T18:28:31+00:00"
+  },
+  "NZXT Kraken Elite 360 RGB (2024)": {
+   "search_tried_at": "2026-10-28T18:28:34+00:00"
+  },
+  "Corsair iCUE H150i Elite LCD XT 360": {
+   "search_tried_at": "2026-10-28T18:28:38+00:00"
+  },
+  "Corsair iCUE H150i Elite Capellix XT 360": {
+   "search_tried_at": "2026-10-28T18:28:40+00:00"
+  },
+  "DeepCool LT720 360": {
+   "search_tried_at": "2026-10-28T18:28:43+00:00"
+  },
+  "DeepCool LS720 360": {
+   "search_tried_at": "2026-10-28T18:28:46+00:00"
+  },
+  "DeepCool Mystique 360": {
+   "search_tried_at": "2026-10-28T18:28:48+00:00"
+  },
+  "DeepCool LD360": {
+   "search_tried_at": "2026-10-28T18:28:53+00:00"
+  },
+  "DeepCool AK400": {
+   "search_tried_at": "2026-10-28T18:28:57+00:00"
+  },
+  "DeepCool AK400 Zero Dark": {
+   "search_tried_at": "2026-10-28T18:28:59+00:00"
+  },
+  "DeepCool AK400 Digital": {
+   "search_tried_at": "2026-10-28T18:29:03+00:00"
+  },
+  "DeepCool AK620": {
+   "search_tried_at": "2026-10-28T18:29:06+00:00"
+  },
+  "DeepCool AK620 Digital": {
+   "search_tried_at": "2026-10-28T18:29:10+00:00"
+  },
+  "Thermalright Peerless Assassin 120 SE": {
+   "search_tried_at": "2026-10-28T18:29:13+00:00"
+  },
+  "Thermalright Peerless Assassin 120 SE ARGB": {
+   "search_tried_at": "2026-10-28T18:29:16+00:00"
+  },
+  "Noctua NH-D15": {
+   "search_tried_at": "2026-10-28T18:29:20+00:00"
+  },
+  "Noctua NH-D15 chromax.black": {
+   "search_tried_at": "2026-10-28T18:29:23+00:00"
+  },
+  "Cooler Master Hyper 212 Black Edition": {
+   "search_tried_at": "2026-10-28T18:29:26+00:00"
+  },
+  "Cooler Master Hyper 212 Halo": {
+   "search_tried_at": "2026-10-28T18:29:29+00:00"
+  },
+  "Cooler Master Hyper 212 ARGB": {
+   "search_tried_at": "2026-10-28T18:29:32+00:00"
+  },
+  "Arctic Liquid Freezer III 240": {
+   "search_tried_at": "2026-10-28T18:29:35+00:00",
+   "image": "img/arctic-liquid-freezer-iii-240.jpg"
+  },
+  "Arctic Liquid Freezer III Pro 240": {
+   "search_tried_at": "2026-10-28T18:29:39+00:00",
+   "image": "img/arctic-liquid-freezer-iii-pro-240.jpg"
+  },
+  "DeepCool LT520 240": {
+   "search_tried_at": "2026-10-28T18:29:42+00:00"
+  },
+  "NZXT Kraken 240 RGB": {
+   "search_tried_at": "2026-10-28T18:29:45+00:00"
+  },
+  "NZXT Kraken Elite 240 RGB": {
+   "search_tried_at": "2026-10-28T18:29:47+00:00"
+  },
+  "Corsair iCUE H100i RGB 240": {
+   "search_tried_at": "2026-10-28T18:29:49+00:00"
+  },
+  "Lian Li O11 Dynamic EVO": {
+   "search_tried_at": "2026-10-28T18:29:53+00:00"
+  },
+  "Lian Li O11 Dynamic EVO RGB": {
+   "search_tried_at": "2026-10-28T18:29:55+00:00"
+  },
+  "Lian Li O11 Dynamic EVO XL": {
+   "search_tried_at": "2026-10-28T18:29:59+00:00"
+  },
+  "NZXT H6 Flow": {
+   "search_tried_at": "2026-10-28T18:30:02+00:00",
+   "image": "img/nzxt-h6-flow.jpg"
+  },
+  "NZXT H6 Flow RGB": {
+   "search_tried_at": "2026-10-28T18:30:05+00:00",
+   "image": "img/nzxt-h6-flow-rgb.jpg"
+  },
+  "Corsair 4000D Airflow": {
+   "search_tried_at": "2026-10-28T18:30:08+00:00"
+  },
+  "Corsair iCUE 4000D RGB Airflow": {
+   "search_tried_at": "2026-10-28T18:30:12+00:00"
+  },
+  "Lian Li Lancool 216": {
+   "search_tried_at": "2026-10-28T18:30:15+00:00"
+  },
+  "Lian Li Lancool 207": {
+   "search_tried_at": "2026-10-28T18:30:18+00:00"
+  },
+  "Montech AIR 903 MAX": {
+   "search_tried_at": "2026-10-28T18:30:21+00:00"
+  },
+  "Corsair 3500X": {
+   "search_tried_at": "2026-10-28T18:30:24+00:00"
+  },
+  "HYTE Y60": {
+   "search_tried_at": "2026-10-28T18:30:26+00:00",
+   "image": "img/hyte-y60.jpg"
+  },
   "HYTE Y70 Touch": {},
   "NZXT H9 Flow": {},
   "Cooler Master MasterBox Q300L": {},

@@ -1,0 +1,468 @@
+{
+ "updated_at": "2026-10-28T18:10:21+00:00",
+ "run": {
+  "available": 33,
+  "out_of_stock": 27,
+  "no_price": 0,
+  "error": 11,
+  "blocked": 2,
+  "confirmed_oos": 27,
+  "planned": 359,
+  "blocked_stores": [
+   "أمازون السعودية",
+   "إنفني أرك",
+   "طبيب الكمبيوتر",
+   "نون"
+  ]
+ },
+ "products": {
+  "total": 178,
+  "shown": 97,
+  "hidden": 81
+ },
+ "stores": {
+  "أمازون السعودية": {
+   "available": 128,
+   "out_of_stock": 24,
+   "no_price": 0,
+   "errors": 8,
+   "never": 8
+  },
+  "نون": {
+   "available": 0,
+   "out_of_stock": 0,
+   "no_price": 0,
+   "errors": 1,
+   "never": 1
+  },
+  "إنفني أرك": {
+   "available": 0,
+   "out_of_stock": 0,
+   "no_price": 0,
+   "errors": 3,
+   "never": 3
+  },
+  "طبيب الكمبيوتر": {
+   "available": 1,
+   "out_of_stock": 61,
+   "no_price": 6,
+   "errors": 1,
+   "never": 0
+  }
+ },
+ "hidden": [
+  {
+   "name": "AMD Ryzen 5 8600G",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 7 7700",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Core i5-13400F",
+   "category": "cpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "AMD Radeon RX 7600 8GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "ASUS TUF Gaming B650M-Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI B650M Gaming WiFi",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "ASUS Prime A620M-K",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "ASRock A620M-HDV/M.2",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "Gigabyte B850M Gaming X WiFi6E",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "MSI MAG B550M Mortar WiFi",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "ASRock B550M Phantom Gaming 4",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B760M DS3H DDR4",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "Gigabyte B760M DS3H DDR5",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL30",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL36",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL36",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL40",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6400MHz CL40",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair Vengeance RGB Pro DDR4 16GB (2x8) 3200",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Kingston Fury Beast DDR4 32GB (2x16) 3200",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "G.Skill Ripjaws V DDR4 32GB (2x16) 3600",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair Vengeance RGB Pro DDR4 32GB (2x16) 3600",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Crucial DDR5 16GB (2x8) 5600",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Kingston Fury Beast DDR5 64GB (2x32) 6000",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Crucial Pro DDR5 64GB (2x32) 6000",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "WD Black SN850X 2TB NVMe",
+   "category": "storage",
+   "reason": "نافد"
+  },
+  {
+   "name": "WD Black SN850X 2TB NVMe (Heatsink)",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Lexar NM790 1TB NVMe",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Crucial P3 1TB",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "WD Blue SN580 1TB",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Samsung 870 EVO 1TB SATA",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Crucial MX500 1TB SATA",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Seagate Barracuda 2TB HDD",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "WD Blue 1TB HDD",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair RM750e 750W Gold",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool PQ750M 750W Gold",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Arctic Liquid Freezer III 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NZXT Kraken Plus 360 RGB",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "NZXT Kraken Elite 360 RGB",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "NZXT Kraken Elite 360 RGB (2024)",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair iCUE H150i Elite LCD XT 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair iCUE H150i Elite Capellix XT 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool LT720 360",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "DeepCool LS720 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool Mystique 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool LD360",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "DeepCool AK400",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool AK400 Zero Dark",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool AK400 Digital",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "DeepCool AK620",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool AK620 Digital",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "Thermalright Peerless Assassin 120 SE",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Thermalright Peerless Assassin 120 SE ARGB",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Noctua NH-D15",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Noctua NH-D15 chromax.black",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Cooler Master Hyper 212 Black Edition",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "Cooler Master Hyper 212 Halo",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "Cooler Master Hyper 212 ARGB",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Arctic Liquid Freezer III 240",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Arctic Liquid Freezer III Pro 240",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "DeepCool LT520 240",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "NZXT Kraken 240 RGB",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "NZXT Kraken Elite 240 RGB",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair iCUE H100i RGB 240",
+   "category": "cooler",
+   "reason": "نافد"
+  },
+  {
+   "name": "Lian Li O11 Dynamic EVO",
+   "category": "case",
+   "reason": "نافد"
+  },
+  {
+   "name": "Lian Li O11 Dynamic EVO RGB",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Lian Li O11 Dynamic EVO XL",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NZXT H6 Flow",
+   "category": "case",
+   "reason": "نافد"
+  },
+  {
+   "name": "NZXT H6 Flow RGB",
+   "category": "case",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair 4000D Airflow",
+   "category": "case",
+   "reason": "نافد"
+  },
+  {
+   "name": "Corsair iCUE 4000D RGB Airflow",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Lian Li Lancool 216",
+   "category": "case",
+   "reason": "نافد"
+  },
+  {
+   "name": "Lian Li Lancool 207",
+   "category": "case",
+   "reason": "نافد"
+  },
+  {
+   "name": "Montech AIR 903 MAX",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair 3500X",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "HYTE Y60",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "HYTE Y70 Touch",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NZXT H9 Flow",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Cooler Master MasterBox Q300L",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Phanteks XT Pro",
+   "category": "case",
+   "reason": "ما انفحص أو بدون سعر"
+  }
+ ],
+ "missing_images": [
+  "WD Black SN850X 1TB NVMe",
+  "Kingston NV3 1TB NVMe",
+  "Lexar NM790 2TB NVMe",
+  "Kingston NV3 500GB",
+  "Kingston NV3 2TB",
+  "NZXT Kraken 360 RGB"
+ ]
+}
