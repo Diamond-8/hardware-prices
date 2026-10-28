@@ -100,7 +100,7 @@
   },
   "https://www.amazon.sa/-/en/7600X-Desktop-Processor-DDR5-5200-Compatible/dp/B0F9F8N37Z": {
    "store": "أمازون السعودية",
-   "last_error": "HTTP 404"
+   "last_error": "صفحة تحقق من الروبوت"
   },
   "https://www.amazon.sa/-/en/AMD-9600X-Processor-Threads-Graphics/dp/B0D6NN6TM7": {
    "store": "أمازون السعودية",
@@ -3071,9 +3071,18 @@
    "search_tried_at": "2026-10-28T18:30:26+00:00",
    "image": "img/hyte-y60.jpg"
   },
-  "HYTE Y70 Touch": {},
-  "NZXT H9 Flow": {},
-  "Cooler Master MasterBox Q300L": {},
-  "Phanteks XT Pro": {}
+  "HYTE Y70 Touch": {
+   "search_tried_at": "2026-10-28T22:40:41+00:00",
+   "image": "img/hyte-y70-touch.jpg"
+  },
+  "NZXT H9 Flow": {
+   "search_tried_at": "2026-10-28T22:40:44+00:00"
+  },
+  "Cooler Master MasterBox Q300L": {
+   "search_tried_at": "2026-10-28T22:40:47+00:00"
+  },
+  "Phanteks XT Pro": {
+   "search_tried_at": "2026-10-28T22:40:50+00:00"
+  }
  }
 }
