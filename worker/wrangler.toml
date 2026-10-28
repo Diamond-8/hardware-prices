@@ -1,0 +1,18 @@
+# إعدادات سيرفر الإحصائيات على كلاودفلير
+name = "pc-prices-analytics"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pc_prices_analytics"
+# انسخ هنا الرقم اللي يطلع لك بعد أمر إنشاء قاعدة البيانات
+database_id = "9a444bcd-2454-40e3-9035-75b23d8ae31a"
+
+# تنظيف تلقائي يومي للبيانات القديمة
+[triggers]
+crons = ["17 0 * * *"]
+
+[vars]
+# كم يوم نحتفظ بالبيانات
+RETENTION_DAYS = "400"

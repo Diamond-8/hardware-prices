@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>لوحة التحكم</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="config.js"></script>
+<style>
+  :root {
+    --navy-900: #081632;
+    --navy-800: #0B1C3F;
+    --navy-700: #11285A;
+    --navy-600: #173470;
+    --line: #25468A;
+    --line-soft: #1c3a75;
+    --gold: #E7B54A;
+    --gold-ink: #2A1E05;
+    --text: #EEF2FB;
+    --muted: #9BADD3;
+    --faint: #7488B5;
+    --up: #5ED6A8;
+    --down: #FF8A7A;
+    /* ألوان الرسوم (مفحوصة لعمى الألوان والتباين على الكحلي) */
+    --series-1: #3987e5;
+    --series-2: #b8892a;
+    --status-good: #0ca30c;
+    --status-critical: #d03b3b;
+    --r: 16px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--navy-800); color: var(--text);
+    font-family: "Readex Pro", system-ui, sans-serif; font-size: 15px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 6px; }
+  .num { font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+  .wrap { max-width: 1320px; margin: 0 auto; padding: 0 16px; }
+  button, input, select { font: inherit; color: inherit; }
+  [hidden] { display: none !important; }
+
+  /* ---------- الدخول ---------- */
+  .login { min-height: 100vh; display: grid; place-items: center; padding: 16px; }
+  .login-box {
+    width: 100%; max-width: 380px; background: var(--navy-700); border: 1px solid var(--line);
+    border-radius: 22px; padding: 28px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; }
+  .brand-mark { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--gold); color: var(--gold-ink); flex: none; }
+  .brand b { display: block; font-size: 18px; }
+  .brand span { font-size: 13px; color: var(--muted); }
+  .field { width: 100%; background: var(--navy-900); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; outline: 0; }
+  .field:focus { border-color: var(--gold); }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer;
+    border-radius: 12px; padding: 10px 16px; font-weight: 600; border: 1px solid var(--line); background: var(--navy-700);
+  }
+  .btn:hover { border-color: #3A62AE; }
+  .btn-gold { background: var(--gold); color: var(--gold-ink); border-color: var(--gold); width: 100%; margin-top: 12px; padding: 12px; }
+  .btn-gold:hover { filter: brightness(1.06); }
+  .err { color: var(--down); font-size: 14px; margin: 10px 0 0; min-height: 1.4em; }
+  .note { color: var(--muted); font-size: 13px; margin: 16px 0 0; }
+  code { background: var(--navy-900); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 12px; direction: ltr; display: inline-block; }
+
+  /* ---------- الرأس ---------- */
+  .top { position: sticky; top: 0; z-index: 10; background: rgba(11,28,63,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .top-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-block: 12px; }
+  @media (max-width: 640px) {
+    .top { position: static; }
+    .top-row { gap: 10px; }
+    .live { order: 2; }
+    .seg { order: 3; width: 100%; }
+    .seg button { flex: 1; }
+    #refresh, #export, #logout { order: 4; }
+    #export { flex: 1; }
+    .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .kpi { padding: 14px; }
+    .kpi-value { font-size: 24px; }
+  }
+  .top .brand { margin: 0; margin-inline-end: auto; }
+  .live { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+  .live i { width: 8px; height: 8px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 4px rgba(94,214,168,.15); animation: beat 2s infinite; }
+  @keyframes beat { 50% { box-shadow: 0 0 0 7px rgba(94,214,168,0); } }
+  @media (prefers-reduced-motion: reduce) { .live i { animation: none; } }
+  .seg { display: inline-flex; background: var(--navy-900); border: 1px solid var(--line); border-radius: 12px; padding: 3px; }
+  .seg button { border: 0; background: none; cursor: pointer; padding: 6px 12px; border-radius: 9px; font-size: 14px; color: var(--muted); }
+  .seg button[aria-pressed="true"] { background: var(--navy-600); color: var(--text); }
+  .icon-btn { width: 40px; height: 40px; padding: 0; }
+
+  /* ---------- الأقسام ---------- */
+  main { padding: 22px 0 60px; display: grid; gap: 16px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+  .kpi { background: var(--navy-700); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; }
+  .kpi-label { font-size: 13px; color: var(--muted); }
+  .kpi-value { font-size: 30px; font-weight: 600; line-height: 1.15; margin: 6px 0 4px; }
+  .kpi-delta { font-size: 12px; color: var(--faint); }
+  .kpi-delta.up { color: var(--up); }
+  .kpi-delta.down { color: var(--down); }
+  .kpi.hero { background: linear-gradient(160deg, #1a3a7c, var(--navy-700)); }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(12, 1fr); }
+  .card { background: var(--navy-700); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; min-width: 0; }
+  .span-12 { grid-column: span 12; } .span-8 { grid-column: span 8; } .span-7 { grid-column: span 7; }
+  .span-6 { grid-column: span 6; } .span-5 { grid-column: span 5; } .span-4 { grid-column: span 4; }
+  @media (max-width: 1000px) { .span-8, .span-7, .span-6, .span-5, .span-4 { grid-column: span 12; } }
+  .card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  .card h2 { font-size: 16px; font-weight: 600; margin: 0; }
+  .card-sub { font-size: 13px; color: var(--muted); margin: 2px 0 0; }
+  .legend { display: flex; gap: 16px; font-size: 13px; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend i { width: 14px; height: 3px; border-radius: 2px; }
+  .link-btn { background: none; border: 0; color: var(--muted); cursor: pointer; font-size: 13px; text-decoration: underline; text-underline-offset: 3px; padding: 0; }
+
+  /* الرسم */
+  .chart { position: relative; }
+  .chart svg { display: block; width: 100%; overflow: visible; }
+  .chart .gridline { stroke: var(--line-soft); stroke-width: 1; }
+  .chart .axis-label { fill: var(--faint); font-size: 11px; font-family: inherit; }
+  .chart .series-label { font-size: 12px; font-family: inherit; fill: var(--text); }
+  .tip {
+    position: absolute; pointer-events: none; background: var(--navy-900); border: 1px solid var(--line);
+    border-radius: 10px; padding: 8px 12px; font-size: 13px; white-space: nowrap; opacity: 0; transition: opacity .1s;
+    box-shadow: 0 8px 24px rgba(0,0,0,.35); z-index: 3;
+  }
+  .tip b { display: block; font-weight: 500; margin-bottom: 4px; color: var(--muted); font-size: 12px; }
+  .tip .row { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+  .tip i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+  /* القوائم بأشرطة */
+  .bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  .bar-row { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 8px 10px; border-radius: 10px; }
+  .bar-row:hover { background: var(--navy-600); }
+  .bar-fill { position: absolute; inset-block: 6px; inset-inline-start: 0; border-radius: 0 4px 4px 0; background: rgba(57,135,229,.22); border-inline-start: 2px solid var(--series-1); }
+  [dir="rtl"] .bar-fill { border-radius: 4px 0 0 4px; }
+  .bar-name { position: relative; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar-name small { color: var(--muted); margin-inline-start: 6px; }
+  .bar-val { position: relative; font-weight: 500; }
+  .bar-val small { color: var(--muted); font-weight: 400; margin-inline-start: 6px; }
+  .ltr { direction: ltr; unicode-bidi: isolate; }
+
+  .split { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }
+  .mini { background: var(--navy-900); border: 1px solid var(--line-soft); border-radius: 12px; padding: 12px; }
+  .mini b { display: block; font-size: 22px; font-weight: 600; }
+  .mini span { font-size: 13px; color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: start; font-weight: 500; color: var(--muted); font-size: 12px; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  td { padding: 9px 10px; border-bottom: 1px solid var(--line-soft); }
+  tr:last-child td { border-bottom: 0; }
+  .table-scroll { overflow-x: auto; }
+
+  .tag { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  .tag.good { color: #7ee07e; border-color: rgba(12,163,12,.5); }
+  .tag.bad { color: #ff9a9a; border-color: rgba(208,59,59,.6); }
+  .tag svg { flex: none; }
+
+  .feed { list-style: none; margin: 0; padding: 0; max-height: 420px; overflow-y: auto; }
+  .feed li { display: grid; grid-template-columns: 28px 1fr auto; gap: 10px; align-items: center; padding: 9px 4px; border-bottom: 1px solid var(--line-soft); font-size: 14px; }
+  .feed li:last-child { border-bottom: 0; }
+  .feed .ic { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; background: var(--navy-900); color: var(--gold); }
+  .feed .what { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .feed .when { color: var(--faint); font-size: 12px; white-space: nowrap; }
+
+  .empty { color: var(--faint); font-size: 14px; padding: 18px 4px; }
+  .callout { background: rgba(231,181,74,.08); border: 1px solid rgba(231,181,74,.35); border-radius: 12px; padding: 10px 14px; font-size: 13px; color: #f3d48e; margin-bottom: 12px; }
+  .banner-err { background: rgba(208,59,59,.12); border: 1px solid rgba(208,59,59,.5); color: #ffb3b3; border-radius: 12px; padding: 12px 16px; font-size: 14px; }
+  .loading { opacity: .55; transition: opacity .2s; }
+  footer { color: var(--faint); font-size: 12px; padding-bottom: 30px; }
+  footer button { margin-inline-start: 8px; }
+</style>
+</head>
+<body>
+
+<!-- ================= شاشة الدخول ================= -->
+<section class="login" id="login">
+  <form class="login-box" id="login-form" autocomplete="on">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+      <div><b>لوحة التحكم</b><span>أرخص قطعة</span></div>
+    </div>
+    <label for="pw" style="font-size:14px;color:var(--muted)">كلمة السر</label>
+    <input class="field" id="pw" type="password" autocomplete="current-password" required style="margin-top:6px">
+    <button class="btn btn-gold" type="submit">دخول</button>
+    <p class="err" id="login-err" role="alert"></p>
+    <p class="note" id="setup-note" hidden>
+      سيرفر الإحصائيات مو مربوط. حط رابطه في ملف الإعدادات <code>site/config.js</code> وبعدها ارجع لهالصفحة.
+    </p>
+  </form>
+</section>
+
+<!-- ================= اللوحة ================= -->
+<div id="app" hidden>
+  <header class="top">
+    <div class="wrap top-row">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+        <div><b>لوحة التحكم</b><span id="range-label">آخر ٧ أيام</span></div>
+      </div>
+      <span class="live" title="زوار فتحوا الموقع آخر ٥ دقائق"><i></i><span><b class="num" id="live">0</b> متواجد الحين</span></span>
+      <div class="seg" role="group" aria-label="الفترة" id="seg">
+        <button data-days="1">اليوم</button>
+        <button data-days="7" aria-pressed="true">٧ أيام</button>
+        <button data-days="30">٣٠ يوم</button>
+        <button data-days="90">٩٠ يوم</button>
+      </div>
+      <button class="btn icon-btn" id="refresh" title="تحديث" aria-label="تحديث">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 4v5h-5"/></svg>
+      </button>
+      <button class="btn" id="export">تنزيل البيانات</button>
+      <button class="btn" id="logout">خروج</button>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <div class="banner-err" id="api-err" hidden></div>
+
+    <section class="kpis" id="kpis" aria-label="الأرقام الرئيسية"></section>
+
+    <div class="grid">
+      <section class="card span-8">
+        <div class="card-head">
+          <div><h2>الزوار والضغطات يومياً</h2><p class="card-sub">الضغطة يعني زائر فتح صفحة منتج في متجر</p></div>
+          <div class="legend" id="daily-legend"></div>
+        </div>
+        <div class="chart" id="daily-chart"></div>
+        <details style="margin-top:8px"><summary class="link-btn" style="list-style:none">عرض كجدول</summary>
+          <div class="table-scroll"><table id="daily-table"></table></div></details>
+      </section>
+
+      <section class="card span-4">
+        <div class="card-head"><div><h2>نشاط آخر لحظة</h2><p class="card-sub">آخر ٤٠ حدث</p></div></div>
+        <ul class="feed" id="feed"></ul>
+      </section>
+
+      <section class="card span-7">
+        <div class="card-head"><div><h2>أكثر القطع ضغطاً</h2><p class="card-sub">القطع اللي الناس فعلاً راحوا يشترونها</p></div></div>
+        <div class="table-scroll"><table id="products"></table></div>
+      </section>
+
+      <section class="card span-5">
+        <div class="card-head"><div><h2>الضغطات حسب المتجر</h2><p class="card-sub">مفيد لو تبي تفاوض متجر على عمولة</p></div></div>
+        <ul class="bars" id="stores"></ul>
+        <div style="height:16px"></div>
+        <div class="card-head"><div><h2>الأقسام الأكثر تصفحاً</h2></div></div>
+        <ul class="bars" id="categories"></ul>
+      </section>
+
+      <section class="card span-6">
+        <div class="card-head"><div><h2>أكثر شي يدورون عليه</h2><p class="card-sub">كلمات البحث وكم نتيجة لقوا</p></div></div>
+        <ul class="bars" id="searches"></ul>
+      </section>
+
+      <section class="card span-6">
+        <div class="card-head"><div><h2>بحثوا عنها وما لقوها</h2><p class="card-sub">قطع الناس يبونها وما هي في موقعك، ضيفها</p></div></div>
+        <ul class="bars" id="zero"></ul>
+      </section>
+
+      <section class="card span-8">
+        <div class="card-head">
+          <div><h2>أوقات الذروة</h2><p class="card-sub">المشاهدات حسب الساعة بتوقيت السعودية</p></div>
+        </div>
+        <div class="chart" id="hours-chart"></div>
+      </section>
+
+      <section class="card span-4">
+        <div class="card-head"><div><h2>الأجهزة</h2></div></div>
+        <div class="split" id="devices"></div>
+        <div style="height:16px"></div>
+        <div class="card-head"><div><h2>المتصفحات</h2></div></div>
+        <ul class="bars" id="browsers"></ul>
+      </section>
+
+      <section class="card span-6">
+        <div class="card-head"><div><h2>من وين يجون الزوار</h2><p class="card-sub">الموقع اللي فتحوا منه رابطك</p></div></div>
+        <ul class="bars" id="referrers"></ul>
+      </section>
+
+      <section class="card span-6">
+        <div class="card-head"><div><h2>الدول</h2></div></div>
+        <ul class="bars" id="countries"></ul>
+      </section>
+
+      <section class="card span-12">
+        <div class="card-head">
+          <div><h2>صحة سحب الأسعار</h2><p class="card-sub" id="health-sub">من آخر تشغيل للسكربت</p></div>
+        </div>
+        <div class="kpis" id="health-kpis" style="margin-bottom:14px"></div>
+        <div class="table-scroll"><table id="health-stores"></table></div>
+        <div class="grid" style="margin-top:16px">
+          <div class="span-6"><h2 style="font-size:15px;margin:0 0 8px">قطع مخفية من الموقع</h2><ul class="bars" id="hidden-list"></ul></div>
+          <div class="span-6"><h2 style="font-size:15px;margin:0 0 8px">قطع بدون صورة</h2><ul class="bars" id="noimg-list"></ul></div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      زياراتك أنت تنحسب في الإحصائيات إلا لو وقفتها من هذا الجهاز.
+      <button class="link-btn" id="notrack"></button>
+    </footer>
+  </main>
+</div>
+
+<script>
+"use strict";
+const API = ((window.SITE_CONFIG || {}).analyticsUrl || "").replace(/\/+$/, "");
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const fmt = n => Math.round(n || 0).toLocaleString("en-US");
+const CAT = { cpu: "المعالجات", gpu: "كروت الشاشة", motherboard: "اللوحات الأم", ram: "الرامات",
+              storage: "التخزين", psu: "مزودات الطاقة", cooler: "التبريد", case: "الكيسات" };
+const DEV = { mobile: "جوال", desktop: "كمبيوتر", tablet: "تابلت" };
+let regionNames = null;
+try { regionNames = new Intl.DisplayNames(["ar"], { type: "region" }); } catch (e) {}
+const country = c => { try { return c && c !== "??" ? regionNames.of(c) : "غير معروف"; } catch (e) { return c; } };
+const flag = c => c && /^[A-Z]{2}$/.test(c) ? String.fromCodePoint(...[...c].map(ch => 0x1F1A5 + ch.charCodeAt(0))) : "🌐";
+
+const state = { days: 7, pw: null, timer: null };
+try { state.pw = sessionStorage.getItem("admin_pw"); } catch (e) {}
+
+// ---------------- الاتصال بالسيرفر ----------------
+async function api(path, opts = {}) {
+  const res = await fetch(API + path, { ...opts, headers: { Authorization: "Bearer " + state.pw, ...(opts.headers || {}) } });
+  if (res.status === 401) { logout("كلمة السر غلط"); throw new Error("401"); }
+  if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || ("HTTP " + res.status));
+  return res;
+}
+
+function logout(msg) {
+  state.pw = null;
+  try { sessionStorage.removeItem("admin_pw"); } catch (e) {}
+  clearInterval(state.timer);
+  $("#app").hidden = true; $("#login").hidden = false;
+  $("#login-err").textContent = msg || "";
+}
+
+$("#login-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  if (!API) { $("#setup-note").hidden = false; return; }
+  state.pw = $("#pw").value;
+  $("#login-err").textContent = "";
+  try {
+    await api("/admin/api/login", { method: "POST" });
+    try { sessionStorage.setItem("admin_pw", state.pw); } catch (e) {}
+    start();
+  } catch (err) {
+    if (err.message !== "401") $("#login-err").textContent = "ما قدرت أوصل للسيرفر: " + err.message;
+  }
+});
+
+function start() {
+  $("#login").hidden = true; $("#app").hidden = false;
+  load(); loadHealth();
+  clearInterval(state.timer);
+  state.timer = setInterval(() => { if (!document.hidden) load(true); }, 60000);
+}
+
+async function load(quiet) {
+  if (!quiet) $("#main").classList.add("loading");
+  try {
+    const d = await (await api("/admin/api/stats?days=" + state.days)).json();
+    $("#api-err").hidden = true;
+    state.last = d;
+    render(d);
+  } catch (err) {
+    if (err.message !== "401") { $("#api-err").hidden = false; $("#api-err").textContent = "صار خطأ وأنا أجيب الأرقام: " + err.message; }
+  } finally { $("#main").classList.remove("loading"); }
+}
+
+// ---------------- الرسم ----------------
+function delta(cur, prev) {
+  cur = +cur || 0; prev = +prev || 0;
+  if (!prev && !cur) return `<span class="kpi-delta">ما فيه بيانات قبلها</span>`;
+  if (!prev) return `<span class="kpi-delta up">جديد هالفترة</span>`;
+  const p = (cur - prev) / prev * 100;
+  if (Math.abs(p) < 0.5) return `<span class="kpi-delta">نفس الفترة اللي قبلها</span>`;
+  return `<span class="kpi-delta ${p > 0 ? "up" : "down"}"><span class="num">${p > 0 ? "▲" : "▼"} ${Math.abs(p).toFixed(0)}%</span> عن الفترة اللي قبلها</span>`;
+}
+
+function duration(s) {
+  s = Math.round(s || 0);
+  if (s < 60) return `<span class="num">${s}</span> ث`;
+  const m = Math.floor(s / 60), r = s % 60;
+  return `<span class="num">${m}:${String(r).padStart(2, "0")}</span> د`;
+}
+
+function render(d) {
+  const t = d.totals, p = d.previous || {};
+  const ctr = t.sessions ? (t.clicking_sessions / t.sessions * 100) : 0;
+  const pctr = p.sessions ? (p.clicking_sessions / p.sessions * 100) : 0;
+  $("#live").textContent = fmt(t.live);
+  $("#range-label").textContent = state.days === 1 ? "اليوم" : `آخر ${state.days} يوم`;
+
+  const kpi = (label, value, deltaHtml, cls = "") =>
+    `<div class="kpi ${cls}"><div class="kpi-label">${label}</div><div class="kpi-value">${value}</div>${deltaHtml || ""}</div>`;
+  $("#kpis").innerHTML = [
+    kpi("الزوار", `<span class="num">${fmt(t.visitors)}</span>`, delta(t.visitors, p.visitors), "hero"),
+    kpi("الزيارات", `<span class="num">${fmt(t.sessions)}</span>`, delta(t.sessions, p.sessions)),
+    kpi("ضغطات روابط المتاجر", `<span class="num">${fmt(t.clicks)}</span>`, delta(t.clicks, p.clicks), "hero"),
+    kpi("نسبة الضغط", `<span class="num">${ctr.toFixed(1)}%</span>`, `<span class="kpi-delta">زيارات ضغطت رابط متجر</span>`),
+    kpi("زوار جدد", `<span class="num">${fmt(t.new_visitors)}</span>`,
+        `<span class="kpi-delta">من أصل <span class="num">${fmt(t.visitors)}</span> زائر</span>`),
+    kpi("متوسط مدة الزيارة", duration(t.avg_session_seconds), ""),
+    kpi("عمليات البحث", `<span class="num">${fmt(t.searches)}</span>`, delta(t.searches, p.searches)),
+  ].join("");
+
+  dailyChart(d.daily, d.range);
+  hoursChart(d.hours);
+
+  // أكثر القطع
+  $("#products").innerHTML = d.topProducts.length
+    ? `<thead><tr><th>القطعة</th><th>القسم</th><th>ضغطات</th><th>أشخاص</th><th>متوسط السعر</th></tr></thead><tbody>${
+      d.topProducts.map(r => `<tr><td class="ltr" style="text-align:right">${esc(r.product)}</td><td>${esc(CAT[r.category] || r.category || "")}</td>
+        <td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.users)}</td><td><span class="num">${r.price ? fmt(r.price) : "-"}</span>${r.price ? " ر.س" : ""}</td></tr>`).join("")}</tbody>`
+    : `<tbody><tr><td class="empty">لسا ما أحد ضغط على رابط متجر في هالفترة</td></tr></tbody>`;
+
+  const total = arr => arr.reduce((s, r) => s + r, 0);
+  bars("#stores", d.stores, r => esc(r.store), r => r.clicks, true);
+  bars("#categories", d.categories, r => esc(CAT[r.category] || r.category), r => r.n, true);
+  bars("#searches", d.searches, r => `<span class="ltr">${esc(r.query)}</span><small>${r.results === 0 ? "ما لقوا شي" : `<span class="num">${fmt(r.results)}</span> نتيجة`}</small>`, r => r.n, false, "بحث");
+  bars("#zero", d.zeroSearches, r => `<span class="ltr">${esc(r.query)}</span>`, r => r.n, false, "مرة");
+  bars("#referrers", d.referrers, r => r.ref === "direct" ? "فتحوه مباشرة أو من تطبيق" : `<span class="ltr">${esc(r.ref)}</span>`, r => r.sessions, true);
+  bars("#countries", d.countries, r => `${flag(r.country)} ${esc(country(r.country))}`, r => r.visitors, true);
+  bars("#browsers", d.browsers, r => esc(r.browser), r => r.visitors, true);
+
+  const devTotal = total(d.devices.map(r => r.visitors)) || 1;
+  $("#devices").innerHTML = ["mobile", "desktop", "tablet"].map(k => {
+    const r = d.devices.find(x => x.device === k) || { visitors: 0 };
+    return `<div class="mini"><b class="num">${Math.round(r.visitors / devTotal * 100)}%</b><span>${DEV[k]} · <span class="num">${fmt(r.visitors)}</span></span></div>`;
+  }).join("");
+
+  feed(d.recent);
+}
+
+function bars(sel, rows, label, value, share, unit) {
+  const el = $(sel);
+  if (!rows || !rows.length) { el.innerHTML = `<li class="empty">ما فيه بيانات في هالفترة</li>`; return; }
+  const max = Math.max(...rows.map(value)) || 1;
+  const sum = rows.reduce((s, r) => s + value(r), 0) || 1;
+  el.innerHTML = rows.map(r => {
+    const v = value(r);
+    return `<li class="bar-row"><span class="bar-fill" style="width:${(v / max * 100).toFixed(1)}%"></span>
+      <span class="bar-name">${label(r)}</span>
+      <span class="bar-val"><span class="num">${fmt(v)}</span>${share ? `<small class="num">${Math.round(v / sum * 100)}%</small>` : unit ? `<small>${unit}</small>` : ""}</span></li>`;
+  }).join("");
+}
+
+const FEED_IC = {
+  pv: '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',
+  click: '<path d="M7 17 17 7"/><path d="M8 7h9v9"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+  filter: '<path d="M3 5h18l-7 8v6l-4 2v-8Z"/>',
+};
+function ago(ts) {
+  const s = Math.max(0, (Date.now() - ts) / 1000);
+  if (s < 60) return "الحين";
+  if (s < 3600) return `قبل ${Math.floor(s / 60)} د`;
+  if (s < 86400) return `قبل ${Math.floor(s / 3600)} س`;
+  return `قبل ${Math.floor(s / 86400)} يوم`;
+}
+function feed(rows) {
+  if (!rows.length) { $("#feed").innerHTML = `<li class="empty">لسا ما فيه نشاط</li>`; return; }
+  $("#feed").innerHTML = rows.map(r => {
+    let what;
+    if (r.type === "click") what = `ضغط <span class="ltr">${esc(r.product)}</span> في ${esc(r.store)}`;
+    else if (r.type === "search") what = `بحث عن <span class="ltr">${esc(r.query)}</span>${r.results === 0 ? " وما لقى" : ""}`;
+    else if (r.type === "filter") what = `فتح قسم ${esc(CAT[r.category] || r.category)}`;
+    else what = `زيارة${r.ref ? ` من <span class="ltr">${esc(r.ref)}</span>` : ""}`;
+    return `<li><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${FEED_IC[r.type] || FEED_IC.pv}</svg></span>
+      <span class="what">${what} <small style="color:var(--faint)">${flag(r.country)} ${DEV[r.device] || ""}</small></span><span class="when">${ago(r.ts)}</span></li>`;
+  }).join("");
+}
+
+// ---------- الرسم اليومي: خطين على محور واحد ----------
+const SERIES = [
+  { key: "visitors", name: "الزوار", color: "var(--series-1)" },
+  { key: "clicks", name: "الضغطات", color: "var(--series-2)" },
+];
+function fillDays(daily, range) {
+  const map = Object.fromEntries(daily.map(r => [r.day, r]));
+  const out = [];
+  const d = new Date(range.from + "T00:00:00Z"), end = new Date(range.to + "T00:00:00Z");
+  for (; d <= end; d.setUTCDate(d.getUTCDate() + 1)) {
+    const k = d.toISOString().slice(0, 10);
+    out.push({ day: k, visitors: (map[k] || {}).visitors || 0, pageviews: (map[k] || {}).pageviews || 0, clicks: (map[k] || {}).clicks || 0 });
+  }
+  return out;
+}
+const dayLabel = k => new Date(k + "T12:00:00Z").toLocaleDateString("ar-SA-u-nu-latn-ca-gregory", { day: "numeric", month: "short" });
+
+function niceMax(v) {
+  if (v <= 4) return 4;
+  const p = Math.pow(10, Math.floor(Math.log10(v)));
+  const n = v / p;
+  return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p;
+}
+
+function dailyChart(daily, range) {
+  const rows = fillDays(daily, range);
+  const el = $("#daily-chart");
+  $("#daily-legend").innerHTML = SERIES.map(s => `<span><i style="background:${s.color}"></i>${s.name}</span>`).join("");
+  $("#daily-table").innerHTML = `<thead><tr><th>اليوم</th><th>الزوار</th><th>المشاهدات</th><th>الضغطات</th></tr></thead><tbody>${
+    rows.slice().reverse().map(r => `<tr><td>${dayLabel(r.day)}</td><td class="num">${fmt(r.visitors)}</td><td class="num">${fmt(r.pageviews)}</td><td class="num">${fmt(r.clicks)}</td></tr>`).join("")}</tbody>`;
+
+  const W = Math.max(el.clientWidth, 300), H = 260, padL = 16, padR = 40, padT = 14, padB = 30;
+  const max = niceMax(Math.max(1, ...rows.flatMap(r => SERIES.map(s => r[s.key]))));
+  const n = rows.length;
+  // الوقت يمشي من اليمين لليسار (الأقدم يمين) مثل باقي الموقع
+  const x = i => n === 1 ? (W - padR + padL) / 2 : (W - padR) - i * ((W - padR - padL) / (n - 1));
+  const y = v => padT + (H - padT - padB) * (1 - v / max);
+  const ticks = [0, .25, .5, .75, 1].map(f => Math.round(max * f));
+  const every = Math.ceil(n / Math.max(2, Math.floor(W / 80)));
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="رسم يومي للزوار والضغطات">`;
+  ticks.forEach(v => {
+    svg += `<line class="gridline" x1="${padL}" x2="${W - padR}" y1="${y(v)}" y2="${y(v)}"/>
+            <text class="axis-label" x="${W - padR + 8}" y="${y(v) + 4}" text-anchor="start">${fmt(v)}</text>`;
+  });
+  rows.forEach((r, i) => {
+    if (i % every === 0 || i === n - 1)
+      svg += `<text class="axis-label" x="${x(i)}" y="${H - 8}" text-anchor="middle">${dayLabel(r.day)}</text>`;
+  });
+  SERIES.forEach(s => {
+    const d = rows.map((r, i) => `${i ? "L" : "M"}${x(i).toFixed(1)} ${y(r[s.key]).toFixed(1)}`).join(" ");
+    svg += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const last = rows[n - 1];
+    svg += `<circle cx="${x(n - 1)}" cy="${y(last[s.key])}" r="4" fill="${s.color}" stroke="var(--navy-700)" stroke-width="2"/>`;
+  });
+  svg += `<line id="cross" class="gridline" y1="${padT}" y2="${H - padB}" stroke-dasharray="3 3" style="opacity:0"/>`;
+  SERIES.forEach((s, k) => svg += `<circle id="dot${k}" r="5" fill="${s.color}" stroke="var(--navy-700)" stroke-width="2" style="opacity:0"/>`);
+  svg += `<rect x="${padL}" y="${padT}" width="${W - padL - padR}" height="${H - padT - padB}" fill="transparent" id="hit"/></svg><div class="tip" id="tip"></div>`;
+  el.innerHTML = svg;
+
+  const tip = el.querySelector("#tip"), cross = el.querySelector("#cross");
+  const move = ev => {
+    const rect = el.getBoundingClientRect();
+    const px = (ev.clientX - rect.left) * (W / rect.width);
+    let i = n === 1 ? 0 : Math.round(((W - padR) - px) / ((W - padR - padL) / (n - 1)));
+    i = Math.max(0, Math.min(n - 1, i));
+    const r = rows[i];
+    cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.style.opacity = 1;
+    SERIES.forEach((s, k) => { const dot = el.querySelector("#dot" + k); dot.setAttribute("cx", x(i)); dot.setAttribute("cy", y(r[s.key])); dot.style.opacity = 1; });
+    tip.innerHTML = `<b>${dayLabel(r.day)}</b>` + SERIES.map(s =>
+      `<div class="row"><span><i style="background:${s.color}"></i> ${s.name}</span><span class="num">${fmt(r[s.key])}</span></div>`).join("");
+    tip.style.opacity = 1;
+    const left = x(i) * rect.width / W;
+    tip.style.left = Math.min(Math.max(left - tip.offsetWidth / 2, 0), rect.width - tip.offsetWidth) + "px";
+    tip.style.top = "0px";
+  };
+  const hit = el.querySelector("#hit");
+  hit.addEventListener("pointermove", move);
+  hit.addEventListener("pointerleave", () => { tip.style.opacity = 0; cross.style.opacity = 0; el.querySelectorAll("[id^=dot]").forEach(d => d.style.opacity = 0); });
+}
+
+// ---------- أوقات الذروة: أعمدة لكل ساعة ----------
+function hoursChart(hours) {
+  const el = $("#hours-chart");
+  const data = Array.from({ length: 24 }, (_, h) => ({ h, v: ((hours.find(r => r.hour === h) || {}).pageviews) || 0 }));
+  const W = Math.max(el.clientWidth, 300), H = 200, padL = 8, padR = 36, padT = 10, padB = 26;
+  const max = niceMax(Math.max(1, ...data.map(d => d.v)));
+  const bw = (W - padL - padR) / 24;
+  // الساعة ٠ على اليمين
+  const x = h => (W - padR) - (h + 1) * bw;
+  const y = v => padT + (H - padT - padB) * (1 - v / max);
+  const peak = data.reduce((a, b) => (b.v > a.v ? b : a));
+  let svg = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="المشاهدات حسب الساعة">`;
+  [0, .5, 1].forEach(f => {
+    const v = Math.round(max * f);
+    svg += `<line class="gridline" x1="${padL}" x2="${W - padR}" y1="${y(v)}" y2="${y(v)}"/><text class="axis-label" x="${W - padR + 8}" y="${y(v) + 4}">${fmt(v)}</text>`;
+  });
+  data.forEach(d => {
+    const h = Math.max(0, (H - padB) - y(d.v));
+    const bx = x(d.h) + 1, bwid = Math.max(2, bw - 2);
+    if (h > 0) {
+      const r = Math.min(4, bwid / 2, h);
+      // عمود بزوايا علوية مدورة ومثبت على الأساس
+      svg += `<path d="M${bx} ${H - padB} V${y(d.v) + r} Q${bx} ${y(d.v)} ${bx + r} ${y(d.v)} H${bx + bwid - r} Q${bx + bwid} ${y(d.v)} ${bx + bwid} ${y(d.v) + r} V${H - padB} Z"
+        fill="var(--series-1)" opacity="${d === peak && d.v ? 1 : .7}"/>`;
+    }
+    svg += `<rect x="${x(d.h)}" y="${padT}" width="${bw}" height="${H - padT - padB}" fill="transparent" data-h="${d.h}" data-v="${d.v}"/>`;
+    if (d.h % 3 === 0) svg += `<text class="axis-label" x="${x(d.h) + bw / 2}" y="${H - 8}" text-anchor="middle">${d.h}</text>`;
+  });
+  if (peak.v) svg += `<text class="series-label" x="${x(peak.h) + bw / 2}" y="${y(peak.v) - 6}" text-anchor="middle">الذروة</text>`;
+  svg += `</svg><div class="tip" id="htip"></div>`;
+  el.innerHTML = svg;
+  const tip = el.querySelector("#htip");
+  el.querySelectorAll("rect[data-h]").forEach(rc => {
+    rc.addEventListener("pointerenter", () => {
+      const h = +rc.dataset.h, rect = el.getBoundingClientRect();
+      const label = `${String(h).padStart(2, "0")}:00 - ${String((h + 1) % 24).padStart(2, "0")}:00`;
+      tip.innerHTML = `<b class="num">${label}</b><div class="row"><span>مشاهدات</span><span class="num">${fmt(+rc.dataset.v)}</span></div>`;
+      tip.style.opacity = 1;
+      const left = (x(h) + bw / 2) * rect.width / W;
+      tip.style.left = Math.min(Math.max(left - tip.offsetWidth / 2, 0), rect.width - tip.offsetWidth) + "px";
+      tip.style.top = "0px";
+    });
+    rc.addEventListener("pointerleave", () => (tip.style.opacity = 0));
+  });
+}
+
+// ---------------- صحة السحب (من ملف السكربت) ----------------
+const STATUS_IC = {
+  good: '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m5 12 5 5 9-10"/></svg>',
+  bad: '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+};
+async function loadHealth() {
+  try {
+    const res = await fetch("health.json?_=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error();
+    const h = await res.json();
+    const when = new Date(h.updated_at).toLocaleString("ar-SA-u-nu-latn-ca-gregory", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
+    const hoursAgo = (Date.now() - new Date(h.updated_at)) / 3600000;
+    $("#health-sub").innerHTML = `آخر تشغيل: ${when} ` + (hoursAgo > 12
+      ? `<span class="tag bad">${STATUS_IC.bad} متأخر، تأكد إن التحديث التلقائي شغال</span>`
+      : `<span class="tag good">${STATUS_IC.good} شغال</span>`);
+    const kpi = (l, v) => `<div class="kpi"><div class="kpi-label">${l}</div><div class="kpi-value num">${v}</div></div>`;
+    $("#health-kpis").innerHTML = [
+      kpi("قطع ظاهرة في الموقع", fmt(h.products.shown)),
+      kpi("قطع مخفية", fmt(h.products.hidden)),
+      kpi("أسعار انسحبت آخر مرة", fmt(h.run.available)),
+      kpi("نفدت (بعد التأكيد)", fmt(h.run.confirmed_oos)),
+      kpi("فشل", fmt((h.run.error || 0) + (h.run.blocked || 0))),
+    ].join("");
+    const blocked = new Set(h.run.blocked_stores || []);
+    $("#health-stores").innerHTML = `<thead><tr><th>المتجر</th><th>الحالة</th><th>متوفر</th><th>نافد</th><th>بدون سعر</th><th>أخطاء</th><th>ما انفحص</th></tr></thead><tbody>${
+      Object.entries(h.stores).map(([name, s]) => `<tr><td>${esc(name)}</td><td>${blocked.has(name)
+        ? `<span class="tag bad">${STATUS_IC.bad} رفض الطلبات آخر مرة</span>` : `<span class="tag good">${STATUS_IC.good} سليم</span>`}</td>
+        <td class="num">${fmt(s.available)}</td><td class="num">${fmt(s.out_of_stock)}</td><td class="num">${fmt(s.no_price)}</td>
+        <td class="num">${fmt(s.errors)}</td><td class="num">${fmt(s.never)}</td></tr>`).join("")}</tbody>`;
+    const list = (sel, items, fmtItem) => $(sel).innerHTML = items.length
+      ? items.slice(0, 40).map(i => `<li class="bar-row"><span class="bar-name">${fmtItem(i)}</span></li>`).join("")
+      : `<li class="empty">ما فيه شي، كل شي تمام</li>`;
+    list("#hidden-list", h.hidden, i => `<span class="ltr">${esc(i.name)}</span><small>${esc(i.reason)}</small>`);
+    list("#noimg-list", h.missing_images, i => `<span class="ltr">${esc(i)}</span>`);
+  } catch (e) {
+    $("#health-sub").textContent = "ما لقيت تقرير السحب. يطلع بعد أول تشغيل للسكربت.";
+  }
+}
+
+// ---------------- التفاعل ----------------
+$("#seg").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.days = +b.dataset.days;
+  $("#seg").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  load();
+});
+$("#refresh").addEventListener("click", () => { load(); loadHealth(); });
+$("#logout").addEventListener("click", () => logout());
+$("#export").addEventListener("click", async () => {
+  try {
+    const blob = await (await api("/admin/api/export?days=" + state.days)).blob();
+    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: `analytics-${state.days}d.csv` });
+    document.body.appendChild(a); a.click(); a.remove();
+  } catch (e) { if (e.message !== "401") alert("ما قدرت أنزل البيانات: " + e.message); }
+});
+function noTrackLabel() {
+  let off = false;
+  try { off = localStorage.getItem("notrack") === "1"; } catch (e) {}
+  $("#notrack").textContent = off ? "زياراتك من هالجهاز ما تنحسب. رجّع حسابها" : "لا تحسب زياراتي من هالجهاز";
+}
+$("#notrack").addEventListener("click", () => {
+  try { localStorage.getItem("notrack") === "1" ? localStorage.removeItem("notrack") : localStorage.setItem("notrack", "1"); } catch (e) {}
+  noTrackLabel();
+});
+noTrackLabel();
+let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => state.last && render(state.last), 200); });
+
+if (!API) $("#setup-note").hidden = false;
+if (state.pw && API) start();
+</script>
+</body>
+</html>

@@ -1,0 +1,1219 @@
+# ==========================================================
+#  قائمة المنتجات اللي يتابع الموقع أسعارها
+# ==========================================================
+#  لكل منتج:
+#    name      : اسم المنتج كما يظهر في الموقع
+#    category  : القسم (لازم يكون واحد من الأقسام تحت)
+#    links     : روابط صفحة المنتج في كل متجر
+#                (افتح المنتج في المتجر وانسخ الرابط من شريط العنوان)
+#
+#  السكربت يزور كل رابط، يقرأ السعر، ويختار الأرخص تلقائياً.
+#
+#  ملاحظة: في كروت الشاشة والمعالجات حطينا أكثر من شركة مصنعة لنفس الكرت
+#  (أسوس، جيجابايت، إم إس آي ...) عشان يطلع لك أرخص كرت من هالفئة
+#  بغض النظر عن الشركة. لو تبي موديل محدد بس، احذف الباقي.
+#
+#  المتاجر المدعومة حالياً:
+#    amazon.sa       أمازون السعودية
+#    noon.com        نون
+#    pcd.com.sa      طبيب الكمبيوتر
+#    infiniarc.com   إنفني أرك
+# ==========================================================
+
+categories:
+  cpu: "المعالجات"
+  gpu: "كروت الشاشة"
+  motherboard: "اللوحات الأم"
+  ram: "الرامات"
+  storage: "التخزين"
+  psu: "مزودات الطاقة"
+  case: "الكيسات"
+  cooler: "التبريد"
+
+products:
+
+  # ================ المعالجات ================
+  - name: "AMD Ryzen 7 7800X3D"
+    category: cpu
+    links:
+      - https://www.amazon.sa/AMD-10665103/dp/B0CKKY9743
+      - https://www.amazon.sa/-/en/AMD-7800X3D-4-2GHz-Processor-Socket/dp/B0CTD76W9C
+      - https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/
+      - https://www.noon.com/saudi-en/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70052064V/p/
+      - https://www.noon.com/saudi-ar/amd-ryzen-7-7800x3d-am5-desktop-processor-with-amd-radeon-graphics-8-cores-16-threads-5-ghz-max-boost-clock-8mb-l2-96mb-l3-cache-ddr5-memory-128gb-max-capacity-black/N70060234V/p/
+      - https://pcd.com.sa/en/product/amd-ryzen-7-7800-x3-d-gaming-processor-3-d-v-cache-technology-high-performance-desktop-cpu-for-advanced-gaming-tray-no-fan-no-box
+
+  - name: "AMD Ryzen 7 9800X3D"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-Ryzen-9800X3D-Processor-Integrated/dp/B0DKFMSMYK
+      - https://www.amazon.sa/-/en/AMD-9800X3D-Unboxed-Fansless-Processor/dp/B0DQ86KCP2
+      - https://www.noon.com/saudi-en/ryzon-7-9800x3d-desktop-processor-model-100100001084wof/N70281764V/p/
+      - https://www.noon.com/saudi-en/amd-ryzen-7-9800x3d-4-7ghz-8-core-16-thread-r7-9800x3d-socket-am5-4nm-l3-96m-processor-120w-ddr5-no-fan/N70370590V/p/
+      - https://www.noon.com/saudi-en/ryzen-7-9800x3d-processor-8-cores-16-threads-4-7-ghz-base-up-to-5-2-ghz-boost-96mb-l3-cache-zen-5-architecture-am5-socket-tsmc-4nm-technology-pcie-5-0-precision-boost-overdrive-unlockable-for-overclocking-120w-tdp-100-100001084wof-grey/N70128340V/p/
+      - https://pcd.com.sa/product/cpu-amd-ryzen-7-9800-x3-d-tray
+      - https://pcd.com.sa/product/amd-ryzen-7-9800-x3-d-8-core-16-thread-box
+      - https://infiniarc.com/en/shop/100-100001084wof-amd-ryzen-7-9800x3d-ryzen-7-9000-series-zen-5-8-core-5-2-ghz-socket-am5-120w-amd-radeon-graphics-desktop-processor-100-100001084wof-7303
+      - https://www.infiniarc.com/en/shop/100-000001084-tray-amd-ryzen-7-9800x3d-ryzen-7-9000-series-zen-5-8-core-5-2-ghz-am5-socket-radeon-graphics-desktop-processor-tray-8215
+
+  - name: "AMD Ryzen 5 7600 / 7600X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-7600X-4-7GHz-Desktop-Processor/dp/B0BBJDS62N
+      - https://www.amazon.sa/-/en/AMD-Ryzen-4-7GHz-Processor-Socket/dp/B0CTD6CMSS
+      - https://www.amazon.sa/-/en/7600X-Desktop-Processor-DDR5-5200-Compatible/dp/B0F9F8N37Z
+      - https://www.noon.com/saudi-en/ryzen-5-7600-6-core-12-thread-unlocked-desktop-processor/N70011235V/p/
+      - https://www.noon.com/saudi-en/ryzen-5-7600-desktop-processor-6-core-12-thread-38mb-cache-up-to-5-1-ghz-max-boost-with-wraith-stealth-cooler-black/N70022372V/p/
+      - https://www.noon.com/saudi-en/amd-ryzen-5-7600x-4-7-ghz-am5-105w-desktop-processors-6-cores-12-threads-5-3-ghz-max-boost-clock-32mb-l3-cache-amd-radeon-graphics-2ch-ddr5-5200-128gb-max-zen-4-arc-grey/N70060266V/p/
+      - https://www.noon.com/saudi-en/ryzen-5-7600x-4-7-ghz-am5-105w-desktop-processors-6-cores-12-threads-5-3-ghz-max-boost-clock-32mb-l3-cache-amd-radeon-graphics-2ch-ddr5-5200-128gb-max-zen-4-arc/N70045193V/p/
+      - https://www.infiniarc.com/en/shop/100-000000593-amd-processor-ryzen-5-7600x-6-core-4-7-ghz-socket-am5-105w-desktop-processor-tray-5755
+      - https://www.infiniarc.com/en/shop/100-100001015box-amd-processor-ryzen-5-7600-box-ryzen-5-6-core-socket-am5-65w-amd-radeon-graphics-processor-100-100001015box-3710
+
+  - name: "AMD Ryzen 5 9600X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-9600X-Processor-Threads-Graphics/dp/B0D6NN6TM7
+      - https://www.amazon.sa/-/en/AMD-9600X-Processor-Distimiser-Guaranteed/dp/B0FJS4QC84
+      - https://www.amazon.sa/-/en/AMD-Ryzen-9600X-3-9-5-4GHZ-CACHE/dp/B0DDTRSMXV
+      - https://www.noon.com/saudi-en/ryzen-5-9600x-am5-cpu-processor-6-cores-12-threads-5-4-ghz-max-boost-clock-6mb-l2-32mb-l3-cache-amd-radeon-graphics-zen-5-pcie-5-0-x16-grey/N70108914V/p/
+      - https://www.infiniarc.com/shop/cpu/100-100001405wof-amd-ryzen-5-9600x-ryzen-5-9000-series-granite-ridge-zen-5-6-core-3-9-ghz-socket-am5-65w-radeon-graphics-processor-8857
+      - https://www.infiniarc.com/en/shop/100-100001405wof-amd-ryzen-5-9600x-ryzen-5-9000-series-granite-ridge-zen-5-6-core-3-9-ghz-socket-am5-65w-radeon-graphics-processor-6897
+      - https://www.infiniarc.com/en/shop/100-000001405-amd-ryzen-5-9600x-granite-ridge-zen-5-6-core-3-9-ghz-am5-radeon-graphics-processor-tray-8673
+
+  - name: "Intel Core i5-14400F"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel-i5-14400F-Desktop-Processor-P-cores/dp/B0CQ1Y7KHV
+      - https://www.amazon.sa/%D9%85%D8%B9%D8%A7%D9%84%D8%AC-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%A5%D9%86%D8%AA%D9%84-%D9%83%D9%88%D8%B1-14400F/dp/B0CQ3142LB
+      - https://www.infiniarc.com/shop/cpu/8071514400f-tray-intel-core-i5-14400f-10-cores-up-to-4-7-ghz-desktop-processor-8807
+
+  - name: "Intel Core i7-14700K"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel%C2%AE-i7-14700K-Desktop-Processor-P-cores/dp/B0CHBFWJDN
+      - https://www.amazon.sa/-/en/i7-14700K-Desktop-Processor-Integrated-Graphics/dp/B0CGJ41C9W
+      - https://www.noon.com/saudi-en/intel-core-i7-14700k-new-gaming-desktop-processor-20-cores-8-p-cores-12-e-cores-with-integrated-graphics-unlocked/Z53969755CC8CF91F753CZ/p/
+      - https://www.noon.com/saudi-en/core-i7-14700k-3-4-ghz-20-core-lga-1700-14th-gen-processor-20-cores-28-threads-30mb-cache-memory-5-6ghz-maxturbo-boost-intel-uhd-graphics-770-2ch-ddr5-192gb-max-blue/N70021828V/p/
+      - https://pcd.com.sa/en/product/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz-2
+      - https://www.infiniarc.com/en/shop/bx8071514700k-intel-cpu-desktop-core-i7-14700k-up-to-5-60-ghz-33mb-lga1700-box-4927
+
+  - name: "AMD Ryzen 5 5600 / 5600X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-5600-12-Thread-Unlocked-Processor/dp/B09VCHR1VH
+      - https://www.noon.com/saudi-en/ryzen-5-5600x-desktop-processors-black/N43982925A/p/
+      - https://pcd.com.sa/en/product/amd-ryzen-5-5600x-processor-6c-12t-35mb-cache-up-to-4-6-ghz-max-boost
+
+  - name: "AMD Ryzen 7 5700X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-5700X-16-Thread-Unlocked-Processor/dp/B09VCHQHZ6
+      - https://www.noon.com/saudi-en/ryzen-7-5700x-8-core-16-thread-unlocked-desktop-processor/N70011236V/p/
+
+  - name: "AMD Ryzen 7 5800X3D"
+    category: cpu
+    links:
+      - https://amazon.sa/-/en/AMD-Ryzen-5800X3D-16-Thread-Technology/dp/B09VCJ2SHD
+
+  - name: "AMD Ryzen 5 8400F"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-RyzenTM-5-8400F/dp/B0D2JD6P86
+      - https://www.noon.com/saudi-en/ryzen-5-8400f-am5-socket-processor/N70096013V/p/
+
+  - name: "AMD Ryzen 5 8600G"
+    category: cpu
+    links:
+      - https://www.noon.com/saudi-en/ryzen-5-8600g-4-3ghz-am5-desktop-processor-6-cores-12-threads-5ghz-max-boost-clock-6mb-l2-16mb-l3-cache-amd-radeon-760m-dual-ch-ddr5-5200-slots-256-gb-max-memory-grey/N70061667V/p/
+
+  - name: "AMD Ryzen 7 7700X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-7700X-16-Thread-Unlocked-Processor/dp/B0BBHHT8LY
+      - https://www.noon.com/saudi-en/ryzen-7-7700x-8-core-16-thread-unlocked-desktop-processor/N70011854V/p/
+      - https://www.infiniarc.com/en/shop/aw100100000591wof-box-amd-ryzen-7-7700x-8-core-4-5-ghz-socket-am5-105w-desktop-processor-3711
+
+  - name: "AMD Ryzen 7 7700"
+    category: cpu
+    links:
+      - https://www.noon.com/saudi-en/ryzen-7-7700-desktop-processor-8-core-16-thread-76mb-cache-up-to-5-3-ghz/N70011173V/p/
+
+  - name: "AMD Ryzen 7 9700X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-9700X-16-Thread-Unlocked-Processor/dp/B0D6NMDNNX
+      - https://www.infiniarc.com/en/shop/100-000001404-amd-ryzen-7-9700x-ryzen-7-9000-series-granite-ridge-zen-5-8-core-3-8-ghz-socket-am5-65w-radeon-graphics-processor-tray-7992
+
+  - name: "AMD Ryzen 9 9900X"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-RyzenTM-9900X-24-Thread-Processor/dp/B0D6NN87T8
+      - https://www.noon.com/saudi-en/ryzen-9-9900x-4-4-ghz-am5-120w-desktop-processors-12-cores-24-threads-5-6-ghz-max-boost-clock-64mb-l3-cache-amd-radeon-graphics-2ch-ddr5-5600-192-gb-max-zen-5-arc/N70096087V/p/
+
+  - name: "AMD Ryzen 9 9950X3D"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/AMD-Ryzen-Processor-Integrated-Graphics/dp/B0DVZSG8D5
+      - https://www.noon.com/saudi-en/ryzen-9-9950x3d-desktop-processor-16-cores-32-threads-4-3-ghz-base-5-7-ghz-boost-128-mb-l3-cache-170w-tdp-zen-5-architecture-pcie-5-0-ddr5-memory-support-amd-expo-memory-overclocking-radeon-graphics-2-cores-2200-mhz-am5-socket-170w-tdp-precision-boos/N70162151V/p/
+
+  - name: "Intel Core i5-12400F"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel-12400F-Desktop-Processor-Cache/dp/B09NPJRDGD
+      - https://www.noon.com/saudi-en/core-i5-12400f-processor-s-1700-2-50ghz-6-core-18mb-smart-cache-12th-generation-alder-lake/N70010109V/p/
+
+  - name: "Intel Core i5-13400F"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel%C2%AE-i5-13400F-Desktop-Processor-P-cores/dp/B0BN61LYFB
+      - https://www.noon.com/saudi-en/intel-core-i5-13400f-processor/N70065252V/p/
+
+  - name: "Intel Core i7-14700KF"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel%C2%AE-i7-14700KF-Desktop-Processor-P-cores/dp/B0CGJC178L
+      - https://www.noon.com/saudi-en/core-i7-14700kf-2-5-ghz-20-core-lga-1700-14th-gen-processor-20-cores-28-threads-33mb-cache-memory-5-6ghz-maxturbo-boost-dual-channel-ddr5-5600-192gb-max-memory-blue/N70016653V/p/
+
+  - name: "Intel Core i9-14900K"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/i9-14900K-Desktop-Processor-Integrated-Graphics/dp/B0CGJDKLB8
+      - https://www.noon.com/saudi-en/core-i9-14900k-3-2-ghz-24-core-lga-1700-14th-gen-processor-24-cores-32-threads-36mb-cache-memory-6ghz-maxturbo-boost-intel-uhd-graphics-770-2ch-ddr5-192gb-max-blue/N70021909V/p/
+
+  - name: "Intel Core Ultra 7 265K"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel-Ultra-Desktop-Processor-cores/dp/B0DFK2MH2D
+      - https://www.noon.com/saudi-en/core-ultra-7-265k-3-9-ghz-lga-1851-processor-intel-graphics-20-cores-20-threads-36-mb-cache-5-5-ghz-max-turbo-frequency-dual-channel-ddr5-memory-192gb-max-memory-size-bx80768265k-silver/N70133681V/p/
+      - https://www.infiniarc.com/en/shop/bx80768265k-tray-intel-core-ultra-7-265k-20-cores-lga-1851-processor-tray-7304
+
+  - name: "Intel Core Ultra 5 245K"
+    category: cpu
+    links:
+      - https://www.amazon.sa/-/en/Intel-Core-Ultra-Processor-245K/dp/B0DFK2P311
+      - https://www.noon.com/saudi-ar/core-ultra-5-245k-arrow-lake-socket-lga-1851-desktop-processor-series-2-14-cores-14-threads-24m-cache-5-2-ghz-max-turbo-boost-frequency-intel-graphics-2-ddr5-192gb-max-memory-intel-ai-boost-bx80768245k/N70123448V/p/
+
+
+  # ================ كروت الشاشة ================
+  - name: "NVIDIA RTX 5070 12GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/ASUS-SFF-Ready-Graphics-2-5-slot-Axial-tech/dp/B0DYPFY7JG
+      - https://www.amazon.sa/-/en/Prime-GeForce-Graphics-Display-SFF-Ready/dp/B0DYPF19H9
+      - https://www.amazon.sa/-/en/Gigabyte-GeForce-5070-Gaming-Graphics/dp/B0DTGNTQ3C
+      - https://www.amazon.sa/-/en/ASUS-3-125-slot-Military-Grade-Components-Protective/dp/B0DS6S98ZF
+      - https://www.noon.com/saudi-ar/geforce-rtx-5070-12g-shadow-2x-oc-graphics-card-12gb-gddr7-pcie-gen-5-2557-mhz-extreme-performance-6144-cuda-cores-28-gbps-memory-speed-displayport-3x-hdmi-1x-250w-power-consumption-16-pin-connector-4k-480hz-8k-120hz-directx-12-ultimate-g-sync-hdcp-s/N70162153V/p/
+      - https://www.noon.com/saudi-ar/geforce-rtx-5070-windforce-oc-sff-12g-graphics-card-nvidia-blackwell-architecture-dlss-4-12gb-gddr7-192-bit-memory-28gbps-memory-clock-pci-e-5-0-7680x4320-max-resolution-4-multi-view-windforce-cooling-system-hawk-fan-server-grade-thermal-gel-nvidia-s/N70147654V/p/
+      - https://www.noon.com/saudi-en/geforce-rtx-5070-prime-oc-12gb-gddr7-graphics-card/N70169491V/p/
+      - https://pcd.com.sa/product/gigabyte-ge-force-rtx-5070-eagle-oc-ice-12-g
+      - https://pcd.com.sa/en/product/galax-rtx-5070-1-click-oc-white-pci-e-12-gb-gddr-7-192-bit
+      - https://pcd.com.sa/en/product/vga-msi-rtx-5070-12gb-ventus-2-x-oc
+      - https://pcd.com.sa/en/product/manli-nebula-ge-force-rtx-5070-graphics-card-12-gb-gddr-7-dlss-4-with-multi-frame-generation-and-enhanced-ray-reconstruction-diecast-shroud-with-metal-backplate-zero-rpm-fan-at-idle
+      - https://pcd.com.sa/product/msi-ge-force-rtx-5070-shadow-2-x-oc-12-gb-gddr-7-graphics-card-dlss-4-dual-fan-cooling-pc-ie-5-0-nvidia-blackwell-architecture
+      - https://pcd.com.sa/product/asus-prime-ge-force-rtx-5070-oc-edition-graphics-card-12-gb-gddr-7-triple-fan-cooling-dlss-4-ray-tracing-pc-ie-5-0-metal-backplate-nvidia-blackwell-architecture
+      - https://www.infiniarc.com/en/shop/vcg507012tfxxpb1-o-pny-geforce-rtx-5070-12gb-gddr7-oc-argb-epic-x-black-gpu-8924
+      - https://www.infiniarc.com/en/shop/gv-n5070wf3oc-12gd-gigabyte-windforce-geforce-rtx-5070-oc-12gb-sff-gpu-8103
+
+  - name: "NVIDIA RTX 5060 8GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/PNY-GEFORCE-RTXTM-Overclocked-Graphics/dp/B0F4Z2DNH2
+      - https://www.amazon.sa/-/en/Gigabyte-GeForce-5060-Gaming-Graphics/dp/B0F6NJT2K6
+      - https://www.amazon.sa/-/en/ASUS-Gaming-GeForce-Graphics-TUF-RTX5060-O8G/dp/B0F8Q8HM6H
+      - https://www.noon.com/saudi-en/geforce-rtx-5060-8g-shadow-2x-oc-graphics-card-8gb-gddr7-128-bit-3840-cuda-cores-blackwell-architecture-boost-clock-2535-mhz-28-gbps-memory-speed-hdmi-2-1b-3x-displayport-2-1b-dual-torx-fan-5-0-cooling-8k-support-ray-tracing-dlss-directx-12-ultimate-/N70179614V/p/
+      - https://www.noon.com/saudi-en/geforce-rtx-5060-gaming-trio-oc-8gb-gddr7-graphics-card-3840-cuda-cores-blackwell-architecture-2640mhz-boost-pcie-gen-5-128-bit-28gbps-dlss-4-ray-tracing-tri-frozr-4-cooling-mystic-light-rgb-3x-dp-2-1b-1x-hdmi-2-1b-8k-support-155w-tdp-8-pin-power-dx1/N70179613V/p/
+      - https://www.noon.com/saudi-ar/gaming-geforce-rtx-5060-twin-edge-8gb-gddr7-graphics-card-pcie-5-0-3840-cuda-cores-2497-mhz-boost-clock-dlss-4-ray-tracing-icestorm-2-0-dual-fan-cooling-128-bit-displayport-2-1-x3-hdmi-2-1-8-pin-power-metal-backplate-compact-2-slot-design-zt-b50600e-/N70188053V/p/
+      - https://pcd.com.sa/en/product/gigabyte-ge-force-rtx-5060-eagle-max-oc-8-g-graphics-card-8-gb-gddr-7-128-bit-memory-interface-nvidia-blackwell-architecture-dlss-4-windforce-cooling-system
+      - https://pcd.com.sa/en/product/zotac-gaming-ge-force-rtx-5060-twin-edge-graphics-card-8-gb-gddr-7-compact-dual-fan-design-dlss-4-ray-tracing-pc-ie-5-0-hdmi-2-1b-and-display-port-2-1b
+      - https://pcd.com.sa/product/vga-msi-rtx-5060-8-g-gaming-oc
+      - https://www.infiniarc.com/en/shop/vcg50608dfxpb1-o-pny-geforce-rtx-5060-8gb-gddr7-oc-black-gpu-8917
+
+  - name: "NVIDIA RTX 5060 Ti 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/ASUS-Graphics-RTX5060Ti-DisplayPort-PRIME-RTX5060TI-O16G/dp/B0F4DQYLP5
+      - https://www.amazon.sa/-/en/Gigabyte-GeForce-5060-WINDFORCE-Graphics/dp/B0F4NGCGM4
+      - https://www.amazon.sa/-/en/MSI-GeForce-Inspire-Graphics-STORMFORCE/dp/B0F32N1ZGH
+      - https://www.noon.com/saudi-en/the-prime-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-graphics-card-pcie-5-0-16gb-gddr7-hdmi-dp-2-1-2-5-slot-axial-tech-fans-dual-bios-black/N70214423V/p/
+      - https://www.noon.com/saudi-en/geforce-rtx-5060-ti-16gb-ventus-2x-oc-plus-graphics-card-nvidia-blackwell-architecture-4-608-cuda-cores-2-617-mhz-boost-clock-16gb-gddr7-28gbps-memory-speed-448gb-s-bandwidth-dual-fan-torx-5-0-cooling-8k-resolution-support-dlss-4-ray-tracing-pcie-5-0/N70179516V/p/
+      - https://www.noon.com/saudi-en/geforce-rtx-5060-ti-16gb-gddr7-shadow-2x-oc-plus-graphics-card-dual-fan-dlss-4-ray-tracing-4608-cuda-cores-boost-clock-2617-mhz-pcie-5-0-hdmi-2-1b-3x-displayport-2-1-128-bit-672-gb-s-bandwidth-vr-ready-8k-uhd-support-black-912-v535-029/N70198414V/p/
+      - https://pcd.com.sa/en/product/msi-rtx-5060-ti-ventus-2-x-16-gb-black
+      - https://pcd.com.sa/en/product/vga-gigabyte-ge-force-rtx-5060-ti-eagle-max-oc-16-g-gddr-7-128bit-3-x-fans-
+      - https://www.infiniarc.com/en/shop/90yv0mh2-m0na00-asus-prime-geforce-rtx-5060-ti-16gb-oc-gddr7-gaming-graphics-card-8346
+      - https://www.infiniarc.com/en/shop/gv-n506twf2-16gd-gigabyte-windforce-geforce-rtx-5060-ti-16g-gpu-8280
+
+  - name: "NVIDIA RTX 5070 Ti 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/ASUS-Graphics-2-5-Slot-DisplayPort-PRIME-RTX5070TI-O16G/dp/B0DVGVZZYY
+      - https://www.amazon.sa/-/en/MSI-Graphics-DisplayPort-Blackwell-Architecture/dp/B0DWHHSZH1
+      - https://www.noon.com/saudi-en/geforce-rtx-5070-ti-prime-oc-16gb-gddr7-graphics-card/N70169496V/p/
+      - https://www.noon.com/saudi-en/geforce-rtx-5070-ti-eagle-oc-sff-16gb-gddr7-graphics-card-pci-e-5-0-windforce-cooling-dual-bios-performance-silent-rgb-lighting-displayport-2-1a-x3-hdmi-2-1b-8k-resolution-16-pin-power-connector-gv-n507teagle-oc-16gd-black/N70147475V/p/
+      - https://www.noon.com/saudi-en/tuf-gaming-geforce-rtx-5070-ti-o16g-oc-edition-graphics-card-dlss-4-ray-tracing-pcie-5-0-axial-tech-triple-fan-dual-bios-metal-backplate-aura-sync-rgb-gpu-tweak-iii-3-125-slot-design-hdmi-2-1a-displayport-2-1-vr-ready-90yv0md0-m0na00-black/N70147786V/p/
+      - https://pcd.com.sa/en/product/gigabyte-ge-force-rtx-5070-ti-windforce-oc-sff-16-g-graphics-card-16-gb-gddr-7-blackwell-architecture-dlss-4-hawk-fan-windforce-cooling-dual-bios-performance-silent-nvidia-sff-ready-reinforced-structure-with-vga-holder
+      - https://pcd.com.sa/en/product/gigabyte-ge-force-rtx-5070-ti-eagle-oc-sff-16-gb-gddr-7-graphics-card-dlss-4-nvidia-blackwell-architecture-sff-ready-triple-fan-cooling
+      - https://www.infiniarc.com/en/shop/vcg5070t16tfxpb1-pny-triple-fan-geforce-rtx-5070-ti-16gb-gddr7-black-gpu-9274
+      - https://www.infiniarc.com/en/shop/gv-n507taorus-m-16gd-gigabyte-aorus-master-geforce-rtx-5070-ti-16g-gpu-7755
+
+  - name: "AMD Radeon RX 9070 XT 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-Radeon-9070-GAMING-Graphics/dp/B0DT7B79K9
+      - https://www.amazon.sa/-/en/Sapphire-Pulse-RadeonTM-Gaming-Graphics/dp/B0DTHMPWFR
+      - https://www.amazon.sa/-/en/Sapphire-Nitro-RadeonTM-Gaming-Graphics/dp/B0DTHP39JF
+      - https://www.amazon.sa/-/en/XFX-Radeon-9070XT-Triple-Graphics/dp/B0DXLG4FJ3
+      - https://www.amazon.sa/-/en/XFX-Quicksilver-Radeon-Magnetic-Graphics/dp/B0DXVQQXMG
+      - https://www.amazon.sa/-/en/ASRock-Accelerators-PCIe5-0-HDMI2-1b-Graphics/dp/B0DTT7CPWV
+      - https://www.noon.com/saudi-en/tuf-gaming-radeon-rx-9070-xt-o16g-oc-edition-16gb-gddr6-graphics-card-pcie-5-0-rdna-4-3x-axial-tech-fans-dual-bios-hdmi-2-1-dp-2-1-aura-sync-rgb-4k-1440p-ray-tracing-graphics-card-90yv0l70-m0na00-black/N70214428V/p/
+      - https://www.noon.com/saudi-en/nitro-amd-radeon-rx-9070-xt-16gb-gddr6-graphics-card-256-bit-3060-mhz-boost-clock-2520-mhz-game-clock-4096-stream-processors-amd-rdna-4-64-compute-units-64-ray-accelerators-64mb-infinity-cache-pcie-5-0-dual-hdmi-2-1-displayport-2-1a-tri-x-cooling-330/ZE4584A467D150347F32EZ/p/
+
+  - name: "NVIDIA RTX 5080 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/NVIDIA-GeForce-RTX-5080-Founders/dp/B0DYVCGVK4
+      - https://www.amazon.sa/-/en/ASUS-Graphics-SFF-Ready-DisplayPort-PRIME-RTX5080-O16G/dp/B0DS65VMC6
+      - https://www.amazon.sa/-/en/Gigabyte-GeForce-5080-WINDFORCE-Graphics/dp/B0DSQ142ZY
+      - https://www.noon.com/saudi-en/geforce-rtx-5080-gaming-oc-16gb-gddr7-graphics-card-2730-mhz-core-clock-pci-e-5-0-30-gbps-memory-256-bit-memory-bus-windforce-cooling-rgb-halo-dual-bios-displayport-2-1a-x3-hdmi-2-1b-atx-directx-12-opengl-4-6-gv-n5080gaming-oc-16gd-black/N70147644V/p/
+      - https://www.noon.com/saudi-en/tuf-rtx-5080-oc-edition-16gb-gaming-graphics-card-nvidia-geforce-rtx-5080-16gb-gddr7-10752-cuda-cores-pcie-5-0-7680x4320-max-resolution-3x-displayport-2-1b-2x-hdmi-2-1b-850w-psu-aura-sync-rgb-3-6-slot-design-black/N70147781V/p/
+      - https://www.noon.com/saudi-en/geforce-rtx-5080-16g-gaming-trio-oc-16gb-gddr7-10752-cuda-cores-30-gbps-memory-speed-256-bit-memory-bus-pcie-gen-5-2715-mhz-core-clock-4k-8k-resolution-support-360w-power-consumption-850w-psu-recommended-hdmi-2-1b-displayport-2-1b-7680x4320-max-resol/N70147459V/p/
+      - https://pcd.com.sa/en/product/msi-ge-force-rtx-5080-ventus-3-x-oc-plus-graphics-card-16-gb-gddr-7-triple-fan-cooling-dlss-4-pc-ie-5-0-hdmi-2-1b-and-display-port-2-1b
+      - https://pcd.com.sa/product/gigabyte-ge-force-rtx-5080-16-g-aero-oc
+      - https://www.infiniarc.com/en/shop/90yv0lv0-m0na00-asus-rog-astral-geforce-rtx-5080-16gb-gddr7-oc-edition-gpu-7889
+      - https://www.infiniarc.com/shop/gpu/zt-b50800j2-10p-zotac-gaming-geforce-rtx-5080-solid-core-oc-16gb-gddr7-gpu-12199
+
+  - name: "NVIDIA RTX 3050 8GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-GeForce-WINDFORCE-Graphics-GV-N3050WF2OC-8GD/dp/B0C1T7FYQ3
+      - https://www.noon.com/saudi-en/gaming-geforce-rtx-3050-twin-edge-8gb-gddr6-128-bit-14-gbps-pcie-4-0-gaming-graphics-card-icestorm-2-0-advanced-cooling-freeze-fan-stop-active-fan-control-black/N53402824A/p/
+
+  - name: "NVIDIA RTX 3050 6GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/ASUS-NVIDIA-GeForce-Gaming-Graphics/dp/B0CVCG2VPK
+      - https://www.noon.com/saudi-en/dual-nvidia-geforce-rtx-3050-6gb-oc-edition-gaming-graphics-card-pcie-4-0-6gb-gddr6-memory-hdmi-2-1-displayport-1-4a-2-slot-design-axial-tech-fan-design-0db-technology-steel-bracket/N70156414V/p/
+      - https://www.infiniarc.com/en/shop/gv-n3050wf2ocv2-6gd-gigabyte-geforce-rtx-3050-windforce-oc-v2-6g-8174
+
+  - name: "NVIDIA RTX 3060 12GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/MSI-GeForce-RTX-3060-12G/dp/B08WPRMVWB
+      - https://www.noon.com/saudi-en/dual-geforce-rtx-3060-oc-nvidia-geforce-rtx-3060-12gb-gddr6-1875mhz-15gbps-192bit-pcie-4-0-x16-1x-hdmi-2-1-3x-displayport-1-4a-gaming-graphics-card-90yv0gb2-m0na10-black/N70013985V/p/
+      - https://pcd.com.sa/en/product/galax-rtx-3060-one-click-oc-12gb-2022
+      - https://www.infiniarc.com/en/shop/90yv0gb2-m0na10-asus-dual-geforce-rtx-3060-oc-edition-12gb-gddr6-3719
+
+  - name: "NVIDIA RTX 4060 8GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/MSI-RTX-4060-Architecture-2X/dp/B0C8BPW1SP
+      - https://www.noon.com/saudi-en/geforce-rtx-4060-windforce-oc-8g-graphics-card-2x-windforce-fans-8gb-128-bit-gddr6-gv-n4060wf2oc-8gd-video-card-black/N70014801V/p/
+      - https://pcd.com.sa/en/product/msi-rtx-4060-ventus-2x-black-8gb-oc
+      - https://www.infiniarc.com/en/shop/gv-n4060gaming-oc-8gd-gigabyte-geforce-rtxtm-4060-gaming-oc-8g-4265
+
+  - name: "AMD Radeon RX 7600 8GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/XFX-Speedster-QICK308-Graphics-RX-76PQICKBY/dp/B0C59PD6LD
+      - https://www.noon.com/saudi-en/xfx-speedster-swft-210-radeon-rx-7600-core-gaming-graphics-card-with-8gb-gddr6-hdmi-3xdp-amd-rdna-3/ZAF70C4821F47BF49ECFAZ/p/
+
+  - name: "AMD Radeon RX 9060 XT 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/XFX-Radeon-Triple-Gaming-RX-96TS316BA/dp/B0F8128Y33
+      - https://www.noon.com/saudi-en/dual-amd-radeon-rx-9060-xt-16gb-gddr6-graphics-card-pcie-5-0-2-5-slot-dual-axial-tech-fans-boost-clock-up-to-3250-mhz-128-bit-memory-interface-hdmi-2-1-displayport-2-1-dual-bios-performance-quiet-0db-fan-technology-vented-backplate-compact-202-mm-des/N70245442V/p/
+
+  - name: "AMD Radeon RX 9070 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-Radeon-9070-GAMING-Graphics/dp/B0DT78YM6P
+
+  - name: "AMD Radeon RX 7800 XT 16GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-Graphics-WINDFORCE-GV-R78XTGAMING-OC-16GD/dp/B0CGHQ32S2
+      - https://www.noon.com/saudi-en/xfx-speedster-qick319-radeon-rx-7800-xt-core-gaming-graphics-card-with-16gb-gddr6-hdmi-3xdp-amd-rdna-3/ZC140CB513BFDD79DF3AEZ/p/
+
+  - name: "Intel Arc B580 12GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/ASRock-B580-Challenger-DisplayPort-Operation/dp/B0DNV4NWF7
+      - https://www.noon.com/saudi-ar/asrock-intel-arc-b580-challenger-12gb-oc-graphics-card-2740-mhz-gpu-clock-12gb-gddr6-displayport-2-1-hdmi-2-1a-dual-fan-cooling-0db-silent-operation/ZA46CD5AF01580DC013E4Z/p/
+
+  - name: "NVIDIA RTX 5090 32GB"
+    category: gpu
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-GeForce-5090-Gaming-Graphics/dp/B0DT9WQW4T
+      - https://www.noon.com/saudi-en/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7-graphics-card-2550-mhz-core-clock-21760-cuda-cores-pcie-5-0-28-gbps-memory-512-bit-memory-bus-7680x4320-max-resolution-windforce-cooling-dual-bios-rgb-halo-displayport-2-1a-x3-hdmi-2-1b-x1-versatile-vga-/N70147641V/p/
+      - https://pcd.com.sa/product/asus-rog-astral-ge-force-rtx-5090-oc-edition-graphics-card-32-gb-gddr-7-memory-pc-ie-5-0-advanced-cooling-rgb-lighting-ai-overclocking
+      - https://www.infiniarc.com/en/shop/90yv0lw0-m0na00-asus-rog-astral-geforce-rtx-5090-32gb-gddr7-oc-edition-gpu-7793
+
+
+  # ================ اللوحات الأم ================
+  - name: "MSI MAG B650 Tomahawk WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-Tomahawk-Motherboard-Processors-Bluetooth/dp/B0BHCCNSRH
+      - https://www.amazon.sa/-/en/MSI-B650-TOMAHAWK-WIFI-Motherboard/dp/B0BDS873GF
+
+  - name: "Gigabyte B650 Aorus Elite AX"
+    category: motherboard
+    links:
+      - https://amazon.sa/-/en/GIGABYTE-B650-Warranty-EZ-Latch-Motherboard/dp/B0BH7GTY9C
+      - https://www.amazon.sa/-/en/Gigabyte-B650-AORUS-ELITE-Motherboard/dp/B0BJDXDWS9
+
+  - name: "Gigabyte B650 Aorus Elite AX V2"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/B650-AORUS-AX-V2-Motherboard/dp/B0CMK1W2YX
+      - https://www.amazon.sa/B650-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA/dp/B0CP17GMG3
+      - https://www.infiniarc.com/en/shop/b650-a-elite-ax-v2-gigabyte-b650-aorus-elite-ax-v2-am5-ddr5-atx-wi-fi-motherboard-5603
+
+  - name: "Gigabyte B650 Aorus Elite AX ICE (White)"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-B650-AORUS-ELITE-ICE/dp/B0CN8W5VZ4
+      - https://www.amazon.sa/-/en/B650-AORUS-AX-ICE-Motherboard/dp/B0CMJSH15D
+      - https://www.infiniarc.com/en/shop/b650-a-elite-ax-ice-gigabyte-b650-aorus-elite-ax-ice-am5-ddr5-4-m-2-wifi-6e-snow-white-atx-motherboard-5614
+
+  - name: "Gigabyte B650M Aorus Elite AX"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-B650M-AORUS-ELITE-1-0/dp/B0BJF26RJ4
+      - https://www.amazon.sa/-/en/Gigabyte-B650M-Micro-ATX-Warranty-Motherboard/dp/B0BH6XND27
+      - https://www.noon.com/saudi-en/motherboard-b650m-aorus-elite-ax-gigabyte/N70063296V/p/
+
+  - name: "ASUS TUF Gaming B650-Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/ASUS-GAMING-B650-PLUS-WIFI-Motherboard/dp/B0BHHY3M7L
+      - https://www.amazon.sa/-/en/ASUS-Gaming-B650-PLUS-Motherboard-90MB1BZ0-M0EAY0/dp/B0BHJKR3BV
+      - https://www.amazon.sa/-/en/ASUS-TUF-B650-PLUS-Motherboard-Ethernet/dp/B0BHN7GGBQ
+      - https://www.infiniarc.com/en/shop/90mb1bz0-m0eay0-asus-tuf-gaming-b650-plus-wifi-am5-ddr5-atx-black-motherboard-9219
+
+  - name: "ASUS TUF Gaming B650M-Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.noon.com/saudi-en/tuf-gaming-b650m-plus-wifi-black/N53419582A/p/
+      - https://www.noon.com/saudi-en/tuf-gaming-b650m-plus-wifi-ddr5-micro-atx-motherboard-amd-socket-am5-b650-chipset-2-5gb-ethernet-bluetooth-wifi-6e-5ghz-max-128gb-4xdimm-memory-pcie-4-0x16-2xm-2-slot-black/N53423299A/p/
+
+  - name: "MSI B650M Gaming WiFi"
+    category: motherboard
+    links:
+      - https://pcd.com.sa/en/product/msi-b650-m-gaming-wifi-motherboard-m-atx-supports-amd-ryzen-9000-8000-7000-series-processors-am-5-ddr-5-memory-boost-7800-m-hz-oc-pc-ie-4-0-x16-m-2-gen4-wi-fi-6-e
+
+  - name: "MSI PRO B760M-A WiFi (DDR5)"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-B760M-WiFi-Motherboard-Micro-ATX/dp/B0BW15M676
+      - https://amazon.sa/-/en/MSI-ProSeries-Motherboard-Supports-Processors/dp/B0C15VWF1H
+
+  - name: "MSI PRO A620M-E"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-PRO-A620M-Motherboard-Micro-ATX/dp/B0BZW9RG3P
+
+  - name: "Gigabyte A620M S2H"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/GIGABYTE-A620M-S2H-Warranty-Motherboard/dp/B0C4CKFV65
+
+  - name: "Gigabyte A620M Gaming X"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-GBT-AMD-A620M-GAMING/dp/B0C1ZZ57ZW
+
+  - name: "ASUS Prime A620M-K"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/ASUS-PRIME-A620M-K-Socket-S-ATA/dp/B0C6HWSX8C
+
+  - name: "ASRock A620M-HDV/M.2"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/Asrock-A620M-HDV-M-2-Emplacement-micro/dp/B0C1ZY1ZBH
+
+  - name: "ASUS TUF Gaming A620M-Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/TUF-GAMING-A620M-PLUS-microATX-%D9%85%D9%86%D9%81%D8%B0PCIe/dp/B0C3ZPLNTH
+
+  - name: "MSI MAG B850 Tomahawk Max WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-B850-Tomahawk-WiFi-Motherboard/dp/B0DPKVF29H
+
+  - name: "MSI B850 Gaming Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-B850-Gaming-Plus-Motherboard/dp/B0DQBT2DZ8
+
+  - name: "Gigabyte B850 Aorus Elite WiFi7"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/GIGABYTE-B850-AORUS-WIFI7-Motherboard/dp/B0DQLHVQSF
+      - https://www.amazon.sa/%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D9%84%D9%88%D8%AD%D8%A9-B850-%D8%A7%D9%88%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D9%8A%D8%AA/dp/B0DQM8GPR7
+
+  - name: "Gigabyte B850 Aorus Elite WiFi7 Ice"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/B850-AORUS-WIFI7-ICE-Motherboard/dp/B0DQLKRXKW
+      - https://www.amazon.sa/-/en/GIGABYTE-B850-AORUS-Elite-Motherboard/dp/B0DQM7H82V
+
+  - name: "Gigabyte B850 Eagle WiFi6E"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/GIGABYTE-B850-Eagle-WIFI6E-Motherboard/dp/B0DQNW4J1G
+
+  - name: "Gigabyte B850M Gaming X WiFi6E"
+    category: motherboard
+    links:
+      - https://pcd.com.sa/en/product/gigabyte-b850-m-gaming-x-wifi-6-e-motherboard-amd-b850-chipset-am-5-socket-pc-ie-5-0-support-ddr-5-memory-wi-fi-6-e-m-2-slots-usb-3-2-gen2-enhanced-thermal-and-power-design
+
+  - name: "ASUS TUF Gaming B850-Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/ASUS-B850-Plus-Motherboard-Ethernet-Flashback/dp/B0DP5DQPRC
+
+  - name: "ASUS TUF Gaming X870-Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/ASUS-TUF-Gaming-X870-PLUS-Motherboard/dp/B0DGB8Q19Y
+      - https://www.infiniarc.com/en/shop/90mb1iu0-m0eay0-asus-tuf-gaming-x870-plus-wifi-ddr5-am5-amd-motherboard-7127
+
+  - name: "MSI MAG X870 Tomahawk WiFi"
+    category: motherboard
+    links:
+      - https://amazon.sa/-/en/MSI-Tomahawk-Motherboard-Processors-Bluetooth/dp/B0DG3HK897
+
+  - name: "Gigabyte X870 Aorus Elite WiFi7"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/GIGABYTE-X870-AORUS-WIFI7-EZ-Latch/dp/B0DGVC3DDW
+
+  - name: "MSI MAG B550 Tomahawk"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-MAG-B550-TOMAHAWK-Motherboard/dp/B089CWDHFZ
+      - https://www.amazon.sa/-/en/MSI-B550-Tomahawk-Gaming-Motherboard/dp/B08B4V583Q
+
+  - name: "MSI MAG B550 Tomahawk Max WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-B550-TOMAHAWK-WIFI-Motherboard/dp/B09Z6XT5RH
+      - https://www.noon.com/saudi-ar/msi-mag-b550-tomahawk-max-wifi-gaming-motherboard-for-amd-ryzen-5000-series-cpus-am4-socket-ddr4-ram-pcie-4-0-support-6gb-s-sata-m-2-slot-usb-3-2-gen-2-ports-hdmi-dp-outputs-wi-fi-6e-and-blu/Z21466AAB8CEE880461F6Z/p/
+
+  - name: "MSI B550M PRO-VDH WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/B550M-Pro-Vdh-Proseries-Motherboard-Micro-Atx/dp/B089D1YG11
+
+  - name: "MSI MAG B550M Mortar WiFi"
+    category: motherboard
+    links:
+      - https://amazon.sa/-/en/MSI-MAG-B550M-Motherboard-Micro-ATX/dp/B08B4SD768
+
+  - name: "ASRock B550M Phantom Gaming 4"
+    category: motherboard
+    links:
+      - https://www.noon.com/saudi-en/asrock-am4-amd-b550-sata-6gb-s-micro-atx-amd-motherboard-model-b550m-phantom-gaming-4/Z5A8E4917F5F2E3CA9805Z/p/
+
+  - name: "Gigabyte B760M DS3H DDR4"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/Gigabyte-B760M-DS3H-DDR4-Motherboard/dp/B0BPMH3N7H
+      - https://pcd.com.sa/en/product/b760m-ds3h-ddr4
+
+  - name: "Gigabyte B760M DS3H DDR5"
+    category: motherboard
+    links:
+      - https://www.noon.com/saudi-en/b760m-ds3h-ddr5-lga1700-matx-motherboard-intel-b760-chipset-4x-ddr5-dimm-192gb-max-memory-realtek-2-5gbe-lan-1-x-pci-e-4-0x16-1x-d-sub-1x-hdmi-1x-dp-1x-usb-c-3-2-b760m-ds3h-ddr5-grey/N70050235V/p/
+
+  - name: "Gigabyte B760M DS3H AX DDR5"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/GIGABYTE-B760M-DS3H-AX-Motherboard/dp/B0BSP61QZC
+      - https://www.noon.com/saudi-en/b760m-ds3h-ax-ddr5-wifi-black/N70137520V/p/
+
+  - name: "MSI MAG Z790 Tomahawk WiFi DDR5"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/MSI-MAG-Z790-Motherboard-Processors/dp/B0BL8K1YH1
+      - https://pcd.com.sa/en/product/msi-mag-z790-tomahawk-max-wifi-ddr5
+
+  - name: "ASUS TUF Gaming Z790-Plus WiFi"
+    category: motherboard
+    links:
+      - https://www.amazon.sa/-/en/ASUS-Z790-PLUS-Motherboard-Ethernet-Thunderbolt/dp/B0BPHCPSCM
+      - https://www.noon.com/saudi-en/tuf-gaming-z790-plus-wifi-lga1700-atx-motherboard-intel-z790-chipset-4x-dimm-ddr5-192gb-max-capacity-pcie-5-0-x16-4-x-m-2-intel-2-5gb-eth-hdmi-dp-usb-3-2-c-90mb1d80-m1eay0-black/N70016753V/p/
+      - https://www.infiniarc.com/en/shop/90mb1d80-m1eay0-asus-tuf-gaming-z790-plus-wifi-lga1700-ddr5-atx-black-motherboard-9218
+
+
+  # ================ الرامات ================
+  - name: "Kingston Fury Beast DDR5 32GB (2x16) 6000MHz CL30"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Kingston-6000MT-Desktop-Gaming-Memory/dp/B0CYHC58P6
+      - https://www.infiniarc.com/en/shop/kf560c30bbek2-32-kingston-fury-beast-black-32gb-6000mt-s-ddr5-cl30-dimm-kit-of-2-black-desktop-gaming-memory-kf560c30bbek2-32-7468
+
+  - name: "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL30"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Kingston-2x16GB-6000MT-Desktop-Gaming/dp/B0CYM58GFS
+      - https://www.infiniarc.com/en/shop/kf560c30bbeak2-32-kingston-fury-beast-black-rgb-expo-32gb-6000mt-s-ddr5-cl30-dimm-desktop-gaming-memory-kit-of-2-kf560c30bbeak2-32-7466
+
+  - name: "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL36"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Kingston-2x16GB-6000MT-Desktop-Gaming/dp/B0BD5XBFS6
+      - https://www.amazon.sa/%D9%83%D9%8A%D9%86%D8%BA%D8%B3%D8%AA%D9%88%D9%86-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-KF560C36BBE2AK2-32/dp/B0DCGFZ97J
+      - https://www.noon.com/saudi-en/technology-fury-beast-rgb-32gb-2x16gb-6000mt-s-ddr5-cl36-desktop-memory-kit-of-2-infrared-sync-technology-amd-expo-plug-n-play-kf560c36bbeak2-32/N53438784A/p/
+      - https://www.noon.com/saudi-en/fury-beast-rgb-32gb-ddr5-dual-desktop-memory-kit-6000-mhz-memory-speed-cl36-cas-latency-288-pin-kit-intel-xmp-3-0-ready-kf560c36bbe2ak2-32/N70139121V/p/
+
+  - name: "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL30"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-VENGEANCE-2x16GB-CL30-36-36-76-Intel/dp/B0BPTKD797
+      - https://www.infiniarc.com/en/shop/cmh32gx5m2b6000c30-corsair-vengeance-rgb-32gb-2x16gb-6000mt-s-cl30-ddr5-black-memory-7983
+      - https://www.amazon.sa/-/en/CORSAIR-Vengeance-6000MHz-Compatible-Computer/dp/B0CD7WZRHF
+      - https://www.amazon.sa/-/en/CORSAIR-Vengeance-6000MHz-CL30-36-36-76-Computer/dp/B0DPJ9DJ3D
+
+  - name: "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL36"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-Vengeance-6000MHz-Compatible-Computer/dp/B0CND8DT9R
+      - https://www.noon.com/saudi-en/corsair-vengeance-rgb-ddr5-ram-32gb-2x16gb-6000mhz-cl36-intel-xmp-icue-compatible-computer-memory-black-cmh32gx5m2e6000c36/N70044665V/p/
+
+  - name: "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL40"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-VENGEANCE-CL40-40-40-77-1-35V-Memory/dp/B0B62WL8MK
+      - https://www.noon.com/saudi-en/vengeance-rgb-ddr5-ram-32gb-2x16gb-6000mhz-cl40-intel-xmp-icue-compatible-computer-memory-white-cmh32gx5m2b6000c40w-32-gb/N70052559V/p/
+      - https://pcd.com.sa/en/product/ram-corsair-vengeance-rgb-32-gb-2x16-gb-ddr-5-dram-6000-mt-s-cl-40-memory-kit-black
+
+  - name: "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL30"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/G-Skill-Trident-288-Pin-CL30-38-38-96-F5-6000J3038F16GX2-TZ5NR/dp/B0BF8FVLSL
+      - https://www.noon.com/saudi-en/trident-z5-neo-rgb-series-amd-expo-ddr5-ram-32gb-2x16gb-6000mt-s-cl30-38-38-96-1-35v-desktop-computer-memory-udimm-matte-black/Z5CB2B8C7BF6FBBC11120Z/p/
+      - https://www.amazon.sa/-/en/G-SKILL-Trident-CL30-40-40-96-Desktop-Computer/dp/B09Y1BM3ZH
+
+  - name: "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL36"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/G-SKILL-Trident-CL36-36-36-96-Desktop-Computer/dp/B09R4Z8G98
+
+  - name: "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6000MHz CL30"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/TEAMGROUP-T-Force-6000MHz-PC5-48000-Desktop/dp/B0B3HHB3Z9
+
+  - name: "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6400MHz CL40"
+    category: ram
+    links:
+      - https://www.noon.com/saudi-en/teamgroup-t-force-delta-rgb-ddr5-32gb-kit-2x16gb-6400mhz-pc5-51200-cl40-desktop-memory-module-ram-black-for-z690-ff3d532g6400hc40bdc01/Z9C945528A6D985ACE124Z/p/
+      - https://pcd.com.sa/en/product/ram-team-group-tforce-delta-rgb-ud-ddr-5-32-gb-16x2-6400-mhz-cl-40-white-ff-4-d532-g6400-hc-40-bdc-01
+
+  - name: "Kingston Fury Beast DDR4 16GB (2x8) 3200"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Kingston-16-Desktop-Memory-KF432C16BBK2/dp/B097K2WBL3
+      - https://pcd.com.sa/product/ram-kingston-16gb-8x2-3200mhz-ddr4-cl16-dimm-fury-beast-rgb/
+
+  - name: "Corsair Vengeance LPX DDR4 16GB (2x8) 3200"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Corsair-Vengeance-3200MHz-Desktop-Memory/dp/B0143UM4TC
+      - https://www.noon.com/saudi-en/vengeance-lpx-16gb-2-x-8gb-ddr4-3200-pc4-25600-c16-1-35v-desktop-memory-black/N53403328A/p/
+      - https://pcd.com.sa/en/product/ram-corsair-vengeance-lpx-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-white-cmk16gx4m2b3200c16w/
+
+  - name: "Corsair Vengeance RGB Pro DDR4 16GB (2x8) 3200"
+    category: ram
+    links:
+      - https://pcd.com.sa/en/product/corsair-vengeance-rgb-pro-16gb-2x8gb-ddr4-3200mhz-c16-led-desktop-memory-black/
+
+  - name: "Kingston Fury Beast DDR4 32GB (2x16) 3200"
+    category: ram
+    links:
+      - https://amazon.sa/-/en/Kingston-FURY-3200MHz-KF432C16BBK2-32/dp/B097K2WKZW
+
+  - name: "Corsair Vengeance LPX DDR4 32GB (2x16) 3200"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Corsair-Vengeance-2x16GB-3200MHz-Memory/dp/B016ORTNI2
+      - https://www.noon.com/saudi-en/vengeance-lpx-32gb-ddr4-3200mhz-c16/N52029343A/p/
+
+  - name: "Crucial DDR4 32GB (2x16) 3200"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Crucial-3200MHz-2933MHz-2666MHz-CT2K16G4DFD832A/dp/B07Q3HNXCC
+
+  - name: "G.Skill Ripjaws V DDR4 32GB (2x16) 3600"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/G-SKILL-Ripjaws-PC4-28800-3600MHz-F4-3600C19D-32GVRB/dp/B07FSWN49R
+
+  - name: "Corsair Vengeance RGB Pro DDR4 32GB (2x16) 3600"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-VENGEANCE-2x16GB-PC4-28800-1-35V/dp/B082DJ19CK
+
+  - name: "TeamGroup T-Force Delta RGB DDR4 32GB (2x16) 3600"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/TEAMGROUP-T-Force-Delta-Gaming-Memory/dp/B08CM4V24M
+
+  - name: "Crucial DDR5 16GB (2x8) 5600"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Crucial-5600MHz-5200MHz-4800MHz-CT2K8G56C46U5/dp/B0C79S2CHW
+
+  - name: "Kingston Fury Beast DDR5 16GB (2x8) 5600"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Kingston-5600MT-Desktop-Gaming-Memory/dp/B0BRTJCLBJ
+
+  - name: "Kingston Fury Beast DDR5 64GB (2x32) 6000"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Kingston-2x32GB-6000MT-Desktop-Gaming/dp/B0BRTHYGZF
+      - https://www.amazon.sa/-/en/Kingston-2x32GB-6000MT-Desktop-Gaming/dp/B0BRTJDWYD
+
+  - name: "Crucial Pro DDR5 64GB (2x32) 6000"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/Crucial-CP2K32G60C40U5B-6000MHz-Overclocking-Computer/dp/B0DSQVNBD5
+
+  - name: "G.Skill Trident Z5 RGB DDR5 64GB (2x32) 6000 CL30"
+    category: ram
+    links:
+      - https://www.amazon.sa/-/en/G-SKILL-Trident-6000MHz-1-40V-Channel/dp/B0BSB94VC2
+      - https://www.amazon.sa/-/en/G-SKILL-Trident-CL30-40-40-96-Desktop-Computer/dp/B09Z1R3SM6
+
+  - name: "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30"
+    category: ram
+    links:
+      - https://pcd.com.sa/en/product/xpg-lancer-rgb-64gb-2x32gb-6000mhz-ddr5-cl30-white
+
+
+  # ================ التخزين ================
+  - name: "Samsung 990 Pro 2TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Samsung-Internal-Solid-State-MZ-V9P2T0BW/dp/B0B9C4DKKG
+      - https://www.amazon.sa/-/en/SAMSUNG-Internal-Expansion-MZ-V9P2T0B-AM/dp/B0BHJJ9Y77
+      - https://www.amazon.sa/-/en/Samsung-Transfer-Internal-MZ-V9P2T0B-EC/dp/B0BPXRY7N2
+      - https://www.amazon.sa/-/en/SAMSUNG-Samsung-V-NAND-1200TBW-Warranty/dp/B0BXX1JJH8
+      - https://www.noon.com/saudi-en/990-pro-pcie-4-0-up-to-7450-mb-s-nvme-m-2-2280-internal-solid-state-drive-ssd-mz-v9p2t0bw-2-tb/N53375545A/p/
+      - https://pcd.com.sa/en/product/ssd-samsung-990-pro-2tb-m-2-nvme-ssd-mz-v9p2t0bw
+
+  - name: "Samsung 990 Pro 2TB NVMe (Heatsink)"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Samsung-Nvme-Gen4-Heatsink-Capacity/dp/B0BM459NHM
+      - https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D9%85%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D9%84%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-MZ-V9P2T0CW%D8%8C/dp/B0BHJDY57J
+      - https://www.noon.com/saudi-en/990-pro-with-heatsink-nvme-m-2-ssd-2-tb/N53418049A/p/
+
+  - name: "WD Black SN850X 2TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Black-SSD-SN850X-ATLAS-2TB/dp/B0B7CMZ3QH
+      - https://www.amazon.sa/-/en/WD_BLACK-SN850X-NVME-SSD-NON-HEATSINK/dp/B0B3RQDGL7
+      - https://pcd.com.sa/en/product/ssd-wd-black-sn-850-x-2-tb-internal-m-2-nv-me-pc-ie-4-0-ssd-up-to-7300-mb-s-read-6600-mb-s-write-wdbb-9-g0020-bnc-wrsn
+
+  - name: "WD Black SN850X 2TB NVMe (Heatsink)"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/WD_BLACK-SN850X-Heatsink-Internal-Gaming/dp/B0B7CKZGN6
+      - https://www.noon.com/saudi-en/sn850x-nvme-pcie-4-0-gaming-internal-ssd-with-heatsink-up-to-7300-mb-s-sequential-read-6600-mb-s-write-speeds-m-2-2280-1-75-million-hours-mttf-12000tb-endurance-wds200t2xhe-2-tb/N70011289V/p/
+
+  - name: "WD Black SN850X 1TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/WD_BLACK-SN850X-Internal-Gaming-Technology/dp/B0B7CKVCCV
+
+  - name: "Kingston NV3 1TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-1000G/dp/B0DBR3DZWG
+      - https://www.noon.com/saudi-en/nv3-1tb-m-2-2280-nvme-internal-ssd-up-to-6000mb-s-read-4000mb-s-write-speed-gen-4-0x4-nvme-pcie-performance-2-17g-vibration-operating-320tbw-snv3s-1000g/N70112690V/p/
+      - https://www.noon.com/saudi-en/nv3-nvme-pcie-4-0-internal-ssd-m-2-2280-snv3s-1000g-1-tb/N70134892V/p/
+      - https://pcd.com.sa/en/product/ssd-kingston-1000-g-nv-3-1-tb-m-2-2280-pc-ie-4-0-nv-me-ssd-read-speed-6000-mb-s-write-speed-4000-mb-s-snv-3-s-1000-g
+      - https://www.infiniarc.com/en/shop/snv3s-1000g-kingston-1tb-snv3s-m-2-nvme-6000mb-s-r-4000mb-s-w-solid-state-drive-6524
+
+  - name: "Crucial P3 Plus 1TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Crucial-Plus-PCIe-Gen4-5000MB/dp/B0B25NXWC7
+      - https://www.amazon.sa/%D9%83%D8%B1%D9%88%D8%B4%D8%A7%D9%84-%D8%AA%D9%8A%D8%B1%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D8%A8%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-CT1000P3PSSD801/dp/B0BYWB6237
+      - https://www.noon.com/saudi-en/p3-plus-pcie-4-0-3d-nand-nvme-m-2-ssd-up-to-5000mb-s-ct1000p3pssd8-1-tb/N70050252V/p/
+      - https://www.noon.com/saudi-en/1-tb-p3-plus-nvme-pcie-4-0-m-2-internal-ssd-up-to-5000mb-mb-s-sequential-read-up-to-3600mb-s-sequential-write-speeds-micron-3d-nand-1-5h-hour-mtbf-smart-trim-support-ct1000p3pssd8-1-tb/N70054859V/p/
+      - https://www.noon.com/saudi-en/crucial-p3-plus-1tb-pcie-4-0-3d-nand-nvme-m-2-ssd/ZB62447A29918919015C2Z/p/
+
+  - name: "Crucial T500 1TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Crucial-Internal-Gaming-Desktop-Compatible/dp/B0CK39YR9V
+      - https://www.amazon.sa/-/en/Crucial-Internal-Playstation-Compatible-CT1000T500SSD5/dp/B0CK2S298S
+
+  - name: "Lexar NM790 2TB NVMe"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Lexar-Gen4x4-Internal-Professionals-LNM790X002T-RNNNG/dp/B0C4H4YH8V
+      - https://www.amazon.sa/-/en/Lexar-Internal-Compatible-Creators-LNM790X002T-RNNNU/dp/B0C91X5DZL
+      - https://www.amazon.sa/-/en/Lexar-7400-6500-NM790-NVME/dp/B0C4ZLXGQ8
+      - https://www.noon.com/saudi-en/nm790-2tb-m-2-2280-pcie-gen4x4-nvme-internal-ssd-up-to-7200mb-s-read-up-to-6500mb-s-write-speeds-1-5m-hours-mtbf-1500tbw-endurance-compatible-with-playstation5-black-lnm790x002t-rnnng-2-tb/N70009751V/p/
+
+  - name: "Lexar NM790 1TB NVMe"
+    category: storage
+    links:
+      - https://www.noon.com/saudi-en/nm790-1tb-ssd-m-2-2280-pcie-gen4x4-nvme-1-4-internal-ssd-up-to-7400mb-s-read-up-to-6500mb-s-write-internal-solid-state-drive-for-ps5-pc-laptop-gamers-professionals-lnm790x001t-rnnng-1-tb/N70027612V/p/
+
+  - name: "Samsung 990 EVO Plus 1TB"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Technology-Intelligent-Turbowrite-MZ-V9S1T0B-AM/dp/B0DHLFWBQ1
+
+  - name: "Samsung 990 Pro 1TB"
+    category: storage
+    links:
+      - https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D8%B3%D8%AA%D8%AF%D9%8A%D9%85%D8%A9-MZ-V9P1T0BW-pc_card/dp/B0B9C3ZVHR
+      - https://www.noon.com/saudi-en/990-pro-1-tb-nvme-m-2-internal-ssd-pcie-gen-4-0-x4-nvme-2-0-interface-7450-mb-s-sequential-read-speed-6900-mb-s-sequential-write-speed-v-nand-3-bit-mlc-1-tb/N53375546A/p/
+      - https://pcd.com.sa/en/product/ssd-samsung-990-pro-1tb-m-2-nvme-ssd-mz-v9p1t0bw
+
+  - name: "Samsung 990 Pro 4TB"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Samsung-7450MB-Internal-Editing-MZ-V9P4T0BW/dp/B0CBYZ6DD1
+      - https://www.noon.com/saudi-en/samsung-990-pro-pcie-4-0-nvme-m-2-ssd-4tb-4-tb/N70031703V/p/
+      - https://pcd.com.sa/en/product/samsung-990-pro-4tb-m-2-nvme-ssd
+
+  - name: "Kingston NV3 500GB"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Kingston-Internal-500GB-2280-SNV3S-500G/dp/B0DBR9RZLV
+      - https://www.noon.com/saudi-en/nv3-pcie-4-0-nvme-internal-ssd-500gb-m-2-2280-ultra-fast-storage-for-laptops-up-to-5000mb-s-read-speed-snv3s-500g/N70157069V/p/
+
+  - name: "Kingston NV3 2TB"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Kingston-NVMe-Internal-2280-SNV3S-2000G/dp/B0DBR6TRZQ
+      - https://www.noon.com/saudi-en/nv3-2tb-m-2-2280-nvme-internal-ssd-up-to-6000mb-s-read-5000mb-s-write-speed-gen-4-0x4-nvme-pcie-performance-2-17g-vibration-operating-640tbw-snv3s-2000g/N70124904V/p/
+      - https://pcd.com.sa/en/product/ssd-kingston-2000-g-nv-3-2-tb-m-2-2280-pc-ie-4-0-nv-me-ssd-read-speed-6000-mb-s-write-speed-5000-mb-s-snv-3-s-2000-g
+
+  - name: "Crucial P3 1TB"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Crucial-PCIe-Gen3-NAND-3500MB/dp/B0B25LZGGW
+
+  - name: "WD Blue SN580 1TB"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Western-Digital-SN580-Internal-Solid/dp/B0C8XMH264
+      - https://www.noon.com/saudi-en/1tb-blue-sn580-nvme-internal-solid-state-drive-ssd-gen4-x4-pcie-16gb-s-m-2-2280-up-to-4-150-mb-s-wds100t3b0e-1-tb/N70057125V/p/
+
+  - name: "Samsung 870 EVO 1TB SATA"
+    category: storage
+    links:
+      - https://www.noon.com/saudi-en/870-evo-sata-2-5-inch-ssd-1tb-1-0-tb/N49974133A/p/
+
+  - name: "Crucial MX500 1TB SATA"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Crucial-MX500-NAND-Internal-560MB/dp/B078211KBB
+      - https://www.noon.com/saudi-en/mx500-1tb-3d-nand-sata-2-5-inch-7mm-with-9-5mm-adapter-internal-ssd-blue-gray-ct1000mx500ssd1-crucial-mx500-ssd-1000-gb/N13492337A/p/
+
+  - name: "Seagate Barracuda 2TB HDD"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Seagate-Barracuda-ST2000DM008-Internal-Drive/dp/B075WWN4QJ
+
+  - name: "WD Blue 1TB HDD"
+    category: storage
+    links:
+      - https://www.amazon.sa/-/en/Blue-Desktop-Hard-Drive-WD10EZEX/dp/B06XR3LT6W
+
+
+  # ================ مزودات الطاقة ================
+  - name: "Corsair RM850e 850W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/Corsair-RM850e-Fully-Modular-Low-Noise/dp/B0BYKT9SNJ
+      - https://www.amazon.sa/-/en/Corsair-RM850e-Modular-Low-Noise-Supply/dp/B0BYQPH5J3
+      - https://www.noon.com/saudi-en/rme-series-rm850e-fully-modular-low-noise-atx-power-supply-80-plus-gold-efficiency-850-watts-power-120mm-rifle-bearing-fan-dual-8-pin-eps12v-connectors-cp-9020263-uk-black/N70020038V/p/
+      - https://www.infiniarc.com/en/shop/cp-9020263-uk-corsair-rm850e-fully-modular-gold-low-noise-atx-power-supply-4343
+      - https://www.amazon.sa/-/en/Corsair-Modular-Compatible-Cybenetics-Capacitors/dp/B0DPR86ZC8
+      - https://www.amazon.sa/-/en/CORSAIR-RM850e-Modular-Low-Noise-12V-2x6/dp/B0F3DRP6B3
+
+  - name: "Corsair RM850x 850W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-RM850x-Fully-Modular-Supply/dp/B0D9C1DT62
+      - https://www.infiniarc.com/en/shop/cp-9020270-uk-corsair-rmx-series-rm850x-gold-850w-fully-modular-power-supply-6985
+      - https://pcd.com.sa/en/product/corsair-rmx-series-rm850x-850-watt-power-supply-80-plus-gold-psu-fully-modular-atx-black-uk-cp-9020200-uk/
+      - https://www.infiniarc.com/en/shop/cp-9020200-uk-corsair-rmx-series-rm850x-80-plus-gold-fully-modular-atx-power-supply-cp-9020200-uk-4335
+
+  - name: "MSI MAG A850GL PCIE5 850W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/MSI-MAG-A850GL-PCIE5-Warranty/dp/B0C7LJFVZN
+      - https://www.amazon.sa/-/en/MSI-850W-Power-Supply-Plus/dp/B0CB9MSJ5N
+      - https://www.noon.com/saudi-en/850w-atx-fully-modular-power-supply-mag-a850gl-pcie5-active-pfc-80-plus-gold-black/N70030704V/p/
+      - https://www.noon.com/saudi-en/mag-a850gl-pcie5-850w-modular-power-supply-intel-atx12v-version-3-0-120mm-cooling-fan-80-plus-gold-efficiency-rating-4-x-pcie-6-2-pin-connectors-8-x-sata-connectors-black-306-7zp8a18-ce0-black/N70024740V/p/
+      - https://pcd.com.sa/en/product/psu-msi-mag-a850-gl-pcie-5-gold-full-modular-gen-5-black-306-7-zp-8-a18-ce-0
+
+  - name: "Cooler Master MWE Gold 850 V2 850W"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/Cooler-Master-Efficiency-Connectors-Semi-fanless/dp/B08M9M6DB9
+      - https://amazon.sa/-/en/Cooler-Master-Certified-Modular-Supply/dp/B08H2PJS7G
+      - https://www.noon.com/saudi-en/mwe-gold-850-v2-full-modular-850w-80-plus-gold-certified-black/N52083228A/p/
+      - https://www.amazon.sa/-/en/Cooler-Master-Modular-Support-Cabling/dp/B0DHH1J3L1
+
+  - name: "Corsair RM1000e 1000W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/%D9%85%D8%B9%D9%8A%D8%A7%D8%B1%D9%8A-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D8%A7%D9%84%D8%B6%D9%88%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%83%D9%88%D8%B1%D8%B3%D9%8A%D8%B1/dp/B0BYL3MPDC
+      - https://www.amazon.sa/-/en/Corsair-RM1000e-Modular-Silent-Supply/dp/B0BVKZ9GCB
+      - https://www.noon.com/saudi-en/rme-series-rm1000e-fully-modular-low-noise-atx-power-supply-uk-black/N70019992V/p/
+      - https://www.infiniarc.com/en/shop/cp-9020264-uk-corsair-rm1000e-fully-modular-low-noise-atx-power-supply-4344
+
+  - name: "Corsair RM1000x 1000W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-RM1000x-Fully-Modular-Supply/dp/B0D9C3P46P
+      - https://pcd.com.sa/en/product/psu-corsair-rm-1000x-1000-w-80-plus-gold-fully-modular-power-supply-atx-3-1-cp-9020271-uk
+      - https://www.infiniarc.com/en/shop/cp-9020271-uk-corsair-rm1000x-gold-certified-fully-modular-power-supply-8550
+
+  - name: "Cooler Master MWE Bronze 650 V2"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/Cooler-Master-Bronze-Power-Supply/dp/B08H2J3G9K
+
+  - name: "Corsair CX650"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-Bronze-Modular-Low-Noise-Supply/dp/B0CJRXX5WT
+
+  - name: "Corsair RM750e 750W Gold"
+    category: psu
+    links:
+      - https://www.infiniarc.com/en/shop/cp-9020295-uk-corsair-rme-series-rm750e-gold-fully-modular-low-noise-atx-power-supply-7611
+
+  - name: "MSI MAG A750GL PCIE5 750W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/MSI-MAG-750W-Power-Supply/dp/B0CC3QBGDL
+
+  - name: "DeepCool PQ750M 750W Gold"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/DeepCool-PQ750M-Fully-Modular-Supply/dp/B09KX986YB
+
+  - name: "Corsair HX1200i 1200W Platinum"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-HX1200i-Modular-Ultra-Low-12V-2x6/dp/B0F3JD7M8M
+
+  - name: "Corsair RM1200x Shift 1200W"
+    category: psu
+    links:
+      - https://www.amazon.sa/-/en/Corsair-RM1200x-Shift-Modular-Supply/dp/B0BP88MYM4
+      - https://www.amazon.sa/-/en/CORSAIR-RM1200x-Shift-Modular-Supply/dp/B0CWLV1635
+
+
+  # ================ التبريد ================
+  - name: "Arctic Liquid Freezer III 360"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/ARCTIC-Freezer-Processor-Compatible-Efficient/dp/B09VH1T1C2
+
+  - name: "Arctic Liquid Freezer III Pro 360"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/ARCTIC-Liquid-Freezer-Pro-360/dp/B0DLWGG85P
+
+  - name: "NZXT Kraken 360 RGB"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/NZXT-Kraken-360-RGB-RL-KR360-B1-360mm/dp/B0BNYSKB3P
+      - https://pcd.com.sa/product/cpu-cooler-nzxt-kraken-360-rgb-black-rl-kr360-b1
+      - https://pcd.com.sa/product/cpu-cooler-nzxt-kraken-360-rgb-white-rl-kr360-w1
+      - https://www.infiniarc.com/en/shop/rl-kr360-b1-nzxt-kraken-rgb-360mm-aio-rgb-cpu-liquid-cooler-lcd-display-3-x-f120rgb-core-fans-black-radiator-4253
+
+  - name: "NZXT Kraken Plus 360 RGB"
+    category: cooler
+    links:
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-plus-360-rgb-v2-360mm-aio-liquid-cooler-w-1-54in-display-and-rgb-core-fan-white-rl-kr-360-w2
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-plus-360-rgb-v2-360mm-aio-liquid-cooler-w-1-54in-display-and-rgb-core-fan-black-rl-kr-360-b2
+      - https://www.infiniarc.com/shop/cooler/rl-kr360-w2-nzxt-kraken-plus-rgb-360mm-lcd-3-rgb-core-11462
+
+  - name: "NZXT Kraken Elite 360 RGB"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/NZXT-Kraken-Elite-RL-KR36E-W1-360mm-High-Performance/dp/B0BY3HCW17
+      - https://www.noon.com/saudi-en/nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cooler-with-lcd-display-and-rgb-fans-black-rl-kr36e-b1/ZC221050753BA732FAF65Z/p/
+      - https://pcd.com.sa/en/product/cpu-cooler-kraken-elite-360-rgb-white-rl-kr36e-w1
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-360-rgb-black-rl-kr36e-b1
+      - https://www.infiniarc.com/en/shop/rl-kr36e-w1-nzxt-kraken-elite-rgb-360mm-rl-kr36e-w1-rgb-aio-cpu-liquid-cooler-customizable-lcd-display-3-x-f120rgb-core-fans-radiator-fans-white-lga-1700-am5-compatible-4256
+
+  - name: "NZXT Kraken Elite 360 RGB (2024)"
+    category: cooler
+    links:
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cooler-w-display-rgb-controller-and-rgb-fans-black-8th-gen-pump-2024-rl-kr-36-e-b2
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cooler-w-display-rgb-controller-and-rgb-fans-white-8th-gen-pump-2024-rl-kr-36-e-w2
+      - https://www.infiniarc.com/en/shop/rl-kr36e-w2-nzxt-kraken-elite-360-rgb-v2-360mm-aio-liquid-w-display-and-rgb-core-fan-white-cooler-7480
+
+  - name: "Corsair iCUE H150i Elite LCD XT 360"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Corsair-H150i-Elite-Liquid-Cooler/dp/B0BQWSP2ZP
+      - https://www.noon.com/saudi-en/icue-h150i-elite-lcd-xt-liquid-cpu-cooler-ips-lcd-screen-three-af120-rgb-elite-fans-360mm-radiator-fits-intel-lga-1700-amd-am5-and-more-included-icue-commander-core/N70019718V/p/
+
+  - name: "Corsair iCUE H150i Elite Capellix XT 360"
+    category: cooler
+    links:
+      - https://www.noon.com/saudi-en/icue-h150i-elite-capellix-xt-liquid-cpu-cooler-360mm-radiator-copper-cold-plate-aluminum-radiator-2100-rpm-fan-speed-65-57-cfm-airflow-3-fans/N70019720V/p/
+
+  - name: "DeepCool LT720 360"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/DEEP-COOL-R-LT720-BKAMNF-G-1-DeepCool-LT720/dp/B0BLYQ6VDN
+      - https://www.amazon.sa/-/en/DeepCool-LT720-WH/dp/B0BRXW7XL1
+      - https://pcd.com.sa/en/product/water-cooler-deep-cool-lt720-360mm-infinity-mirror-argb-block
+      - https://www.infiniarc.com/en/shop/r-lt720-whamnf-g-1-deepcool-lt720-wh-360mm-fk120-fdb-fans-multidimensional-infinity-mirror-block-liquid-cpu-cooler-4628
+
+  - name: "DeepCool LS720 360"
+    category: cooler
+    links:
+      - https://www.noon.com/saudi-en/ls720-wh-360mm-liquid-cpu-cooler-high-performance-aio-cooling-triple-fc120-a-rgb-pwm-fans-infinity-mirror-cap-low-noise-efficiency-all-white-design-for-gaming-overclocking-pcs/Z4FE65604519B54E61ABDZ/p/
+      - https://www.infiniarc.com/en/shop/r-ls720-bkamnt-g-1-tray-deepcool-ls720-premium-argb-360mm-cpu-liquid-cooler-infiniarc-edition-6491
+
+  - name: "DeepCool Mystique 360"
+    category: cooler
+    links:
+      - https://www.amazon.sa/%D9%85%D9%8A%D8%B3%D8%AA%D9%8A%D9%83-%D8%A7%D9%86%D9%81%D9%8A%D9%86%D9%8A%D8%A7%D8%B1%D9%83-%D9%85%D8%B1%D8%A7%D9%88%D8%AD-%D9%88%D9%85%D8%B6%D8%AE%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%8C/dp/B0DJKT2YRK
+      - https://www.noon.com/saudi-en/deepcool-mystique-360-lcd-white-liquid-cooler-infiniarc-edition/Z62DCAAC13B24AD2C5F8CZ/p/
+      - https://www.infiniarc.com/shop/mystique-360-argb-wh-if-deepcool-mystique-360-lcd-white-liquid-cooler-infiniarc-edition-6236
+
+  - name: "DeepCool LD360"
+    category: cooler
+    links:
+      - https://pcd.com.sa/en/product/water-cooler-deepcool-ld360-argb
+
+  - name: "DeepCool AK400"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/DEEPCOOL-AK400-Performance-CPU-Cooler/dp/B0BB6W1JS3
+      - https://www.noon.com/saudi-en/deepcool-ak400-120mm-fan-4-pin-pwm-air-cooler-cpu-fan-black-support-lga1700-1200-1151-1150-1155-i-amd-am4-r-ak400-bknnmn-g-1/ZD32EFAF724075A4D95A6Z/p/
+      - https://www.infiniarc.com/en/shop/r-ak400-whnnmn-g-1-deepcool-ak400-wh-performance-cpu-cooler-4-direct-touch-copper-heat-pipes-120mm-fluid-dynamic-bearing-pwm-fans-220w-tdp-white-4199
+
+  - name: "DeepCool AK400 Zero Dark"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/DeepCool-All-Black-1850RPM-Suitable-LGA1700/dp/B0BZRK9HZZ
+      - https://www.noon.com/saudi-en/deepcool-ak400-zero-dark-cpu-cooler-for-intel-lga1700-1200-1151-1150-1155-and-amd-am5-am4-r-ak400-bknnmn-g-2/Z009F4CF6DA3B76BEB7BEZ/p/
+
+  - name: "DeepCool AK400 Digital"
+    category: cooler
+    links:
+      - https://www.noon.com/saudi-en/deepcool-ak400-digital-120mm-cpu-cooler-cpu-fan-black-support-intel-lga1700-1200-1151-1150-1155-amd-am5-am4-r-ak400-bkadmn-g/Z198A5D91EB50BFA6381DZ/p/
+      - https://pcd.com.sa/en/product/cpu-fan-deepcool-ak400-digital-black
+
+  - name: "DeepCool AK620"
+    category: cooler
+    links:
+      - https://infiniarc.com/en/shop/ak620-deepcool-ak620-cpu-cooler-3735
+      - https://amazon.sa/-/en/AK620-Zero-Dark-ALL-Black-Dual-Tower/dp/B0B6FGMSNM
+      - https://www.noon.com/saudi-en/ak620-zero-dark-cpu-air-cooler-all-black-dual-tower-design-six-copper-heat-pipes-dual-silent-fdb-fans-high-performance-cooling-premium-build-universal-compatibility-for-intel-amd-systems/Z73ADEDCD1280E7C32A32Z/p/
+
+  - name: "DeepCool AK620 Digital"
+    category: cooler
+    links:
+      - https://www.noon.com/saudi-en/ak620-digital-cpu-air-cooler-dual-tower-design-magnetic-status-display-argb-led-strips-six-copper-heat-pipes-dual-silent-fdb-fans-high-performance-cooling-universal-compatibility-for-intel-amd/Z88D4CD3DFEEFCB6C413CZ/p/
+      - https://pcd.com.sa/en/product/cpu-fan-deepcool-ak620-digital-black
+
+  - name: "Thermalright Peerless Assassin 120 SE"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Thermalright-Peerless-Assassin-Aluminium-Technology/dp/B0BN8HHLQV
+      - https://www.noon.com/saudi-en/thermalright-peerless-assassin-120-se-cpu-air-cooler-dual-tower-6-heat-pipe-dual-120mm-tl-c12c-pwm-cpu-fan-for-amd-am4-am5-intel-lga-1700-1150-1151-1200-aghp-technology-aluminium-heatsink-cover/ZBA3010AD81963BD3D630Z/p/
+
+  - name: "Thermalright Peerless Assassin 120 SE ARGB"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Thermalright-SE-ARGB-TL-C12C-S-Technology/dp/B09YT5BQD9
+      - https://www.noon.com/saudi-en/thermalright-peerless-assassin-120-se-argb-cpu-air-cooler-6-heat-pipes-cpu-cooler-dual-tl-c12c-s-pwm-fan-aluminium-heatsink-cover-aghp-technology-for-amd-am4-am5-intel-lga1700-1150-1151-1155-1200/Z929394F8EBD54784A39BZ/p/
+
+  - name: "Noctua NH-D15"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Noctua-NH-D15-Premium-Cooler-NF-A15/dp/B00L7UZMAK
+
+  - name: "Noctua NH-D15 chromax.black"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Noctua-NH-D15-chromax-Black-Dual-Tower-Cooler/dp/B07Y87YHRH
+
+  - name: "Cooler Master Hyper 212 Black Edition"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Cooler-Master-Silencio-Anodized-Gun-Metal/dp/B09KX9V4CT
+      - https://pcd.com.sa/en/product/cooler-master-hyper-212-black-edition-cpu-air-cooler/
+
+  - name: "Cooler Master Hyper 212 Halo"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Cooler-Master-Aluminum-LGA1700-RR-S4KK-20PA-R1/dp/B0BRBWL38D
+      - https://www.amazon.sa/-/en/Cooler-Master-Hyper-Halo-White/dp/B0BNYV6NV4
+      - https://pcd.com.sa/en/product/cpu-fan-cooler-master-hyper-212-halo-white/
+
+  - name: "Cooler Master Hyper 212 ARGB"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Cooler-Master-Hyper-Direct-Contact/dp/B091VP813G
+      - https://pcd.com.sa/product/coolermaster-air-hyper-212-argb-rr-2v2l-18pa-r1/
+
+  - name: "Arctic Liquid Freezer III 240"
+    category: cooler
+    links:
+      - https://www.amazon.sa/%D9%84%D9%8A%D9%83%D9%88%D9%8A%D8%AF-%D8%A7%D9%84%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1%D8%8C-%D9%84%D9%85%D8%B9%D8%A7%D9%84%D8%AC-%D9%85%D8%AA%D9%88%D8%A7%D9%81%D9%82-LGA1851/dp/B09VGX1WQH
+      - https://www.amazon.sa/-/en/ARCTIC-Liquid-Freezer-RGB-PWM-Controlled/dp/B09VH4M76W
+
+  - name: "Arctic Liquid Freezer III Pro 240"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/ARCTIC-Freezer-240-240-Cooling-Radiator/dp/B0DLWFBHSL
+
+  - name: "DeepCool LT520 240"
+    category: cooler
+    links:
+      - https://pcd.com.sa/en/product/water-cooler-deep-cool-lt520-240mm-multidimensional-infinity-mirror-argb-block/
+      - https://www.infiniarc.com/en/shop/r-lt520-bkamnf-g-1-deepcool-lt520-240mm-fk120-fdb-fans-multidimensional-infinity-mirror-block-liquid-cpu-cooler-4627
+      - https://www.amazon.sa/-/en/DeepCool-LT520-WH-Dual-Chamber-Multidimensional/dp/B0BRXWRRRF
+
+  - name: "NZXT Kraken 240 RGB"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/NZXT-Kraken-240-RGB-High-Performance/dp/B0BY3FJ4WQ
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-240-rgb-black-rl-kr240-b1
+      - https://www.infiniarc.com/en/shop/rl-kr240-w1-nzxt-kraken-rgb-240mm-rl-kr240-w1-aio-rgb-cpu-liquid-cooler-lcd-display-2-x-f120rgb-core-fans-white-radiator-4248
+
+  - name: "NZXT Kraken Elite 240 RGB"
+    category: cooler
+    links:
+      - https://www.noon.com/saudi-en/nzxt-kraken-elite-240-rgb-240mm-aio-liquid-cooler-with-lcd-display-and-rgb-fans-black-rl-kr24e-b1/ZA693575B6A59841127EEZ/p/
+      - https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-240-rgb-black-rl-kr24e-b1
+
+  - name: "Corsair iCUE H100i RGB 240"
+    category: cooler
+    links:
+      - https://www.amazon.sa/-/en/Corsair-H100i-ELITE-Liquid-Cooler/dp/B09YC9FZ8M
+      - https://pcd.com.sa/en/product/corsair-icue-h100i-rgb-pro-xt-240mm-radiator-dual-120mm-pwm-fans/
+
+
+  # ================ الكيسات ================
+  - name: "Lian Li O11 Dynamic EVO"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/Dynamic-Mid-Tower-Flexible-Configuration-Tempered/dp/B09SFFSC9D
+      - https://www.amazon.sa/-/en/Lian-Li-Pc-O11-Dynamic-Computer/dp/B09RK831X6
+      - https://www.noon.com/saudi-en/lian-li-o11-dynamic-evo-gaming-pc-case-e-atx-desktop-computer-case-mid-tower-chassis-with-flexible-mode-and-configuration-tempered-glass-panel-usb-type-c-port-easy-cable-management-harbor-grey/Z2BABAD48D0C4857CD36AZ/p/
+      - https://pcd.com.sa/en/product/case-lian-l-o11-dynamic-evo-e-atx-computer-case-white-g99-o11dew-00
+
+  - name: "Lian Li O11 Dynamic EVO RGB"
+    category: case
+    links:
+      - https://www.infiniarc.com/en/shop/g99-011dergbw-00-lian-li-o11-dynamic-evo-rgb-tempered-glass-atx-mid-tower-white-gaming-case-9278
+
+  - name: "Lian Li O11 Dynamic EVO XL"
+    category: case
+    links:
+      - https://www.amazon.sa/%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%AF%D9%8A%D9%86%D8%A7%D9%85%D9%8A%D9%83-%D9%84%D9%8A%D8%A7%D9%86-%D9%85%D8%AA%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%85%D9%85%D8%AA%D8%AF%D8%A9/dp/B0CKJ11LFD
+
+  - name: "NZXT H6 Flow"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/NZXT-CC-H61FB-01-Dual-Chamber-High-Performance-Management/dp/B0C89FCDFP
+      - https://www.noon.com/saudi-en/h6-flow-edition-mid-tower-airflow-case-3x-fan-s-without-rgb-black/Z05D8136F453828165C24Z/p/
+      - https://pcd.com.sa/en/product/nzxt-h6-flow-2023-compact-dual-chamber-atx-case-all-white-cc-h61fw-01
+      - https://www.infiniarc.com/shop/cc-h61fb-01-nzxt-h6-flow-4906
+      - https://www.infiniarc.com/en/shop/cc-h61fw-01-nzxt-h6-flow-compact-dual-chamber-atx-case-white-4908
+
+  - name: "NZXT H6 Flow RGB"
+    category: case
+    links:
+      - https://www.noon.com/saudi-en/h6-flow-rgb-cc-h61fw-r1-compact-dual-chamber-mid-tower-airflow-case-includes-3-x-120mm-rgb-fans-panoramic-glass-panels-high-performance-airflow-panels-cable-management-white/N70089551V/p/
+      - https://www.noon.com/saudi-en/h6-flow-edition-mid-tower-airflow-case-3x-fan-s-rgb-black/Z9E8D5EB483A02D4BA3BEZ/p/
+      - https://pcd.com.sa/en/product/nzxt-h6-flow-rgb-2023-compact-dual-chamber-atx-case-with-rgb-fans-all-black-cc-h61fb-r1
+      - https://www.infiniarc.com/en/shop/cc-h61fb-r1-nzxt-h6-flow-rgb-compact-dual-chamber-atx-case-with-rgb-fans-black-4909
+
+  - name: "Corsair 4000D Airflow"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/Corsair-Airflow-CC-9011200-WW-Tempered-Mid-Tower/dp/B08C7BGV3D
+      - https://pcd.com.sa/en/product/corsair-4000d-airflow-tempered-glass-mid-tower-atx-pc-case-black
+      - https://www.infiniarc.com/en/shop/corsair-4000d-airflow-2184
+      - https://www.infiniarc.com/en/shop/cc-9011201-ww-corsair-4000d-airflow-tempered-glass-mid-tower-atx-case-white-3855
+
+  - name: "Corsair iCUE 4000D RGB Airflow"
+    category: case
+    links:
+      - https://www.noon.com/saudi-en/icue-4000d-rgb-mid-tower-case-3x-af120-rgb-elite-fans-lighting-node-pro-controller-high-airflow-design-rapidroute-cable-management-system-black/N70017527V/p/
+      - https://infiniarc.com/en/shop/cc-9011241-ww-corsair-icue-4000d-rgb-airflow-mid-tower-case-true-white-3x-af120-rgb-elite-white-fans-icue-lighting-node-pro-controller-high-airflow-design-2196
+
+  - name: "Lian Li Lancool 216"
+    category: case
+    links:
+      - https://www.noon.com/saudi-en/lancool-216-e-atx-pc-case-airflow-focus-rgb-gaming-computer-case-with-all-around-mesh-panels-2x160mm-1x140mm-pwm-fans-pre-installed-and-innovative-rear-pcie-fan-bracket-chassis/Z815340D9BD1304FA5AC4Z/p/
+      - https://www.noon.com/saudi-en/lian-li-lancool-216-rgb-white-steel-tempered-glass-atx-mid-tower-computer-case-2x-160-mm-argb-fans-included-lancool-216rw-white/Z28375D72E33EB4084894Z/p/
+      - https://pcd.com.sa/en/product/lian-li-lancool-216-rgb-tempered-glass-atx-mid-tower-black-g99-lan216rx-00
+
+  - name: "Lian Li Lancool 207"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/LANCOOL-Computer-Optimized-Pre-Installed-Tempered/dp/B0DHXWYK4J
+      - https://pcd.com.sa/en/product/case-lian-li-lancool-207-black-g99-lan-207-rx-00
+      - https://pcd.com.sa/en/product/case-lian-li-lancool-207-white-g99-lan-207-rw
+
+  - name: "Montech AIR 903 MAX"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/Montech-AIR-903-MAX-Pre-Installed/dp/B0CB26ZFKV
+
+  - name: "Corsair 3500X"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/CORSAIR-3500X-Mid-Tower-ATX-Case/dp/B0CZV22HDF
+
+  - name: "HYTE Y60"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/HYTE-Aesthetic-Panoramic-Mid-Tower-CS-HYTE-Y60-B/dp/B09TQ1J58V
+      - https://www.noon.com/saudi-en/hyte-y60-modern-aesthetic-mid-tower-atx-gaming-pc-case-panoramic-tempered-glass-design-dual-chamber-360mm-radiator-support-3-pre-installed-120mm-fans-pcie-4-0-cable-black-black-cs-hyte-y60-b/ZAE9B00ACDB0A23845797Z/p/
+
+  - name: "HYTE Y70 Touch"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/Touch-Tower-Black-M-ATX-M-ITX/dp/B0CM28R26G
+      - https://www.noon.com/saudi-ar/hyte-y70-touch-dual-chamber-atx-mid-tower-modern-aesthetic-case-with-integrated-4k-lcd-touchscreen-snow-white/Z9EE9459AC5FBA1739B5BZ/p/
+
+  - name: "NZXT H9 Flow"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/NZXT-Dual-Chamber-Mid-Tower-Airflow-Black/dp/B0BJGP7XQ7
+
+  - name: "Cooler Master MasterBox Q300L"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/Cooler-Master-MasterBox-Patterned-MCB-Q300L-KANN-S00/dp/B0785GRMPG
+
+  - name: "Phanteks XT Pro"
+    category: case
+    links:
+      - https://www.amazon.sa/-/en/Phanteks-Mid-Tower-Performance-Tempered-Positions/dp/B0CV365B3B
+
+  # ---------------- أضف قطعك هنا ----------------
+  # - name: "اسم القطعة"
+  #   category: storage
+  #   links:
+  #     - رابط المنتج في أي متجر

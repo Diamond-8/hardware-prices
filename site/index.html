@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أرخص قطعة</title>
+<meta name="description" content="قارن أسعار قطع الكمبيوتر في أمازون ونون وطبيب الكمبيوتر وإنفني أرك، وشوف الأرخص لكل قطعة">
+<meta name="theme-color" content="#0B1C3F">
+<script src="config.js"></script>
+<script src="track.js" defer></script>
+<script>window.track = window.track || function () {};</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy-900: #081632;
+    --navy-800: #0B1C3F;
+    --navy-700: #11285A;
+    --navy-600: #173470;
+    --line: #25468A;
+    --gold: #E7B54A;
+    --gold-soft: #F3D48E;
+    --gold-ink: #2A1E05;
+    --text: #EEF2FB;
+    --muted: #9BADD3;
+    --down: #5ED6A8;
+    --up: #FF8A7A;
+    --plate: #FFFFFF;
+    --r-lg: 22px;
+    --r-md: 14px;
+    --r-sm: 10px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 600px at 85% -10%, #1A3A7A 0%, transparent 60%),
+      var(--navy-800);
+    background-attachment: fixed;
+    color: var(--text);
+    font-family: "Readex Pro", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  /* ---------- البيسي ثلاثي الأبعاد في الخلفية ---------- */
+  #pc3d {
+    position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 0; pointer-events: none;
+    opacity: 0;
+  }
+  #pc3d:not(.on) { opacity: 0 !important; }
+  #pc3d.on { transition: opacity .25s linear; animation: pcIn 1.6s ease; }
+  @keyframes pcIn { from { filter: brightness(0); } }
+  body > *:not(#pc3d) { position: relative; z-index: 1; }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+  .num { font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+
+  /* ---------- الشريط العلوي ---------- */
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand-mark {
+    width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center;
+    background: var(--gold); color: var(--gold-ink);
+  }
+  .brand-name { font-weight: 700; font-size: 20px; letter-spacing: -0.2px; white-space: nowrap; }
+  .status { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); text-align: start; }
+  .pulse { flex: none; }
+  .pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--down); box-shadow: 0 0 0 4px rgba(94,214,168,.15); }
+
+  /* ---------- الواجهة الرئيسية ---------- */
+  .hero { padding: 36px 0 28px; display: grid; gap: 40px; align-items: center; }
+  @media (min-width: 980px) { .hero { grid-template-columns: 1.15fr .85fr; } }
+  .hero-stage { min-height: 0; }
+  @media (min-width: 980px) { .hero-stage { min-height: 460px; } }
+  .compare {
+    display: none; background: rgba(17, 40, 90, .9); border: 1px solid var(--line); border-radius: var(--r-lg);
+    padding: 22px; margin-bottom: 26px;
+  }
+  .compare.ready { display: grid; gap: 4px 40px; }
+  @media (min-width: 860px) {
+    .compare.ready { grid-template-columns: minmax(220px, .8fr) 1.2fr; align-items: center; }
+    .compare .bars { grid-row: 1 / span 3; grid-column: 2; }
+    .compare-save { border-top: 0; padding-top: 0; margin-top: 6px; }
+  }
+  .compare-kicker { font-size: 13px; color: var(--muted); margin: 0; }
+  .compare-name { font-size: 20px; font-weight: 600; color: var(--text); margin: 4px 0 22px; direction: ltr; text-align: right; line-height: 1.35; }
+  .bars { display: grid; gap: 12px; }
+  .bar-row { display: grid; grid-template-columns: 110px 1fr auto; gap: 12px; align-items: center; font-size: 14px; }
+  .bar-track { height: 10px; border-radius: 999px; background: var(--navy-900); overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 999px; background: #3A5C9E; transform-origin: right; animation: grow .9s cubic-bezier(.2,.8,.2,1) both; }
+  .bar-row.cheapest .bar-fill { background: var(--gold); }
+  .bar-row.cheapest .bar-price { color: var(--gold); font-weight: 600; }
+  .bar-price { white-space: nowrap; }
+  @keyframes grow { from { transform: scaleX(0); } }
+  @media (prefers-reduced-motion: reduce) { .bar-fill { animation: none; } }
+  .compare-save { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; }
+  .compare-save b { color: var(--down); font-weight: 600; }
+  .hero h1 {
+    margin: 0; font-weight: 700; line-height: 1.12;
+    font-size: clamp(34px, 5.4vw, 60px); letter-spacing: -1px; max-width: 14ch;
+  }
+  .hero p { color: var(--muted); font-size: clamp(16px, 2vw, 19px); margin: 16px 0 0; max-width: 52ch; }
+  .search {
+    margin-top: 28px; display: flex; align-items: center; gap: 12px; max-width: 640px;
+    background: var(--navy-700); border: 1px solid var(--line); border-radius: 18px; padding: 6px 6px 6px 18px;
+    padding-inline-start: 18px;
+  }
+  .search:focus-within { border-color: var(--gold); }
+  .search svg { flex: none; color: var(--muted); }
+  .search input {
+    flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--text);
+    font: inherit; font-size: 17px; padding: 12px 0;
+  }
+  .search input::placeholder { color: #7488B5; }
+  .search kbd {
+    flex: none; font: inherit; font-size: 12px; color: var(--muted); border: 1px solid var(--line);
+    border-radius: 8px; padding: 4px 9px; margin-inline-end: 8px;
+  }
+  .facts { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 30px; }
+  .fact b { display: block; font-size: 26px; font-weight: 600; color: var(--gold); line-height: 1.1; }
+  .fact > span { font-size: 13px; color: var(--muted); }
+
+  /* ---------- لوحة الأسعار (شريط النزول) ---------- */
+  .board {
+    margin: 8px 0 36px; background: var(--navy-900); border-block: 1px solid var(--line);
+    overflow: hidden; position: relative;
+  }
+  .board-head {
+    position: absolute; inset-block: 0; inset-inline-start: 0; z-index: 2; display: flex; align-items: center;
+    padding: 0 18px; background: var(--gold); color: var(--gold-ink); font-weight: 600; font-size: 14px; white-space: nowrap;
+  }
+  .board-track { display: flex; width: max-content; animation: ticker 60s linear infinite; }
+  .board:hover .board-track { animation-play-state: paused; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(50%); } }
+  @media (prefers-reduced-motion: reduce) {
+    .board-track { animation: none; }
+    .board { overflow-x: auto; }
+  }
+  .tick {
+    display: flex; align-items: center; gap: 12px; padding: 14px 26px; white-space: nowrap;
+    border-inline-end: 1px solid #1B3366; text-decoration: none; cursor: pointer; background: none; border-block: 0; border-inline-start: 0;
+    color: var(--text); font: inherit; font-size: 14px;
+  }
+  .tick:hover .tick-name { color: var(--gold-soft); }
+  .tick-name { direction: ltr; }
+  .tick-price { font-weight: 600; }
+  .tick-drop { color: var(--down); font-weight: 600; }
+
+  /* ---------- الأقسام ---------- */
+  .cats { display: grid; grid-template-columns: repeat(auto-fit, minmax(112px, 1fr)); gap: 10px; margin-bottom: 26px; }
+  .cat {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 10px; padding: 14px 14px 12px;
+    background: var(--navy-700); border: 1px solid var(--line); border-radius: var(--r-md);
+    color: var(--text); font: inherit; cursor: pointer; text-align: start;
+  }
+  .cat svg { color: var(--gold); }
+  .cat-label { font-size: 15px; font-weight: 500; line-height: 1.2; }
+  .cat-count { font-size: 12px; color: var(--muted); }
+  .cat:hover { border-color: #3A62AE; }
+  .cat[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); }
+  .cat[aria-pressed="true"] svg, .cat[aria-pressed="true"] .cat-count { color: var(--gold-ink); }
+
+  /* ---------- أدوات الفلترة ---------- */
+  .toolbar {
+    position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+    padding: 12px 0; margin-bottom: 18px; background: rgba(11,28,63,.92); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .toolbar .result-count { font-size: 14px; color: var(--muted); margin-inline-end: auto; }
+  .stores { display: flex; flex-wrap: wrap; gap: 6px; }
+  .store-toggle {
+    font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 999px; cursor: pointer;
+    background: transparent; color: var(--muted); border: 1px solid var(--line);
+  }
+  .store-toggle[aria-pressed="true"] { color: var(--text); border-color: var(--gold); background: rgba(231,181,74,.12); }
+  .sort {
+    font: inherit; font-size: 14px; color: var(--text); background: var(--navy-700); border: 1px solid var(--line);
+    border-radius: var(--r-sm); padding: 8px 12px; cursor: pointer;
+  }
+
+  /* ---------- البطاقات ---------- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; padding-bottom: 56px; }
+  .card {
+    display: flex; flex-direction: column; min-width: 0;
+    background: rgba(17, 40, 90, .86); border: 1px solid var(--line); border-radius: var(--r-lg); overflow: hidden;
+  }
+  .plate {
+    position: relative; height: 190px; margin: 10px 10px 0; border-radius: 16px; background: var(--plate);
+    display: grid; place-items: center; overflow: hidden;
+  }
+  .plate img { max-width: 82%; max-height: 82%; object-fit: contain; }
+  .plate.empty { background: linear-gradient(160deg, #1B3B7C, var(--navy-600)); }
+  .plate.empty svg { color: var(--gold); opacity: .9; }
+  .badge {
+    position: absolute; top: 10px; inset-inline-start: 10px; font-size: 12px; font-weight: 600;
+    padding: 4px 10px; border-radius: 999px;
+  }
+  .badge.down { background: #0F3D30; color: var(--down); }
+  .badge.up { background: #47201C; color: var(--up); }
+  .card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .card-cat { font-size: 12px; color: var(--muted); }
+  .card-name { margin: 2px 0 0; font-size: 16px; font-weight: 500; line-height: 1.35; direction: ltr; text-align: right; overflow-wrap: anywhere; }
+  .price-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .where { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .fact .currency { font-size: 15px; color: var(--gold); margin-inline-start: 4px; }
+  .price { font-size: 34px; font-weight: 700; color: var(--gold); line-height: 1; letter-spacing: -0.5px; }
+  .currency { font-size: 14px; font-weight: 500; color: var(--muted); margin-inline-start: 6px; }
+  .where { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  .where b { color: var(--text); font-weight: 500; }
+  .na { color: var(--muted); font-size: 15px; }
+  .spark { width: 96px; height: 34px; flex: none; }
+  .save { font-size: 13px; color: var(--down); }
+
+  details.offers { border-top: 1px solid var(--line); padding-top: 10px; }
+  details.offers summary {
+    list-style: none; cursor: pointer; font-size: 14px; color: var(--muted); display: flex; justify-content: space-between; align-items: center;
+  }
+  details.offers summary::-webkit-details-marker { display: none; }
+  details.offers summary::after { content: "+"; font-size: 18px; color: var(--gold); }
+  details.offers[open] summary::after { content: "−"; }
+  .offer-list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 2px; }
+  .offer {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    padding: 9px 10px; border-radius: var(--r-sm); text-decoration: none;
+  }
+  .offer:hover { background: var(--navy-600); }
+  .offer-store { font-size: 14px; }
+  .offer-model { display: block; font-size: 12px; color: var(--muted); max-width: 170px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; direction: ltr; text-align: right; }
+  .offer-price { font-size: 14px; font-weight: 500; white-space: nowrap; }
+  .offer.is-best .offer-price { color: var(--gold); }
+  .offer-err { font-size: 12px; color: #7488B5; }
+  .tag-out { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; margin-inline-start: 6px; }
+
+  .buy {
+    margin-top: auto; display: flex; align-items: center; justify-content: center; gap: 8px;
+    background: var(--gold); color: var(--gold-ink); text-decoration: none; font-weight: 600; font-size: 15px;
+    padding: 12px; border-radius: var(--r-md);
+  }
+  .buy:hover { background: var(--gold-soft); }
+
+  .empty-state { grid-column: 1 / -1; text-align: center; padding: 70px 16px; color: var(--muted); }
+  .empty-state b { display: block; color: var(--text); font-size: 20px; margin-bottom: 6px; }
+  .banner {
+    display: none; margin: 0 0 20px; padding: 12px 16px; border-radius: var(--r-md);
+    background: rgba(231,181,74,.12); border: 1px solid rgba(231,181,74,.4); color: var(--gold-soft); font-size: 14px;
+  }
+  footer { border-top: 1px solid var(--line); padding: 26px 0 44px; color: var(--muted); font-size: 13px; }
+  footer p { margin: 0 0 6px; max-width: 70ch; }
+  .foot-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; }
+  .socials { display: flex; gap: 10px; }
+  .social {
+    display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 999px;
+    background: var(--navy-700); border: 1px solid var(--line); color: var(--text);
+    font: inherit; font-size: 14px; text-decoration: none; cursor: pointer;
+  }
+  .social:hover { border-color: var(--gold); color: var(--gold-soft); }
+  .social-handle { direction: ltr; }
+
+  @media (max-width: 640px) {
+    .hero { padding-top: 16px; }
+    .search kbd { display: none; }
+    .facts { gap: 18px 22px; }
+    .fact b { font-size: 22px; }
+    .board-head { padding: 0 12px; font-size: 13px; }
+    .plate { height: 170px; }
+    /* الأقسام تصير صف يتمرر بالعرض بدل شبكة طويلة */
+    .cats { display: flex; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; }
+    .cats::-webkit-scrollbar { display: none; }
+    .cat { flex: none; flex-direction: row; align-items: center; padding: 10px 14px; }
+    .cat svg { width: 22px; height: 22px; }
+    .cat-count { display: none; }
+    .toolbar { position: static; backdrop-filter: none; }
+    .stores { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: 100%; order: 3; }
+    .stores::-webkit-scrollbar { display: none; }
+    .store-toggle { flex: none; }
+  }
+</style>
+</head>
+<body>
+<canvas id="pc3d" aria-hidden="true"></canvas>
+<div class="wrap">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="أرخص قطعة">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+      </span>
+      <span class="brand-name">أرخص قطعة</span>
+    </a>
+    <div class="status"><span class="pulse"></span><span id="updated">جاري التحميل</span></div>
+  </header>
+
+  <section class="hero">
+   <div>
+    <h1>كل قطعة كمبيوتر بأرخص سعر في السعودية</h1>
+    <p>نقارن أسعار أمازون ونون وطبيب الكمبيوتر وإنفني أرك، ونحدّثها كل كم ساعة عشان تشتري من المكان الأرخص.</p>
+    <label class="search">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input type="search" id="q" placeholder="دوّر على قطعة، مثلاً RTX 5070 أو 7800X3D" autocomplete="off" aria-label="بحث عن قطعة">
+      <kbd>/</kbd>
+    </label>
+    <div class="facts" id="facts"></div>
+   </div>
+   <div class="hero-stage" aria-hidden="true"></div>
+  </section>
+</div>
+
+<div class="board" id="board" hidden>
+  <div class="board-head">أكبر نزول</div>
+  <div class="board-track" id="track"></div>
+</div>
+
+<main class="wrap">
+  <div class="banner" id="banner"></div>
+  <aside class="compare" id="compare" aria-label="مثال مقارنة"></aside>
+  <nav class="cats" id="cats" aria-label="الأقسام"></nav>
+
+  <div class="toolbar">
+    <span class="result-count" id="count"></span>
+    <div class="stores" id="stores" role="group" aria-label="المتاجر"></div>
+    <select class="sort" id="sort" aria-label="الترتيب">
+      <option value="price-asc">الأرخص أولاً</option>
+      <option value="drop">أكبر نزول</option>
+      <option value="save">أكبر فرق بين المتاجر</option>
+      <option value="price-desc">الأغلى أولاً</option>
+      <option value="name">حسب الاسم</option>
+    </select>
+  </div>
+
+  <section class="grid" id="grid" aria-live="polite"></section>
+</main>
+
+<footer class="wrap">
+  <div class="foot-row">
+    <div>
+      <p>نعرض بس القطع المتوفرة فعلاً. لو قطعة نفدت من كل المتاجر تختفي، وترجع أول ما تتوفر.</p>
+      <p>الأسعار تنسحب تلقائياً من صفحات المتاجر وممكن تختلف عن السعر النهائي وقت الشراء، فتأكد من السعر في المتجر.</p>
+    </div>
+    <div class="socials">
+      <a class="social" href="https://instagram.com/0xaa" target="_blank" rel="noopener" aria-label="حسابي في انستقرام">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        <span class="social-handle">0xaa</span>
+      </a>
+      <button class="social" id="discord" type="button" data-user="7.fc" aria-label="انسخ اسمي في ديسكورد">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.6 5.3A16.6 16.6 0 0 0 15.5 4l-.5 1a15.3 15.3 0 0 0-6 0L8.5 4a16.6 16.6 0 0 0-4.1 1.3C1.8 9.2 1.1 13 1.4 16.7a16.7 16.7 0 0 0 5 2.5l1.1-1.7c-.6-.2-1.2-.5-1.7-.9l.4-.3a11.9 11.9 0 0 0 11.6 0l.4.3c-.5.4-1.1.7-1.7.9l1.1 1.7a16.6 16.6 0 0 0 5-2.5c.4-4.3-.7-8-3-11.4ZM8.7 14.4c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm6.6 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"/></svg>
+        <span class="social-handle">7.fc</span>
+      </button>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ---------------- أيقونات الأقسام (تظهر بدل الصورة لو ما فيه صورة) ----------------
+const ICONS = {
+  cpu: '<rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/>',
+  gpu: '<rect x="2" y="6" width="20" height="11" rx="2"/><circle cx="8.5" cy="11.5" r="3"/><circle cx="16" cy="11.5" r="3"/><path d="M4 17v3M8 17v2"/>',
+  motherboard: '<rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="6" height="6" rx="1"/><path d="M16 7v10M18 7v10M7 16h6"/>',
+  ram: '<rect x="2" y="7" width="20" height="9" rx="1.5"/><path d="M6 10v3M10 10v3M14 10v3M18 10v3M4 16v2M20 16v2M12 16v2"/>',
+  storage: '<rect x="2" y="8" width="20" height="8" rx="1.5"/><circle cx="18" cy="12" r="1"/><path d="M5 11h7M5 13h5"/>',
+  psu: '<rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="10" cy="12" r="4"/><path d="M10 9.5v5M7.5 12h5M17 9h1.5M17 12h1.5M17 15h1.5"/>',
+  cooler: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2"/><path d="M12 10c0-3 1.5-5 4-5M14 12c3 0 5 1.5 5 4M12 14c0 3-1.5 5-4 5M10 12c-3 0-5-1.5-5-4"/>',
+  case: '<rect x="6" y="2" width="12" height="20" rx="2"/><circle cx="12" cy="14" r="3"/><path d="M9 6h6M9 8.5h6"/>',
+  all: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+};
+const icon = (k, s = 26) =>
+  `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k] || ICONS.all}</svg>`;
+
+// ---------------- بيانات تجريبية (تظهر فقط لو ملف الأسعار مو موجود) ----------------
+const DEMO = {
+  demo: true, updated_at: null,
+  categories: { cpu: "المعالجات", gpu: "كروت الشاشة", motherboard: "اللوحات الأم", ram: "الرامات",
+                storage: "التخزين", psu: "مزودات الطاقة", cooler: "التبريد المائي", case: "الكيسات" },
+  products: [
+    ["AMD Ryzen 7 7800X3D", "cpu", [["أمازون السعودية", 1289], ["نون", 1349], ["طبيب الكمبيوتر", 1399]], 1349],
+    ["AMD Ryzen 5 7600 / 7600X", "cpu", [["نون", 699], ["أمازون السعودية", 729]], 749],
+    ["NVIDIA RTX 5070 12GB", "gpu", [["طبيب الكمبيوتر", 2449], ["إنفني أرك", 2499], ["أمازون السعودية", 2599]], 2599],
+    ["AMD Radeon RX 9070 XT 16GB", "gpu", [["أمازون السعودية", 2899], ["نون", 2950]], 2899],
+    ["Gigabyte B650 Aorus Elite AX V2", "motherboard", [["إنفني أرك", 899], ["أمازون السعودية", 949]], 999],
+    ["Kingston Fury Beast DDR5 32GB 6000MHz CL30", "ram", [["أمازون السعودية", 449], ["إنفني أرك", 479]], 469],
+    ["Samsung 990 Pro 2TB NVMe", "storage", [["نون", 699], ["طبيب الكمبيوتر", 749]], 799],
+    ["Corsair RM850e 850W Gold", "psu", [["أمازون السعودية", 459], ["نون", 489]], 459],
+    ["Arctic Liquid Freezer III 360", "cooler", [["أمازون السعودية", 389]], 429],
+    ["Lian Li O11 Dynamic EVO", "case", [["طبيب الكمبيوتر", 649], ["نون", 699]], 649],
+  ].map(([name, category, offers, prev]) => ({
+    name, category, previous_best: prev, image: null,
+    offers: offers.map(([store, price]) => ({ store, price, url: "#", in_stock: true })),
+    history: [prev * 1.04, prev, prev * 0.98, offers[0][1]].map(price => ({ price })),
+  })),
+};
+
+// ---------------- الحالة ----------------
+const state = { data: null, cat: "all", q: "", sort: "price-asc", stores: new Set() };
+const $ = s => document.querySelector(s);
+const fmt = n => Math.round(n).toLocaleString("en-US");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+const safeImg = u => /^https?:\/\//i.test(u || "") || /^[\w\/.-]+$/.test(u || "") ? u : "";
+
+// أرخص عرض من المتاجر المختارة فقط
+function bestOf(p) {
+  const pool = (p.offers || []).filter(o => o.price && o.in_stock !== false && state.stores.has(o.store));
+  return pool.length ? pool.reduce((a, b) => (b.price < a.price ? b : a)) : null;
+}
+const dropOf = p => {
+  const b = bestOf(p);
+  return b && p.previous_best ? (b.price - p.previous_best) / p.previous_best : 0;
+};
+const spreadOf = p => {
+  const ps = (p.offers || []).filter(o => o.price && state.stores.has(o.store)).map(o => o.price);
+  return ps.length > 1 ? Math.max(...ps) - Math.min(...ps) : 0;
+};
+
+async function load() {
+  try {
+    const res = await fetch("data.json?_=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    state.data = await res.json();
+  } catch {
+    state.data = DEMO;
+  }
+  const d = state.data;
+  d.products = d.products || [];
+  d.products.forEach(p => (p.offers || []).forEach(o => state.stores.add(o.store)));
+
+  if (d.demo) {
+    const b = $("#banner");
+    b.textContent = "هذي بيانات تجريبية للعرض. شغّل سكربت السحب عشان تظهر الأسعار الحقيقية.";
+    b.style.display = "block";
+  }
+  $("#updated").textContent = d.updated_at
+    ? "آخر تحديث " + new Date(d.updated_at).toLocaleString("ar-SA-u-nu-latn-ca-gregory", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" })
+    : "بيانات تجريبية";
+
+  renderFacts(); renderCompare(); renderBoard(); renderCats(); renderStores(); render();
+}
+
+function renderFacts() {
+  const ps = state.data.products;
+  const priced = ps.filter(p => bestOf(p));
+  const offers = ps.reduce((n, p) => n + (p.offers || []).filter(o => o.price).length, 0);
+  const savings = priced.map(spreadOf).filter(Boolean);
+  const avgSave = savings.length ? savings.reduce((a, b) => a + b, 0) / savings.length : 0;
+  $("#facts").innerHTML = [
+    [priced.length, "قطعة بسعر محدّث"],
+    [state.stores.size, "متاجر سعودية"],
+    [offers, "سعر نقارن بينها"],
+    avgSave ? [avgSave, "متوسط الفرق بين أغلى وأرخص متجر", true] : null,
+  ].filter(Boolean).map(([v, l, money]) =>
+    `<div class="fact"><b><span class="num">${fmt(v)}</span>${money ? '<small class="currency"> ر.س</small>' : ""}</b><span>${l}</span></div>`).join("");
+}
+
+// لوحة المقارنة في الأعلى: القطعة اللي فيها أكبر فرق بين المتاجر
+function renderCompare() {
+  const el = $("#compare");
+  const pick = state.data.products
+    .map(p => {
+      // أرخص عرض لكل متجر
+      const per = {};
+      (p.offers || []).forEach(o => {
+        if (o.price && state.stores.has(o.store) && (!per[o.store] || o.price < per[o.store])) per[o.store] = o.price;
+      });
+      const rows = Object.entries(per).sort((a, b) => a[1] - b[1]);
+      return { p, rows, spread: rows.length > 1 ? rows[rows.length - 1][1] - rows[0][1] : 0 };
+    })
+    .filter(x => x.rows.length >= 2)
+    .sort((a, b) => (b.rows.length >= 3) - (a.rows.length >= 3) || b.spread - a.spread)[0];
+  if (!pick || !pick.spread) { el.classList.remove("ready"); return; }
+  // الأطوال من نطاق الأسعار عشان الفرق يبان حتى لو الأسعار متقاربة
+  const min = pick.rows[0][1], max = pick.rows[pick.rows.length - 1][1];
+  const width = price => 30 + 70 * (price - min) / (max - min || 1);
+  el.innerHTML = `
+    <p class="compare-kicker">نفس القطعة، أسعار مختلفة</p>
+    <p class="compare-name">${esc(pick.p.name)}</p>
+    <div class="bars">${pick.rows.map(([store, price], i) => `
+      <div class="bar-row${i === 0 ? " cheapest" : ""}">
+        <span>${esc(store)}</span>
+        <span class="bar-track"><span class="bar-fill" style="display:block;width:${width(price).toFixed(1)}%;animation-delay:${i * 90}ms"></span></span>
+        <span class="bar-price num">${fmt(price)} ر.س</span>
+      </div>`).join("")}</div>
+    <p class="compare-save">لو اشتريت من ${esc(pick.rows[0][0])} توفّر <b class="num">${fmt(pick.spread)} ر.س</b></p>`;
+  el.classList.add("ready");
+}
+
+function renderBoard() {
+  const drops = state.data.products
+    .map(p => ({ p, b: bestOf(p), d: dropOf(p) }))
+    .filter(x => x.b && x.d < -0.004)
+    .sort((a, b) => a.d - b.d).slice(0, 14);
+  if (!drops.length) { $("#board").hidden = true; return; }
+  const item = x => `<button class="tick" data-name="${esc(x.p.name)}">
+      <span class="tick-name">${esc(x.p.name)}</span>
+      <span class="tick-price num">${fmt(x.b.price)} ر.س</span>
+      <span class="tick-drop num">▼ ${Math.abs(x.d * 100).toFixed(0)}%</span></button>`;
+  const html = drops.map(item).join("");
+  // نكرر المحتوى مرتين عشان الحركة تكون متصلة بدون فراغ
+  $("#track").innerHTML = html + html.replace(/<button /g, '<button tabindex="-1" aria-hidden="true" ');
+  $("#board").hidden = false;
+}
+
+function renderCats() {
+  const { categories = {}, products } = state.data;
+  const counts = {};
+  const shown = products.filter(bestOf);
+  shown.forEach(p => counts[p.category] = (counts[p.category] || 0) + 1);
+  const items = [["all", "الكل", shown.length],
+    ...Object.entries(categories).filter(([k]) => counts[k]).map(([k, v]) => [k, v, counts[k]])];
+  $("#cats").innerHTML = items.map(([k, label, n]) => `
+    <button class="cat" data-cat="${esc(k)}" aria-pressed="${k === state.cat}">
+      ${icon(k)}
+      <span><span class="cat-label">${esc(label)}</span><br><span class="cat-count">${n} قطعة</span></span>
+    </button>`).join("");
+}
+
+function renderStores() {
+  const all = [...state.stores];
+  $("#stores").innerHTML = all.map(s =>
+    `<button class="store-toggle" data-store="${esc(s)}" aria-pressed="true">${esc(s)}</button>`).join("");
+}
+
+function spark(history) {
+  const pts = (history || []).map(h => h.price).filter(Boolean);
+  if (pts.length < 2) return "";
+  const w = 96, h = 34, pad = 3;
+  const min = Math.min(...pts), max = Math.max(...pts), span = max - min || 1;
+  const xy = pts.map((p, i) => [
+    w - pad - (i / (pts.length - 1)) * (w - pad * 2),   // الوقت من اليمين لليسار
+    h - pad - ((p - min) / span) * (h - pad * 2)]);
+  const d = xy.map((c, i) => (i ? "L" : "M") + c[0].toFixed(1) + " " + c[1].toFixed(1)).join(" ");
+  const last = xy[xy.length - 1];
+  const down = pts[pts.length - 1] <= pts[0];
+  const col = down ? "var(--down)" : "var(--up)";
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="تغيّر السعر مع الوقت">
+    <path d="${d}" fill="none" stroke="${col}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${last[0]}" cy="${last[1]}" r="3" fill="${col}"/></svg>`;
+}
+
+function card(p) {
+  const cats = state.data.categories || {};
+  const best = bestOf(p);
+  const d = dropOf(p);
+  const spread = spreadOf(p);
+  const badge = best && Math.abs(d) >= 0.005
+    ? `<span class="badge ${d < 0 ? "down" : "up"} num">${d < 0 ? "▼" : "▲"} ${Math.abs(d * 100).toFixed(0)}%</span>` : "";
+  const plate = safeImg(p.image)
+    ? `<div class="plate">${badge}<img src="${esc(safeImg(p.image))}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer"
+         onerror="this.parentElement.classList.add('empty');this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:ICONS_HTML['${esc(p.category)}']||ICONS_HTML.all}).firstChild)"></div>`
+    : `<div class="plate empty">${badge}${icon(p.category, 64)}</div>`;
+
+  const offers = (p.offers || []).filter(o => state.stores.has(o.store) && o.price && o.in_stock !== false);
+  const rows = offers.map(o => {
+    const isBest = best && o === best;
+    const right = o.price
+      ? `<span class="offer-price num">${fmt(o.price)} ر.س</span>`
+      : `<span class="offer-err">${esc(o.error || "ما فيه سعر")}</span>`;
+    return `<li><a class="offer${isBest ? " is-best" : ""}" href="${esc(safeUrl(o.url))}" target="_blank" rel="noopener nofollow"
+      data-track="offer" data-product="${esc(p.name)}" data-cat="${esc(p.category)}" data-store="${esc(o.store)}" data-price="${o.price || ""}">
+      <span><span class="offer-store">${esc(o.store)}${o.in_stock === false ? '<span class="tag-out">غير متوفر</span>' : ""}</span>
+      ${o.title ? `<span class="offer-model">${esc(o.title)}</span>` : ""}</span>${right}</a></li>`;
+  }).join("");
+
+  const priceBlock = best
+    ? `<div>
+         <div class="price-row">
+           <div class="price"><span class="num">${fmt(best.price)}</span><span class="currency">ر.س</span></div>
+           ${spark(p.history)}
+         </div>
+         <div class="where">الأرخص في <b>${esc(best.store)}</b></div>
+         ${spread ? `<div class="save">أوفر بـ <span class="num">${fmt(spread)}</span> ر.س من أغلى متجر</div>` : ""}
+       </div>`
+    : `<p class="na">ما فيه سعر في المتاجر المختارة حالياً</p>`;
+
+  const n = offers.length;
+  return `<article class="card">
+    ${plate}
+    <div class="card-body">
+      <div><div class="card-cat">${esc(cats[p.category] || p.category)}</div>
+      <h2 class="card-name">${esc(p.name)}</h2></div>
+      ${priceBlock}
+      ${n ? `<details class="offers"><summary>قارن ${n === 1 ? "العرض" : n + " عروض"}</summary><ul class="offer-list">${rows}</ul></details>` : ""}
+      ${best ? `<a class="buy" href="${esc(safeUrl(best.url))}" target="_blank" rel="noopener nofollow"
+          data-track="buy" data-product="${esc(p.name)}" data-cat="${esc(p.category)}" data-store="${esc(best.store)}" data-price="${best.price}">اشترِ من ${esc(best.store)}</a>` : ""}
+    </div></article>`;
+}
+
+function render() {
+  const q = state.q.trim().toLowerCase();
+  // ما نعرض أي قطعة ما لها سعر متوفر في المتاجر المختارة
+  const list = state.data.products.filter(p => bestOf(p) &&
+    (state.cat === "all" || p.category === state.cat) &&
+    (!q || p.name.toLowerCase().includes(q)));
+  const price = p => (bestOf(p) || { price: Infinity }).price;
+  const sorters = {
+    "price-asc": (a, b) => price(a) - price(b),
+    "price-desc": (a, b) => (price(b) === Infinity ? -1 : price(b)) - (price(a) === Infinity ? -1 : price(a)),
+    "drop": (a, b) => dropOf(a) - dropOf(b),
+    "save": (a, b) => spreadOf(b) - spreadOf(a),
+    "name": (a, b) => a.name.localeCompare(b.name),
+  };
+  list.sort(sorters[state.sort]);
+  $("#count").textContent = list.length ? `${fmt(list.length)} قطعة` : "";
+  $("#grid").innerHTML = list.length ? list.map(card).join("")
+    : `<div class="empty-state"><b>ما لقينا قطعة بهالاسم</b>جرّب اسم أقصر، مثلاً اكتب الرقم بس زي 5070 أو 7800</div>`;
+}
+
+const ICONS_HTML = Object.fromEntries(Object.keys(ICONS).map(k => [k, icon(k, 64)]));
+
+// ---------------- التفاعل ----------------
+let searchTimer = null;
+$("#q").addEventListener("input", e => {
+  state.q = e.target.value; render();
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    const q = state.q.trim();
+    if (q.length >= 2) track("search", { q, results: document.querySelectorAll("#grid .card").length });
+  }, 1400);
+});
+// ضغطات روابط المتاجر
+document.addEventListener("click", e => {
+  const a = e.target.closest("a[data-track]");
+  if (!a) return;
+  track("click", { product: a.dataset.product, category: a.dataset.cat, store: a.dataset.store,
+                   price: parseFloat(a.dataset.price) || null, url: a.href, kind: a.dataset.track });
+});
+$("#sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+$("#cats").addEventListener("click", e => {
+  const b = e.target.closest(".cat"); if (!b) return;
+  state.cat = b.dataset.cat;
+  if (state.cat !== "all") track("filter", { category: state.cat });
+  document.querySelectorAll(".cat").forEach(c => c.setAttribute("aria-pressed", c === b));
+  render();
+});
+$("#stores").addEventListener("click", e => {
+  const b = e.target.closest(".store-toggle"); if (!b) return;
+  const s = b.dataset.store;
+  if (state.stores.has(s) && state.stores.size === 1) return;   // لازم يبقى متجر واحد على الأقل
+  state.stores.has(s) ? state.stores.delete(s) : state.stores.add(s);
+  b.setAttribute("aria-pressed", state.stores.has(s));
+  renderFacts(); renderCompare(); renderBoard(); render();
+});
+$("#track").addEventListener("click", e => {
+  const t = e.target.closest(".tick"); if (!t) return;
+  state.q = t.dataset.name; $("#q").value = state.q;
+  state.cat = "all"; renderCats(); render();
+  $("#cats").scrollIntoView({ block: "start" });
+});
+// ديسكورد ما يسمح بفتح الحساب من الاسم، فنسخ الاسم للحافظة
+$("#discord").addEventListener("click", async e => {
+  const b = e.currentTarget, h = b.querySelector(".social-handle");
+  try { await navigator.clipboard.writeText(b.dataset.user); h.textContent = "تم النسخ"; }
+  catch { h.textContent = b.dataset.user; }
+  setTimeout(() => (h.textContent = b.dataset.user), 1600);
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== $("#q")) { e.preventDefault(); $("#q").focus(); }
+});
+load();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/environments/RoomEnvironment.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js" defer></script>
+<script src="pc3d.js?v=3" defer></script>
+</body>
+</html>

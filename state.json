@@ -1,0 +1,2325 @@
+{
+ "links": {
+  "https://www.amazon.sa/AMD-10665103/dp/B0CKKY9743": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD Ryzen 7 7800X3D AM5 Desktop Processor with AMD Radeon Graphics, 8 Cores & 16 Threads, 5 GHz Max Boost Clock, 8MB L2 & 96MB L3 Cache, DDR5 Memory & 128GB Max Capacity",
+   "image": "https://m.media-amazon.com/images/I/61Y8qnaQ9xL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1713.98,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/": {
+   "store": "نون",
+   "last_error": "HTTP 403"
+  },
+  "https://infiniarc.com/en/shop/100-100001084wof-amd-ryzen-7-9800x3d-ryzen-7-9000-series-zen-5-8-core-5-2-ghz-socket-am5-120w-amd-radeon-graphics-desktop-processor-100-100001084wof-7303": {
+   "store": "إنفني أرك",
+   "last_error": "Timeout"
+  },
+  "https://www.amazon.sa/-/en/AMD-7800X3D-4-2GHz-Processor-Socket/dp/B0CTD76W9C": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من آي إم دي رايزن 7 7800X3D، رايزن 7 من إيه إم دي",
+   "image": "https://m.media-amazon.com/images/I/61kuNFhOiwL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1259.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/cpu-amd-ryzen-7-9800-x3-d-tray": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "CPU AMD Ryzen 7 9800X3D TRAY",
+   "image": "https://pcd.com.sa/uploads/9800_X3_D_ded11fc05d.webp",
+   "status": "available",
+   "price": 1799.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.infiniarc.com/en/shop/100-000001084-tray-amd-ryzen-7-9800x3d-ryzen-7-9000-series-zen-5-8-core-5-2-ghz-am5-socket-radeon-graphics-desktop-processor-tray-8215": {
+   "store": "إنفني أرك",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/AMD-Ryzen-9800X3D-Processor-Integrated/dp/B0DKFMSMYK": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD معالج كمبيوتر مكتبي رايزن 7 9800X3D AM5، ثماني النواة و16 خيط، اقصى تردد يصل الى 5.2 جيجاهرتز، بطاقة رسومات AMD راديون مدمجة، ذاكرة 192GB كحد اقصى، قناة مزدوجة، ذاكرة مؤقتة L3 104MB",
+   "image": "https://m.media-amazon.com/images/I/71NMFO0iUhL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1929.99,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/amd-ryzen-7-9800-x3-d-8-core-16-thread-box": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "amd-ryzen-7-9800-x3-d-8-core-16-thread-box",
+   "status": "no_price"
+  },
+  "https://www.infiniarc.com/en/shop/100-000000593-amd-processor-ryzen-5-7600x-6-core-4-7-ghz-socket-am5-105w-desktop-processor-tray-5755": {
+   "store": "إنفني أرك",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/AMD-9800X3D-Unboxed-Fansless-Processor/dp/B0DQ86KCP2": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج AMD رايزن 7 9800X3D ثماني النواة 5.2 جيجاهرتز 96 ميجابايت (بدون صندوق)",
+   "image": "https://m.media-amazon.com/images/I/61GiYoOYTEL._AC_SL1080_.jpg",
+   "status": "available",
+   "price": 1799.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-7600X-4-7GHz-Desktop-Processor/dp/B0BBJDS62N": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج AMD رايزن 5 7600X 4.7 Ghz 6 كور ايه ام 5",
+   "image": "https://m.media-amazon.com/images/I/41YoCM57ZUL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 700.89,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-Ryzen-4-7GHz-Processor-Socket/dp/B0CTD6CMSS": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD مقبس صينية معالج رايزن 5 7600X 6 × 4.7 جيجاهرتز سداسي النواة (كمبيوتر): AM5 105W",
+   "image": "https://m.media-amazon.com/images/I/71J6BMoFiOL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 677.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/gigabyte-ge-force-rtx-5070-eagle-oc-ice-12-g": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "gigabyte-ge-force-rtx-5070-eagle-oc-ice-12-g",
+   "status": "no_price"
+  },
+  "https://www.amazon.sa/-/en/7600X-Desktop-Processor-DDR5-5200-Compatible/dp/B0F9F8N37Z": {
+   "store": "أمازون السعودية",
+   "last_error": "HTTP 404"
+  },
+  "https://www.amazon.sa/-/en/AMD-9600X-Processor-Threads-Graphics/dp/B0D6NN6TM7": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD معالج وحدة المعالجة المركزية رايزن 5 9600X AM5، 6 نوى و12 خيط، اقصى تردد 5.4GHz، ذاكرة تخزين مؤقت L2 6MB و32MB L3، بطاقة رسومات AMD راديون، زين 5، منفذ الملحقات الاضافية السريع 5.0 × 16",
+   "image": "https://m.media-amazon.com/images/I/61RfWUr4kvL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 859.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-9600X-Processor-Distimiser-Guaranteed/dp/B0FJS4QC84": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD معالج مروحة رايزن 5 9600X صينية 3.90 جيجاهرتز 32 ميجابايت ايه ام 5 بدون صندوق (جهاز التوزيع مضمون)",
+   "image": "https://m.media-amazon.com/images/I/619yMYItq7L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 769.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Intel-i5-14400F-Desktop-Processor-P-cores/dp/B0CQ1Y7KHV": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من إنتل كور i5-14400F كور i5 من إنتل",
+   "image": "https://m.media-amazon.com/images/I/61IgclF1FEL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 739.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/asus-prime-ge-force-rtx-5070-oc-edition-graphics-card-12-gb-gddr-7-triple-fan-cooling-dlss-4-ray-tracing-pc-ie-5-0-metal-backplate-nvidia-blackwell-architecture": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "asus-prime-ge-force-rtx-5070-oc-edition-graphics-card-12-gb-gddr-7-triple-fan-cooling-dlss-4-ray-tracing-pc-ie-5-0-metal-backplate-nvidia-blackwell-architecture",
+   "status": "no_price"
+  },
+  "https://www.amazon.sa/%D9%85%D8%B9%D8%A7%D9%84%D8%AC-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%A5%D9%86%D8%AA%D9%84-%D9%83%D9%88%D8%B1-14400F/dp/B0CQ3142LB": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من إنتل كور i5 14400F كور i5 من إنتل",
+   "image": "https://m.media-amazon.com/images/I/611rIbNXc1L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 726.85,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Intel%C2%AE-i7-14700K-Desktop-Processor-P-cores/dp/B0CHBFWJDN": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من إنتل كور™ i7-14700K، كور i7 من إنتل",
+   "image": "https://m.media-amazon.com/images/I/61aAAg73uLL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1574.97,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/i7-14700K-Desktop-Processor-Integrated-Graphics/dp/B0CGJ41C9W": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من إنتل كور™ i7-14700K، كور i7 من إنتل",
+   "image": "https://m.media-amazon.com/images/I/61aAAg73uLL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1574.97,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-5600-12-Thread-Unlocked-Processor/dp/B09VCHR1VH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج AMD رايزن ™5 لجهاز كمبيوتر مكتبي 5600 سداسي النواة ومدعوم بـ 12 مسارًا وغير مغلق مع مبرد رايث ستيلث",
+   "image": "https://m.media-amazon.com/images/I/51So7GoGvxL._AC_SL1384_.jpg",
+   "status": "available",
+   "price": 615.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-5700X-16-Thread-Unlocked-Processor/dp/B09VCHQHZ6": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج AMD رايزن™ 7 5700X ثماني النواة من 16 ثريد وغير محدود",
+   "image": "https://m.media-amazon.com/images/I/51gRv8z+K6L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 857.28,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://amazon.sa/-/en/AMD-Ryzen-5800X3D-16-Thread-Technology/dp/B09VCJ2SHD": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج سطح المكتب رايزين AMD™ 7 5800X ثلاثي الابعاد 8-كور، 16 خيط مع تقنية AMD ثلاثية الابعاد في - كاش™",
+   "image": "https://m.media-amazon.com/images/I/51rz9osumDL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 1771.84,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-RyzenTM-5-8400F/dp/B0D2JD6P86": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر رايزن™ 5 8400F من ايه ام دي",
+   "image": "https://m.media-amazon.com/images/I/51drz0yDCJL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 679.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-7700X-16-Thread-Unlocked-Processor/dp/B0BBHHT8LY": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج AMD رايزن™ 7 7700X ثماني النواة من 16 ثريد غير مقفل، 4.0 GHz، ايه ام 5",
+   "image": "https://m.media-amazon.com/images/I/51YWWkCP+hL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1064.18,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-9700X-16-Thread-Unlocked-Processor/dp/B0D6NMDNNX": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD معالج وحدة المعالجة المركزية رايزن 7 9700X AM5، ثماني النواة و16 خيط، اقصى تردد 5.5 GHz، ذاكرة تخزين مؤقت L2 8MB و32MB L3، بطاقة رسومات AMD راديون، DDR5-5600 ECC، معمارية زين 5، منفذ PCIe 5.0 × 16",
+   "image": "https://m.media-amazon.com/images/I/61F3ZChalyL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1368.38,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/gigabyte-ge-force-rtx-5080-16-g-aero-oc": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "gigabyte-ge-force-rtx-5080-16-g-aero-oc",
+   "status": "no_price"
+  },
+  "https://www.amazon.sa/-/en/AMD-RyzenTM-9900X-24-Thread-Processor/dp/B0D6NN87T8": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "AMD معالج سطح المكتب 9 9900X بـ12 نواة و24 خيط غير مقفل من رايزن™",
+   "image": "https://m.media-amazon.com/images/I/61dukbEGziL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1558.61,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/AMD-Ryzen-Processor-Integrated-Graphics/dp/B0DVZSG8D5": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من آي إم دي رايزن 9 9950X3D، رايزن 9 من آي إم دي",
+   "image": "https://m.media-amazon.com/images/I/71hZfMZNZuL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 2667.94,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Intel-12400F-Desktop-Processor-Cache/dp/B09NPJRDGD": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "صندوق معالج انتل كور i5‏ 12400F",
+   "image": "https://m.media-amazon.com/images/I/51EwtPjHkIL._AC_SL1280_.jpg",
+   "status": "available",
+   "price": 839.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Intel%C2%AE-i7-14700KF-Desktop-Processor-P-cores/dp/B0CGJC178L": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر مكتبي جديد للالعاب من انتل® كور™ i7-14700KF 20 نواة (8 بي كور + 12 نواة إلكترونية) - بدون قفل",
+   "image": "https://m.media-amazon.com/images/I/61JhyZyKOcL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1544.97,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/i9-14900K-Desktop-Processor-Integrated-Graphics/dp/B0CGJDKLB8": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كمبيوتر من إنتل كور™ i9-14900K كور i9 من إنتل",
+   "image": "https://m.media-amazon.com/images/I/619ytLAytAL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1999.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Intel-Ultra-Desktop-Processor-cores/dp/B0DFK2MH2D": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "انتل معالج كمبيوتر مكتبي كور الترا 7 265 كيه - 20 نواة (8 بي كور + 12 اي كور) حتى 5.5 جيجاهرتز",
+   "image": "https://m.media-amazon.com/images/I/51gf0NAUHkL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 1499.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Intel-Core-Ultra-Processor-245K/dp/B0DFK2P311": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "معالج كور الترا 5 لسطح المكتب 245K - 14 نواة (6 نوى للأداء + 8 نواة للكفاءة) تصل سرعتها إلى 5.2 جيجا هرتز من انتل",
+   "image": "https://m.media-amazon.com/images/I/51vTDOi0KCL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 999.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-SFF-Ready-Graphics-2-5-slot-Axial-tech/dp/B0DYPFY7JG": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "ASUS Prime GeForce RTX 5070 12GB GDDR7 OC Edition SFF-Ready Graphics Card (PCIe 5.0, 12GB GDDR7, HDMI/DP 2.1, 2.5-slot, Axial-tech fans, Dual BIOS)",
+   "image": "https://m.media-amazon.com/images/I/81qKy0QvLHL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3869.95,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Prime-GeForce-Graphics-Display-SFF-Ready/dp/B0DYPF19H9": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسوميات برايم جي فورس RTX 5070 GDDR7، تدعم منفذ PCIe 5.0، مزودة بمخرج HDMI و منفذ عرض رقمي 2.1 وفتحة 2.5 ومراوح بالتدفق المحوري مناسبة للحواسب ذات الحجم الصغير،12 جيجابايت، من اسوس",
+   "image": "https://m.media-amazon.com/images/I/81k7x6q1XFL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3888.11,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/ram-kingston-16gb-8x2-3200mhz-ddr4-cl16-dimm-fury-beast-rgb/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "ram-kingston-16gb-8x2-3200mhz-ddr4-cl16-dimm-fury-beast-rgb",
+   "status": "no_price"
+  },
+  "https://www.amazon.sa/-/en/ASUS-3-125-slot-Military-Grade-Components-Protective/dp/B0DS6S98ZF": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات للألعاب تي يو اف جيفورس RTX ™ 5070 12 جيجا GDDR7 إصدار مكسور السرعة من اسوس (منفذ PCIe® 5.0 وHDMI®/DP 2.1، فتحة 3.125 بمكونات بجودة عسكرية وطلاء للوحة الدوائر المطبوعة ومراوح أكسيال-تيك)",
+   "image": "https://m.media-amazon.com/images/I/815-M4vy8JL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 5075.58,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/PNY-GEFORCE-RTXTM-Overclocked-Graphics/dp/B0F4Z2DNH2": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات جيفورس ار تي اكس™ 5060 بسعة 8 جيجابايت مع مروحة مزدوجة وتقنية دي ال اس اس 4 من بي ان واي",
+   "image": "https://m.media-amazon.com/images/I/61980M2Kf8L._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 2199.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-Graphics-RTX5060Ti-DisplayPort-PRIME-RTX5060TI-O16G/dp/B0F4DQYLP5": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات برايم جيفورس RTX 5060 Ti بسعة 16GB GDDR7، إصدار مكسور السرعة بدعم تقنية DLSS 4 من انفيديا بتصميم سميك 2.5 فتحة ودعم منفذ PCIe 5.0، بـ3 منافذ عرض 2.1b ومنفذ اتش دي ام اي 2.1b من اسوس",
+   "image": "https://m.media-amazon.com/images/I/81DUf-juX8L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3390.45,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-GeForce-Inspire-Graphics-STORMFORCE/dp/B0F32N1ZGH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقاة رسومات انفيديا جيفورس RTX 5060 Ti Inspire 2X OC بذاكرة GDDR7 سعة 16GB بسرعة 28Gbps وبعرض ناقل 128 بت مزودة بنظام تبريد بثلاث مراوح ستورم فورس ومنافذ HDMI 2.1b منافذ عرض 2.1b",
+   "image": "https://m.media-amazon.com/images/I/71z3ijEjNhL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 10260.13,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-Graphics-2-5-Slot-DisplayPort-PRIME-RTX5070TI-O16G/dp/B0DVGVZZYY": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات ألعاب برايم جيفورس RTX 5070 Ti 16GB GDDR7 إصدار او سي (انفيديا جيفورس RTX5070 Ti DLSS 4، تصميم 2.5 فتحة منفذ PCIe 5.0/3X منفذ عرض 2.1b/منفذ HDMI 2.1b/برايم RTX5070TI-O16G من اسس",
+   "image": "https://m.media-amazon.com/images/I/81PfcRFvKTL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 5850.15,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-Radeon-9070-GAMING-Graphics/dp/B0DT7B79K9": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات راديون RX 9070 XT للألعاب OC بسعة 16GB من جيجابايت - ذاكرة GDDR6 سعة 16GB، 256 بت، PCI-E 5.0، تردد قلب 3060 ميجاهرتز، 2 × DisplayPort، 2 × HDMI، GV-R9070XTGAMING OC-16GD",
+   "image": "https://m.media-amazon.com/images/I/81OO5-B1DVL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3990.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Sapphire-Pulse-RadeonTM-Gaming-Graphics/dp/B0DTHMPWFR": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "زافير بطاقة رسومات للالعاب بالس AMD راديون RX 9070 XT مع ذاكرة GDDR6 سعة 16GB، AMD RDNA 4",
+   "image": "https://m.media-amazon.com/images/I/71CC7BfXjGL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 4800.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Sapphire-Nitro-RadeonTM-Gaming-Graphics/dp/B0DTHP39JF": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "زافير بطاقة عرض مرئي للالعاب من نيترو بلس AMD راديون RX 9070 XT مع ذاكرة GDDR6 سعة 16GB، AMD RDNA 4",
+   "image": "https://m.media-amazon.com/images/I/81anmp7jb6L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 4400.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/XFX-Radeon-9070XT-Triple-Graphics/dp/B0DXLG4FJ3": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات سويفت AMD راديون RX 9070XT إصدار الألعاب بثلاث مراوح مع ذاكرة GDDR6 16 جيجابايت بسعة 9070XT من اكس اف اكس، أسود",
+   "image": "https://m.media-amazon.com/images/I/61E-Ds-mCbL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 4000.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASRock-Accelerators-PCIe5-0-HDMI2-1b-Graphics/dp/B0DTT7CPWV": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اسروك بطاقة رسومات AMD راديون RX 9070 XT ستيل ليجند سعة 16GB بلون ابيض 20Gbps GDDR6 256 بت (مسرعات ذكاء اصطناعي الجيل الثالث RT الجيل الثاني) PCIe5.0 800 واط مروحة ثلاثية 2×8 دبوس DP2.1a HDMI2.1b فتحة",
+   "image": "https://m.media-amazon.com/images/I/611FTdLlAYL._AC_SL1200_.jpg",
+   "status": "available",
+   "price": 4449.95,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-Graphics-SFF-Ready-DisplayPort-PRIME-RTX5080-O16G/dp/B0DS65VMC6": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات ألعاب برايم جيفورس RTX 5080 إصدار GDDR7 كسر سرعة المعالج ‏16 جيجابايت (خاصية SFF، مفتاح بيوس مزدوج، منفذ PCIe 5.0، 1 × HDMI 2.1b، 3X منفذ عرض 2.1a، ‏PRIME-RTX5080-O16G)",
+   "image": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 7390.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GeForce-WINDFORCE-Graphics-GV-N3050WF2OC-8GD/dp/B0C1T7FYQ3": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات جيفورس ار تي اكس 3050 ويند فورس او سي بذاكرة رام 8 جيجابايت من جيجابايت، 2 × مروحة ويند فورس، ذاكرة GDDR6 8 جيجابايت، بطاقة فيديو بذاكرة GDDR6 128 بت، رقم الموديل GV-N3050WF2OC-8GD",
+   "image": "https://m.media-amazon.com/images/I/714FjlFPX9L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3117.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-NVIDIA-GeForce-Gaming-Graphics/dp/B0CVCG2VPK": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات ألعاب اسوس انفيديا جيفورس RTX 3050 6GB إصدار كسر سرعة المعالج بمنفذ PCIe 4.0 وذاكرة GDDR6 6GB ومنفذ HDMI 2.1 ومنفذ عرض 1.4a بفتحتين ومروحة بتقنية اكسيال تيك وتقنية 0 ديسيبل ودعامة ستيل",
+   "image": "https://m.media-amazon.com/images/I/81mwcITtHBL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1287.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-GeForce-RTX-3060-12G/dp/B08WPRMVWB": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة عرض مرئي قيمنق من ام اس اي، جيفورس RTX 3060، 2GB، 15 جيجابت في الثانية، GDRR6، HDMI 192 بت، HDMI/DP منفذ ملحقات اضافية سريع 4 توركس مروحة مزدوجة (RTX 3060 فنتوس X2 12G او سي)",
+   "image": "https://m.media-amazon.com/images/I/71rzG8m5h6L._AC_SL1280_.jpg",
+   "status": "available",
+   "price": 3099.82,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-RTX-4060-Architecture-2X/dp/B0C8BPW1SP": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات للألعاب جيفورس آر تي إكس 4060 8 جيجابايت GDRR6 128 - بت بمنفذ HDMI/دي بي منفذ عرض ومروحة نفلينك توركس 4.0 وتقنية ادا لوفليس اركيتيكتر (آر تي إكس 4060 فينتوس 2X أسود 8جيجا OC) من ام اس اي",
+   "image": "https://m.media-amazon.com/images/I/71t1ClD2EtL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 5627.47,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/XFX-Radeon-Triple-Gaming-RX-96TS316BA/dp/B0F8128Y33": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات سويفت AMD راديون RX 9060 XT OC إصدار العاب ثلاثي المراوح مع 16GB GDDR6 HDMI 2xDP، AMD RDNA 4 RX 9060XT RX-96TS316BA من اكس اف اكس",
+   "image": "https://m.media-amazon.com/images/I/71IHZE7uAcL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3176.5,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-Radeon-9070-GAMING-Graphics/dp/B0DT78YM6P": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات راديون آر اكس 9070 للألعاب من جيجابايت، OC 16G - ذاكرة GDDR6 سعة 16 جيجابايت، 256 بت، PCI-E 5.0، تردد قلب 2700 ميجاهرتز، 2 x DisplayPort، 2 x HDMI، بطاقة فيديو GV-R9070GAMING OC-16GD",
+   "image": "https://m.media-amazon.com/images/I/810BADDS2RL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3399.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-Graphics-WINDFORCE-GV-R78XTGAMING-OC-16GD/dp/B0CGHQ32S2": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات راديون ار اكس 7800 اكس تي للألعاب او سي 16 جيجابايت من جيجابايت، 3 مراوح ويند فورس 16 جيجابايت 256 بت GDDR6، بطاقة فيديو GV-R78XTGAMING OC-16GD",
+   "image": "https://m.media-amazon.com/images/I/71GKfo5qtaL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 5064.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/product/coolermaster-air-hyper-212-argb-rr-2v2l-18pa-r1/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "coolermaster-air-hyper-212-argb-rr-2v2l-18pa-r1",
+   "status": "no_price"
+  },
+  "https://www.amazon.sa/-/en/ASRock-B580-Challenger-DisplayPort-Operation/dp/B0DNV4NWF7": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات انتل ارك B580 تشالينجر 12GB (إصدار OC) من اسروك، سرعة وحدة معالجة رسومات جرافيكية 2740 ميجاهرتز، ذاكرة 12GB GDDR6، منافذ عرض 2.1 وHDMI 2.1a، نظام تبريد بمروحتين، وتشغيل صامت 0dB",
+   "image": "https://m.media-amazon.com/images/I/81igM3aW65L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1999.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GeForce-5090-Gaming-Graphics/dp/B0DT9WQW4T": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات جيجابايت جيفورس RTX 5090 للألعاب OC 32 جيجا – سعة 32 جيجابايت GDDR7، عرض ناقل 512 بت، واجهة PCI-E 5.0، تردد نواة 2550 ميجاهرتز، 3 منافذ ديسبلاي بورت 2.1a، موديل GV-N5090GAMING OC-32GD",
+   "image": "https://m.media-amazon.com/images/I/81mcAFFn-1L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 43507.99,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-Tomahawk-Motherboard-Processors-Bluetooth/dp/B0BHCCNSRH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من إم إس آي طراز B650 توماهوك واي فاي لمعالجات إيه إم دي مع ذاكرة DDR5 بتصميم ATX",
+   "image": "https://m.media-amazon.com/images/I/71TYAcZ4J8L._AC_SL1200_.jpg",
+   "status": "available",
+   "price": 757.69,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-B650-TOMAHAWK-WIFI-Motherboard/dp/B0BDS873GF": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من إم إس آي طراز ماج B650 توماهوك واي فاي لمعالجات إيه إم دي بتقنية DDR5 ونوع ATX بدعم ATX بحجم ATX",
+   "image": "https://m.media-amazon.com/images/I/81ymStt-9cL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 929.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://amazon.sa/-/en/GIGABYTE-B650-Warranty-EZ-Latch-Motherboard/dp/B0BH7GTY9C": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم للألعاب اروس ماستر اليت AX B650 من جيجابايت (AM5/ LGA 1718/ AMD B650/ ATX/ كفالة 5 سنوات/ DDR5/ M.2/ منفذ PCIe 5.0/ USB 3.2 جيل 2×2 نوع C/ واي فاي 6E/ شبكة LAN 2.5 جيجابايت/ كيو-فلاش بلس",
+   "image": "https://m.media-amazon.com/images/I/81JFKzNyl+L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 849.61,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/B650-AORUS-AX-V2-Motherboard/dp/B0CMK1W2YX": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام للألعاب اروس ماستر اليت AX B650 من جيجابايت (V2/LGA 1718/AMD AM5/ATX/B650/M.2/منفذ PCIe 5.0/USB 3.2 جيل 2×2 نوع سي/واي فاي Gen2X2/شبكة LAN 2.5 جيجابايت/كيو-فلاش بلس/EZ-لاتش بلس)، DDR5",
+   "image": "https://m.media-amazon.com/images/I/71QZgtsgqOL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1258.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/B650-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9-%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9-%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA/dp/B0CP17GMG3": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من جيجابايت طراز B650 ايرو G لمعالجات آي إم دي مع ذاكرة DDR5 بحجم ATX",
+   "image": "https://m.media-amazon.com/images/I/61g+v4qjKzL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 1064.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-B650-AORUS-ELITE-ICE/dp/B0CN8W5VZ4": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من جيجابايت طراز أوروس B650 إيليت AX آيس لمعالجات آي إم دي مع DDR5 بحجم ATX",
+   "image": "https://m.media-amazon.com/images/I/61YHkd7gqBL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 937.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/B650-AORUS-AX-ICE-Motherboard/dp/B0CMJSH15D": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من جيجابايت طراز B650 أوروس إيليت AX آيس لمعالجات إيه إم دي بتقنية DDR5 بتصميم ATX بحجم ATX",
+   "image": "https://m.media-amazon.com/images/I/712JD6BVtxL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1106.14,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-B650M-AORUS-ELITE-1-0/dp/B0BJF26RJ4": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "جيجابايت لوحة ام اوروس ايليت ايه اكس ايس B650M - تدعم AMD رايزن 8000 وحدة المعالجة المركزية، 12+2+2 مرحلة رقمية، حتى 8000MHz DDR5 (OC)، 1xPCIe 5.0 + 1xPCIe 4.0 M.2، واي فاي 6E، شبكة LAN 2.5GbE، USB",
+   "image": "https://m.media-amazon.com/images/I/61XAa+TKx+L._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 779.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-B650M-Micro-ATX-Warranty-Motherboard/dp/B0BH6XND27": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من جيجابايت طراز B650M أوروس إيليت AX لمعالجات إيه إم دي بتقنية DDR5 وتصميم مايكرو-ATX بحجم ميكرو-ATX",
+   "image": "https://m.media-amazon.com/images/I/81LJcmxuEPL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 838.74,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-GAMING-B650-PLUS-WIFI-Motherboard/dp/B0BHHY3M7L": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من أسوس طراز تاف جيمنج B650-PLUS لمعالجات آي إم دي مع ذاكرة DDR5 بتصميم ATX",
+   "image": "https://m.media-amazon.com/images/I/81zNjdp8GzL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 561.23,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-Gaming-B650-PLUS-Motherboard-90MB1BZ0-M0EAY0/dp/B0BHJKR3BV": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم اسوس TUF للألعاب B650-بلس يدعم اتصال واي فاي وAMD AM5 وذاكرة DDR5، لوحة أم mATX) 90 ميجابايت 1BZ0-M0EAY0)",
+   "image": "https://m.media-amazon.com/images/I/81ogi-krqkL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 637.11,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-TUF-B650-PLUS-Motherboard-Ethernet/dp/B0BHN7GGBQ": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام للالعاب اسوس تاف B650-PLUS بقابس AM5 ال جي ايه 1718 رايزن 7000 ايه تي اكس واي فاي ب14 مرحلة طاقة ومنفذ PCIe 5.0 M.2 تدعم ذاكرة DDR5 و2.5 GB ايثرنت واي فاي 6 وUSB4 وتقنية المزامنة اورا",
+   "image": "https://m.media-amazon.com/images/I/81ogi-krqkL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 819.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-B760M-WiFi-Motherboard-Micro-ATX/dp/B0BW15M676": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام ام اس اي برو واي فاي للالعاب B760M-A من سلسلة برو تدعم معالجات انتل الجيل 12/13 وLGA 1700 ومايكرو ايه تي اكس وواي فاي 6E وDDR4 - اسود، DDR5",
+   "image": "https://m.media-amazon.com/images/I/81HG4D0pN0L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 769.98,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://amazon.sa/-/en/MSI-ProSeries-Motherboard-Supports-Processors/dp/B0C15VWF1H": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI لوحة ام برو سيريز B760M-A من برو (تدعم معالجات انتل الجيل 12/13/14، LGA 1700، DDR5، منفذ الملحقات الاضافية السريع 4.0، M.2، شبكة محلية LAN 2.5Gbps، USB 3.2 الجيل الثاني، HDMI/DP، واي فاي 6E، بلوتو",
+   "image": "https://m.media-amazon.com/images/I/91FJ2stRN+L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 799.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-PRO-A620M-Motherboard-Micro-ATX/dp/B0BZW9RG3P": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI لوحة ام برو A620M-E مايكرو ايه تي اكس - تدعم معالجات AMD رايزن 7000، AM5 - DDR5 تعزيز الذاكرة 6400+MHz/OC، 1 × منفذ الملحقات الإضافية السريع 4.0 × 16، 1 × M.2 الجيل الرابع",
+   "image": "https://m.media-amazon.com/images/I/81OEQsDuCJL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 536.77,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/GIGABYTE-A620M-S2H-Warranty-Motherboard/dp/B0C4CKFV65": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام A620M S2H بـAM5 وLGA 1718 وAMD ومايكرو ATX وDDR5 ومنفذ ام 2 ومنفذ PCIe 4.0 وUSB 3.2 جيل 1 وشبكة محلية سلكية ريلتيك 1GbE وكيو فلاش بلس ومنفذ PCIe اي زي بلتش من جيجابايت مع ضمان 5 سنوات",
+   "image": "https://m.media-amazon.com/images/I/81UV6nuLapL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 495.98,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GBT-AMD-A620M-GAMING/dp/B0C1ZZ57ZW": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة موذر بورد بتصميم جي بي تي AMD AM5 A620M طراز جيمنج اكس من جيجابايت",
+   "image": "https://m.media-amazon.com/images/I/71OBHeflPFL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 507.85,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/TUF-GAMING-A620M-PLUS-microATX-%D9%85%D9%86%D9%81%D8%B0PCIe/dp/B0C3ZPLNTH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من أسوس طراز تاف جيمنج A620M-PLUS واي فاي لمعالجات آي إم دي بتقنية DDR5 بتصميم مايكرو-ATX بحجم microATX",
+   "image": "https://m.media-amazon.com/images/I/81lwJ6erktL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 579.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-B850-Tomahawk-WiFi-Motherboard/dp/B0DPKVF29H": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI لوحة ام B850 توماهوك ماكس واي فاي من ماج - لمعالجات AMD رايزن 9000/8000/7000، AM5 - VRM 80A SPS، ذاكرة DDR5 بوست 8400+MT/s (OC)، PCIe 5.0 x16، M.2 الجيل الخامس، واي فاي 7، شبكة محلية 5G",
+   "image": "https://m.media-amazon.com/images/I/81-l3VI4K7L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1119.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-B850-Gaming-Plus-Motherboard/dp/B0DQBT2DZ8": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم للألعاب B850 جيمنج بلس ATX، تدعم AMD رايزن 9000 و8000 و7000، مقبس AM5، ذاكرة DDR5 بسرعة 8200+ MT/s (OC)، منفذ PCIe 5.0 x16 و4.0 x16، M.2 Gen5، واي فاي 7، شبكة LAN بسرعة 5 جيجابت من ام اس اي",
+   "image": "https://m.media-amazon.com/images/I/81gwXriq5PL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 899.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/GIGABYTE-B850-AORUS-WIFI7-Motherboard/dp/B0DQLHVQSF": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "جيجابايت لوحة ام B850 اوروس ايليت WIFI7 AMD AM5 ATX تدعم AMD رايزن سلسلة 9000/8000/7000، DDR5، مرحلة طاقة 14+2+2، 3X M.2، منفذ PCIe 5.0، USB-C، واي فاي 7، شبكة LAN 2.5GbE، اي زد لاتش، ضمان 5 سنوات",
+   "image": "https://m.media-amazon.com/images/I/71rZeGkdRnL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1049.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/%D8%AC%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D9%84%D9%88%D8%AD%D8%A9-B850-%D8%A7%D9%88%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D9%8A%D8%AA/dp/B0DQM8GPR7": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من جيجابايت طراز B850 أوروس إيليت WIFI7 لمعالجات آي إم دي بتقنية DDR5",
+   "image": "https://m.media-amazon.com/images/I/81mR2CrulmL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 956.04,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/B850-AORUS-WIFI7-ICE-Motherboard/dp/B0DQLKRXKW": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم B850 اوروس ايليت من جيجابايت، واي فاي 7 ايس AMD AM5 LGA 1718، ATX، DDR5، 3X M.2، منفذ PCIe 5.0، USB-C، واي فاي 7، شبكة محلية LAN 2.5GbE، EZ-لاتش",
+   "image": "https://m.media-amazon.com/images/I/71zPrmlv+sL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1118.48,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/GIGABYTE-B850-AORUS-Elite-Motherboard/dp/B0DQM7H82V": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اللوحة الأم من جيجابايت طراز B850 A إيليت WF7 آيس لمعالجات آي إم دي مع ذاكرة DDR5",
+   "image": "https://m.media-amazon.com/images/I/81tnO4HRp8L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1049.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/GIGABYTE-B850-Eagle-WIFI6E-Motherboard/dp/B0DQNW4J1G": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم B850 ايجل WIFI6E من جيجابايت - وحدة المعالجة المركزية AMD رايزن 9000، 8+2+2 المرحلة الرقمية، حتى 8200 ميجاهرتز DDR5 1xPCIe 5.0 + 2x 4.0 M.2، شبكة جيجابت LAN، واي فاي 6E، USB 3.2 الجيل الثاني",
+   "image": "https://m.media-amazon.com/images/I/81yHoh3F74L._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1007.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-B850-Plus-Motherboard-Ethernet-Flashback/dp/B0DP5DQPRC": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم تي يو اف للألعاب B850-بلس مع واي فاي 7 من اسوس، معالج AMD ATX، مراحل طاقة 14+2+1، فتحة DDR5، منفذ PCIe 5.0 جاهز، 3 فتحات M.2، ايثرنت ريلتيك 2.5GB، منفذ USB-C 20Gbps، بيوس فلاش باك ومزامنة اورا",
+   "image": "https://m.media-amazon.com/images/I/81zP-ZAZJpL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 995.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-TUF-Gaming-X870-PLUS-Motherboard/dp/B0DGB8Q19Y": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم TUF ألعاب X870-بلس من اسوس/واي فاي 7/X870 ATX/معالج AMD AM5/عدد 16+2+1 مراحل الطاقة 80A SPS/ذاكرة DDR5/ منفذ PCIe 5.0 جاهز/4 منافذ M.2/شبكة 2.5Gb LAN/HDMI/USB4® 40Gbps/SATA 6 Gbps/USB C 20Gbps",
+   "image": "https://m.media-amazon.com/images/I/8142EMqsPdL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1269.63,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://amazon.sa/-/en/MSI-Tomahawk-Motherboard-Processors-Bluetooth/dp/B0DG3HK897": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام ماج X870-P واي فاي برو سيريز (معالج AMD رايزن 9000/8000/7000، AM5، DDR5، PCIe 5.0، M.2 الجيل 5، ساتا 6 6Gb/s؛ USB 40 Gbps منفذ HDMI/DP، واي فاي 7، بلوتوث 5.4، شبكة LAN 5Gbps، من ام اس اي",
+   "image": "https://m.media-amazon.com/images/I/81nfqnOn8JL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1240.25,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/GIGABYTE-X870-AORUS-WIFI7-EZ-Latch/dp/B0DGVC3DDW": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم X870 اوروس ايليت من جيجابايت، واي فاي 7، مقبس AM5 LGA 1718، عامل ATX، ذاكرة DDR5 و4 منافذ M.2، منفذ PCIe 5.0 وUSB4، واي فاي 7، منفذ شبكة لان 2.5 جيجابايت في الثانية، ميزة اي زد-لاتش وكيو-فلاش",
+   "image": "https://m.media-amazon.com/images/I/71AufuhOdPL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1149.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-MAG-B550-TOMAHAWK-Motherboard/dp/B089CWDHFZ": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة الام قيمنغ ماج B550 توماهوك من ام اس اي (AMD AM4، DD4، منفذ الملحقات الاضافية السريع 4.0، ساتا 6GB لكل ثانية، M.2 و USB 3.2، الجيل الثاني، HDMI - DP، ATX، سلسلة معالجات AMD رايزن 5000)، DDR4",
+   "image": "https://m.media-amazon.com/images/I/71qy+HEM9NL._AC_SL1200_.jpg",
+   "status": "available",
+   "price": 1212.93,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-B550-Tomahawk-Gaming-Motherboard/dp/B08B4V583Q": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة الام قيمنغ ماج B550 توماهوك من ام اس اي (AMD AM4، DD4، منفذ الملحقات الاضافية السريع 4.0، ساتا 6GB لكل ثانية، M.2 و USB 3.2، الجيل الثاني، HDMI - DP، ATX، سلسلة معالجات AMD رايزن 5000)، DDR4",
+   "image": "https://m.media-amazon.com/images/I/71qy+HEM9NL._AC_SL1200_.jpg",
+   "status": "available",
+   "price": 1212.93,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-B550-TOMAHAWK-WIFI-Motherboard/dp/B09Z6XT5RH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI لوحة ام B550 توماهوك ماكس واي فاي من ماج، ATX، AM4 - AMD رايزن 5000 ريدي - DDR4 بوست 5100+MHz/OC، منفذ PCIe 4.0 و3.0 × 16، فتحات M.2 الجيل الرابع والجيل الثالث، شبكة LAN 2.5G، واي فاي 6E، بلوتوث 5",
+   "image": "https://m.media-amazon.com/images/I/61XJHo+0Y+L._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 1974.26,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/B550M-Pro-Vdh-Proseries-Motherboard-Micro-Atx/dp/B089D1YG11": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI لوحة ام برو-في دي اتش واي فاي برو سيريز B550M (Amd Am4، Ddr4، Pcie 4.0، ساتا 6Gb/S، M.2، USB 3.2 الجيل الاول، واي فاي، دي سوب/اتش دي ام اي/دي بي، مايكرو ايه تي اكس)",
+   "image": "https://m.media-amazon.com/images/I/61HOwOmsAiL._AC_SL1150_.jpg",
+   "status": "available",
+   "price": 448.33,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/GIGABYTE-B760M-DS3H-AX-Motherboard/dp/B0BSP61QZC": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام B760M DS3H AX B760 (LGA 1700/انتلB760/M-ATX/ 6E/2×M.2/PCIe 4.0/USB 3.2 جيل ثاني منفذ نوع C/واي فاي 2.5GbE/ شبكة LAN 2.5GbE/ كيو فلاش بلس/منفذPCIe EZ-Latch) من جيجابايت",
+   "image": "https://m.media-amazon.com/images/I/81a8RXkCkiL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 686.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/MSI-MAG-Z790-Motherboard-Processors/dp/B0BL8K1YH1": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام للالعاب ماج Z790 توماهوك واي فاي من ام اس اي (تدعم معالجات انتل الجيل 12/13 LGA 1700 ومنفذ PCIe 5.0 وM.2 وشبكة LAN جيجابايت في الثانية وUSB 3.2 الجيل الثاني وواي فاي،6E ATX)، DDR5",
+   "image": "https://m.media-amazon.com/images/I/81aRnPKw8TL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1311.35,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/ASUS-Z790-PLUS-Motherboard-Ethernet-Thunderbolt/dp/B0BPHCPSCM": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة ام اسوس TUF للالعاب Z790 مع واي فاي - معالج انتل Z790 LGA 1700 ATX (PCIe 5.0، 4 M.2، 16+1 DrMOS، DDR5، ايثرنت، 2.5Gb، واي فاي 6E، USB 3.2 Gen 2 × 2 نوع C، ثاندربولت (USB4)، مزامنة اورا، AEMP II)",
+   "image": "https://m.media-amazon.com/images/I/91aTtoE82mL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1099.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Kingston-6000MT-Desktop-Gaming-Memory/dp/B0CYHC58P6": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "كينغستون ذاكرة العاب كمبيوتر مكتبي من فيوري بيست بلاك سعة 32GB 6000MT/s DDR5 CL30 DIMM (مجموعة من قطعتين) - KF560C30BBEK2-32",
+   "image": "https://m.media-amazon.com/images/I/717cPftxQgL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3386.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-VENGEANCE-2x16GB-CL30-36-36-76-Intel/dp/B0BPTKD797": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "ذاكرة داخلية من كورسير فينجنس RGB DDR5 بتصميم DIMM لسطح المكتب، أسود، DDR5",
+   "image": "https://m.media-amazon.com/images/I/61EVf-QxpvL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 2749.81,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-Vengeance-6000MHz-Compatible-Computer/dp/B0CD7WZRHF": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "كورسير ذاكرة دي دي ار 5 2 32 جيجابايت (2 × 16 جيجابايت) DDR5 6000 CL30-36-36-76 1.40 فولت انتل اكس ام بي من فينجانس - ابيض",
+   "image": "https://m.media-amazon.com/images/I/61wJJ1DrsTL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 2676.44,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-Vengeance-6000MHz-CL30-36-36-76-Computer/dp/B0DPJ9DJ3D": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "ذاكرة رام DDR5 فينجيانس 32 جيجابايت (2×16 جيجابايت) بنظام لوني ار جي بي، 6000 ميجاهرتز CL30-36-36-76 1.4V اي ام دي اكسبو وانتل اكس ام بي، للكمبيوتر المكتبي من كورسير، أبيض، CMH32GX5M2B6000Z30W",
+   "image": "https://m.media-amazon.com/images/I/71l75j6yCIL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 3028.79,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/G-Skill-Trident-288-Pin-CL30-38-38-96-F5-6000J3038F16GX2-TZ5NR/dp/B0BF8FVLSL": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "G.سكيل ذاكرة سطح المكتب Z5 نيو RGB من ترايدنت (AMD اكسبو) 32GB (2 × 16GB) 288 دبوس SDRAM DDR5 6000 CL30-38-38-96 1.35 فولت ثنائي القناة F5-6000J3038F16GX2-TZ5NR (اسود غير لامع)",
+   "image": "https://m.media-amazon.com/images/I/61mydyeMZEL._AC_SL1300_.jpg",
+   "status": "available",
+   "price": 3033.29,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/G-SKILL-Trident-CL30-40-40-96-Desktop-Computer/dp/B09Y1BM3ZH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "G.سكيل ذاكرة كمبيوتر مكتبي ترايدنت Z5 RGB (انتل XMP 3.0) DDR5 RAM 32GB (2x16GB) 6000MT/s CL30-40-40-96 1.35 فولت UDIMM - اسود غير لامع (F5-6000J3040F16GA2-TZ5RK)",
+   "image": "https://m.media-amazon.com/images/I/61UwHpj3J4L._AC_SL1280_.jpg",
+   "status": "available",
+   "price": 2846.67,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/G-SKILL-Trident-CL36-36-36-96-Desktop-Computer/dp/B09R4Z8G98": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "32GB G.SKILL DDR5 Trident Z5 RGB 6000MHz CL36 1.35V مجموعة مزدوجة القناة 2x 16GB فضي",
+   "image": "https://m.media-amazon.com/images/I/61Qm+PJK2CL._AC_SL1450_.jpg",
+   "status": "available",
+   "price": 2719.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/TEAMGROUP-T-Force-6000MHz-PC5-48000-Desktop/dp/B0B3HHB3Z9": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "مجموعة ذاكرة سطح المكتب تي فورس دلتا بالوان RGB DDR5 وسعة 32GB من تيم جروب - ذاكرة RAM بقوة 6000MHz (PC5-48000) - طراز CL30 - (2 × 16 GB، لون اسود) - لطراز Z690 - FF3D532G6000HC30DC01، ‎دلتا RGB DDR5",
+   "image": "https://m.media-amazon.com/images/I/81ov4cFmdaL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 2686.43,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Kingston-16-Desktop-Memory-KF432C16BBK2/dp/B097K2WBL3": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "فيري بيست من كينغستون 16 غيغابايت (2×8 غيغابايت) 3200 ميغاهرتز يحتوي على دي دي ار 4 سي ال 16 ووحدة ذاكرة سطح المكتب مجموعة من قطعتين KF432C16BBK2/16، DDR4",
+   "image": "https://m.media-amazon.com/images/I/61uXihcspuL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1025.7,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Corsair-Vengeance-3200MHz-Desktop-Memory/dp/B0143UM4TC": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "CORSAIR VENGEANCE LPX 16GB (2x8GB) DDR4 3200 (PC4-25600) C16 1.35V Desktop Memory - Black",
+   "image": "https://m.media-amazon.com/images/I/61wCOVcyvFL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 766.56,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Corsair-Vengeance-2x16GB-3200MHz-Memory/dp/B016ORTNI2": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "مجموعة ذاكرة رام فينجينس ال بس اس بسعة 32 جيجا (2x16 جيجابايت) 3200 ميجاهرتزC16 بتكنولوجيا DDR4 - من كورسير، لون اسود، طراز (CMK32GX4M2B3200C16)، سعة 32.0 GB",
+   "image": "https://m.media-amazon.com/images/I/51kHiPeTSmL._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 1817.0,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Crucial-3200MHz-2933MHz-2666MHz-CT2K16G4DFD832A/dp/B07Q3HNXCC": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "طقم كروشال 32 جيجا بايت (16جيجابايت ×2) DDR4 3200 ام تي/اس (بي سي4-25600) CL22 دي ار x8 ذاكرة خطية مزدوجة غير مدعومة بذاكرة مؤقتة 288-Pin - CT2K16G4DFD832A، سعة 32.0 GB",
+   "image": "https://m.media-amazon.com/images/I/61bN12J9DjL._AC_SL1280_.jpg",
+   "status": "available",
+   "price": 1640.83,
+   "seen_at": "2026-10-28T13:03:37+00:00",
+   "oos_since": null
+  },
+  "https://pcd.com.sa/en/product/amd-ryzen-7-7800-x3-d-gaming-processor-3-d-v-cache-technology-high-performance-desktop-cpu-for-advanced-gaming-tray-no-fan-no-box": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/intel-core-i7-processor-14700k-33m-cache-up-to-5-60-ghz-2": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/amd-ryzen-5-5600x-processor-6c-12t-35mb-cache-up-to-4-6-ghz-max-boost": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/galax-rtx-5070-1-click-oc-white-pci-e-12-gb-gddr-7-192-bit": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/vga-msi-rtx-5070-12gb-ventus-2-x-oc": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/manli-nebula-ge-force-rtx-5070-graphics-card-12-gb-gddr-7-dlss-4-with-multi-frame-generation-and-enhanced-ray-reconstruction-diecast-shroud-with-metal-backplate-zero-rpm-fan-at-idle": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/AMD-Ryzen-9600X-3-9-5-4GHZ-CACHE/dp/B0DDTRSMXV": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "وحدة معالجة مركزية AMD رايزن 9600X الجيل 5 تردد 3.9 إلى 5.4 GHZ، ذاكرة تخزين مؤقت L3 بسعة 32 MB، كور 12 نواة، منفذ AM5 4nm، بدون وحدة تبريد (فانل + بدون صندوق)",
+   "image": "https://m.media-amazon.com/images/I/61oD5W2vpYL._AC_SL1000_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/product/msi-ge-force-rtx-5070-shadow-2-x-oc-12-gb-gddr-7-graphics-card-dlss-4-dual-fan-cooling-pc-ie-5-0-nvidia-blackwell-architecture": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI GeForce RTX 5070 SHADOW 2X OC 12GB GDDR7 Graphics Card DLSS 4 Dual Fan Cooling PCIe 5.0 NVIDIA Blackwell Architecture",
+   "image": "https://pcd.com.sa/uploads/GP_MS_57_SHWOB_2_2_e707e017d2.webp",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/gigabyte-ge-force-rtx-5060-eagle-max-oc-8-g-graphics-card-8-gb-gddr-7-128-bit-memory-interface-nvidia-blackwell-architecture-dlss-4-windforce-cooling-system": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/zotac-gaming-ge-force-rtx-5060-twin-edge-graphics-card-8-gb-gddr-7-compact-dual-fan-design-dlss-4-ray-tracing-pc-ie-5-0-hdmi-2-1b-and-display-port-2-1b": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/product/vga-msi-rtx-5060-8-g-gaming-oc": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "VGA MSI RTX 5060 8G GAMING OC",
+   "image": "https://pcd.com.sa/uploads/Ge_Force_RTX_5060_8_G_GAMING_OC_ef4f0c29cd.webp",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/msi-rtx-5060-ti-ventus-2-x-16-gb-black": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/vga-gigabyte-ge-force-rtx-5060-ti-eagle-max-oc-16-g-gddr-7-128bit-3-x-fans-": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/gigabyte-ge-force-rtx-5070-ti-windforce-oc-sff-16-g-graphics-card-16-gb-gddr-7-blackwell-architecture-dlss-4-hawk-fan-windforce-cooling-dual-bios-performance-silent-nvidia-sff-ready-reinforced-structure-with-vga-holder": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/gigabyte-ge-force-rtx-5070-ti-eagle-oc-sff-16-gb-gddr-7-graphics-card-dlss-4-nvidia-blackwell-architecture-sff-ready-triple-fan-cooling": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/msi-ge-force-rtx-5080-ventus-3-x-oc-plus-graphics-card-16-gb-gddr-7-triple-fan-cooling-dlss-4-pc-ie-5-0-hdmi-2-1b-and-display-port-2-1b": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/galax-rtx-3060-one-click-oc-12gb-2022": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/msi-rtx-4060-ventus-2x-black-8gb-oc": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/product/asus-rog-astral-ge-force-rtx-5090-oc-edition-graphics-card-32-gb-gddr-7-memory-pc-ie-5-0-advanced-cooling-rgb-lighting-ai-overclocking": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "ASUS ROG Astral GeForce RTX 5090 OC Edition Graphics Card – 32GB GDDR7 Memory, PCIe 5.0, Advanced Cooling, RGB Lighting, AI Overclocking",
+   "image": "https://pcd.com.sa/uploads/h732_3dcb195462.png",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Intel%C2%AE-i5-13400F-Desktop-Processor-P-cores/dp/B0BN61LYFB": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "كمبيوتر مكتبي انتل® كور™ بمعالج i5-13400F كور 10 (6 بي كور + 4 اي كور) ذاكرة تخزين مؤقتة 20 ميجابايت، حتى 4.6 جيجاهرتز",
+   "image": "https://m.media-amazon.com/images/I/51wQQ9WWa7L._AC_SL1080_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/msi-b650-m-gaming-wifi-motherboard-m-atx-supports-amd-ryzen-9000-8000-7000-series-processors-am-5-ddr-5-memory-boost-7800-m-hz-oc-pc-ie-4-0-x16-m-2-gen4-wi-fi-6-e": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/gigabyte-b850-m-gaming-x-wifi-6-e-motherboard-amd-b850-chipset-am-5-socket-pc-ie-5-0-support-ddr-5-memory-wi-fi-6-e-m-2-slots-usb-3-2-gen2-enhanced-thermal-and-power-design": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/b760m-ds3h-ddr4": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/msi-mag-z790-tomahawk-max-wifi-ddr5": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ram-corsair-vengeance-rgb-32-gb-2x16-gb-ddr-5-dram-6000-mt-s-cl-40-memory-kit-black": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ram-team-group-tforce-delta-rgb-ud-ddr-5-32-gb-16x2-6400-mhz-cl-40-white-ff-4-d532-g6400-hc-40-bdc-01": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GeForce-5070-Gaming-Graphics/dp/B0DTGNTQ3C": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات جيفورس RTX 5070 للألعاب من جيجابايت OC 12G - GDDR7، 192 بت، منفذ PCI-E 5.0، 2625 ميجاهرتز، 3 منافذ عرض DP 2.1a، ومنفذ HDMI 2.1b، يدعم تقنية انفيديا DLSS 4، موديل GV-N5070GAMING OC-12GD",
+   "image": "https://m.media-amazon.com/images/I/81AHWRRuBCL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ram-corsair-vengeance-lpx-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-white-cmk16gx4m2b3200c16w/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/corsair-vengeance-rgb-pro-16gb-2x8gb-ddr4-3200mhz-c16-led-desktop-memory-black/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/xpg-lancer-rgb-64gb-2x32gb-6000mhz-ddr5-cl30-white": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GeForce-5060-Gaming-Graphics/dp/B0F6NJT2K6": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "GIGABYTE GeForce RTX 5060 Gaming OC 8G Graphics Card - 8GB GDDR7, 128bit, PCI-E 5.0, 2595 MHz Core Frequency, 3 x DisplayPort, 1 x HDMI, GV-N5060GAMING OC-8GD",
+   "image": "https://m.media-amazon.com/images/I/71hhvzVJZML._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ssd-samsung-990-pro-2tb-m-2-nvme-ssd-mz-v9p2t0bw": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/ASUS-Gaming-GeForce-Graphics-TUF-RTX5060-O8G/dp/B0F8Q8HM6H": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات اسوس تي يو اف جيفورس RTX 5060 8GB GDDR7 اصدار كسر سرعة المعالج TUF-RTX5060-O8G - 8GB GDDR7 128 بت، منفذ الملحقات الاضافية السريع 5.0، DLSS 4، تتبع الاشعاع، HDMI 2.1b + منفذ عرض 2.1b",
+   "image": "https://m.media-amazon.com/images/I/81LLFl5obWL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ssd-wd-black-sn-850-x-2-tb-internal-m-2-nv-me-pc-ie-4-0-ssd-up-to-7300-mb-s-read-6600-mb-s-write-wdbb-9-g0020-bnc-wrsn": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ssd-kingston-1000-g-nv-3-1-tb-m-2-2280-pc-ie-4-0-nv-me-ssd-read-speed-6000-mb-s-write-speed-4000-mb-s-snv-3-s-1000-g": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GeForce-5060-WINDFORCE-Graphics/dp/B0F4NGCGM4": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات جيفورس ار تي اكس 5060 Ti ويندفورس 16G - 16 جيجابايت GDDR7، 128 بت، PCI-E 5.0، تردد كور 2572 ميجاهرتز، 3 منافذ عرض، 1 × HDMI، GV-N506TWF2-16GD",
+   "image": "https://m.media-amazon.com/images/I/71+Aze+RupL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ssd-samsung-990-pro-1tb-m-2-nvme-ssd-mz-v9p1t0bw": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/samsung-990-pro-4tb-m-2-nvme-ssd": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/ssd-kingston-2000-g-nv-3-2-tb-m-2-2280-pc-ie-4-0-nv-me-ssd-read-speed-6000-mb-s-write-speed-5000-mb-s-snv-3-s-2000-g": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/MSI-Graphics-DisplayPort-Blackwell-Architecture/dp/B0DWHHSZH1": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI بطاقة رسومات للالعاب RTX 5070 Ti 16G فينتوس 3X OC (16GB GDDR7، 256 بت، اكستريم كلوك TBD MHz، منفذ عرض × 3 2.1a، HDMI 2.1b، انفيديا بلاكويل)",
+   "image": "https://m.media-amazon.com/images/I/71z4wLCzcIL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/corsair-rmx-series-rm850x-850-watt-power-supply-80-plus-gold-psu-fully-modular-atx-black-uk-cp-9020200-uk/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/psu-msi-mag-a850-gl-pcie-5-gold-full-modular-gen-5-black-306-7-zp-8-a18-ce-0": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/psu-corsair-rm-1000x-1000-w-80-plus-gold-fully-modular-power-supply-atx-3-1-cp-9020271-uk": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/product/cpu-cooler-nzxt-kraken-360-rgb-black-rl-kr360-b1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "Water Cooler NZXT Kraken 360 RGB Black (RL-KR360-B1)",
+   "image": "https://pcd.com.sa/uploads/CC_NZ_KRK_360_BK_5_6eca747e91.webp",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/product/cpu-cooler-nzxt-kraken-360-rgb-white-rl-kr360-w1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "Water Cooler NZXT Kraken 360 RGB White (RL-KR360-W1)",
+   "image": "https://pcd.com.sa/uploads/CC_NZ_KRK_360_WH_5_9966266fef.webp",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/XFX-Quicksilver-Radeon-Magnetic-Graphics/dp/B0DXVQQXMG": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات كويك سيلفر AMD راديون RX 9070XT إصدار اير مغناطيسي 16GB GDDR6 من اكس اف اكس، أسود",
+   "image": "https://m.media-amazon.com/images/I/615CTydwSgL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-plus-360-rgb-v2-360mm-aio-liquid-cooler-w-1-54in-display-and-rgb-core-fan-white-rl-kr-360-w2": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-plus-360-rgb-v2-360mm-aio-liquid-cooler-w-1-54in-display-and-rgb-core-fan-black-rl-kr-360-b2": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/NVIDIA-GeForce-RTX-5080-Founders/dp/B0DYVCGVK4": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "نيفيديا جيفورس RTX 5080 اصدار فاوندرز",
+   "image": "https://m.media-amazon.com/images/I/31DskP4o6yL._AC_SX300_SY300_QL70_ML2_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-kraken-elite-360-rgb-white-rl-kr36e-w1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-360-rgb-black-rl-kr36e-b1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-GeForce-5080-WINDFORCE-Graphics/dp/B0DSQ142ZY": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "جيجابايت بطاقة رسومات جيفورس RTX 5080 ويندفورس اس اف اف 16G - 16GB GDDR7، 256 بت، PCI-E 5.0، ساعة كور 2617 ميجاهرتز، 3 × منفذ عرض، 1 × HDMI، GV-N5080WF3-16GD",
+   "image": "https://m.media-amazon.com/images/I/71mMXYpSBIL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cooler-w-display-rgb-controller-and-rgb-fans-black-8th-gen-pump-2024-rl-kr-36-e-b2": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cooler-w-display-rgb-controller-and-rgb-fans-white-8th-gen-pump-2024-rl-kr-36-e-w2": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/water-cooler-deep-cool-lt720-360mm-infinity-mirror-argb-block": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/water-cooler-deepcool-ld360-argb": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-fan-deepcool-ak400-digital-black": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/XFX-Speedster-QICK308-Graphics-RX-76PQICKBY/dp/B0C59PD6LD": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "بطاقة رسومات ألعاب سبيدستير QICK308 راديون ار اكس 7600 من اكس اف اكس لون أسود 8 جيجا بايت جي دي دي ار 6 اتش دي ام ايه، 3 منافذ دي بي، وحدة معالجة AMD ار دي ان ايه 3 RX-76PQICKBY",
+   "image": "https://m.media-amazon.com/images/I/61AWgTQLvsL._AC_SL1000_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-fan-deepcool-ak620-digital-black": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cooler-master-hyper-212-black-edition-cpu-air-cooler/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-fan-cooler-master-hyper-212-halo-white/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/water-cooler-deep-cool-lt520-240mm-multidimensional-infinity-mirror-argb-block/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-240-rgb-black-rl-kr240-b1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/cpu-cooler-nzxt-kraken-elite-240-rgb-black-rl-kr24e-b1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/corsair-icue-h100i-rgb-pro-xt-240mm-radiator-dual-120mm-pwm-fans/": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/case-lian-l-o11-dynamic-evo-e-atx-computer-case-white-g99-o11dew-00": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-B650-AORUS-ELITE-Motherboard/dp/B0BJDXDWS9": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "جيجابايت لوحة ام B650 اوروس ايليت ايه اكس ايه تي اكس - تدعم وحدة المعالجة المركزية AMD رايزن 7000 سلسلة AM5، توين 14+2+1 70A VRM، حتى 8000MHz DDR5 (OC)، 1×PCIe 5.0 M.2، 2×PCIe 4.0 M.2، واي فاي 6E",
+   "image": "https://m.media-amazon.com/images/I/61SEhoVnbzL._AC_SL1000_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/nzxt-h6-flow-2023-compact-dual-chamber-atx-case-all-white-cc-h61fw-01": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/nzxt-h6-flow-rgb-2023-compact-dual-chamber-atx-case-with-rgb-fans-all-black-cc-h61fb-r1": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/corsair-4000d-airflow-tempered-glass-mid-tower-atx-pc-case-black": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/lian-li-lancool-216-rgb-tempered-glass-atx-mid-tower-black-g99-lan216rx-00": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/case-lian-li-lancool-207-black-g99-lan-207-rx-00": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://pcd.com.sa/en/product/case-lian-li-lancool-207-white-g99-lan-207-rw": {
+   "store": "طبيب الكمبيوتر",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/ASUS-PRIME-A620M-K-Socket-S-ATA/dp/B0C6HWSX8C": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "لوحة أم ام بي ايه ام دي AM5 برايم من اسوس A620M",
+   "image": "https://m.media-amazon.com/images/I/817+elEw+eL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Asrock-A620M-HDV-M-2-Emplacement-micro/dp/B0C1ZY1ZBH": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "اسروك A620M-HDV/M.2 AMD A620 امبليشن ايه ام 5 مايكرو ايه تي اكس",
+   "image": "https://m.media-amazon.com/images/I/71Goe+I62ZL._AC_SL1200_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://amazon.sa/-/en/MSI-MAG-B550M-Motherboard-Micro-ATX/dp/B08B4SD768": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "MSI لوحة ام للالعاب B550M مورتر واي فاي من ماج، AMD AM4، DDR4، منفذ الملحقات الاضافية السريع 4.0، ساتا 6Gb/s، M.2، USB 3.2 الجيل الثاني، AX واي فاي 6، HDMI/DP، Micro-ATX",
+   "image": "https://m.media-amazon.com/images/I/61EeMn7odZL._AC_SL1024_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Gigabyte-B760M-DS3H-DDR4-Motherboard/dp/B0BPMH3N7H": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "جيجابايت لوحة ام B760M DS3H DDR4 - تدعم وحدة المعالجة المركزية انتل كور الجيل 14، 6+2+1 مراحل VRM، حتى 5333MHz DDR4 (OC)، 2xPCIe 4.0 M.2، شبكة LAN 2.5GbE، USB 3.2 الجيل الثاني",
+   "image": "https://m.media-amazon.com/images/I/61EOMUZ6ACL._AC_SL1000_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Kingston-2x16GB-6000MT-Desktop-Gaming/dp/B0CYM58GFS": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "Kingston FURY Beast Black RGB 32GB (2x16GB) 6000MT/s DDR5 CL30 DIMM Desktop Gaming Memory Kit of 2 AMD EXPO/Intel XMP - KF560C30BBEAK2-32",
+   "image": "https://m.media-amazon.com/images/I/715QXNdKxiL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/Kingston-2x16GB-6000MT-Desktop-Gaming/dp/B0BD5XBFS6": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "مجموعة بطاقات الذاكرة للالعاب المكتبية من قطعتين فيري بيست DDR5 RGB (2 × 16 جيجا) 23 جيجا 6000 ام تي/اس DDR5 CL36 دي اي ام ام KF556C36BBEAK2-32 من كينغستون، سعة 32.0 GB",
+   "image": "https://m.media-amazon.com/images/I/71UcVYxIL9L._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/%D9%83%D9%8A%D9%86%D8%BA%D8%B3%D8%AA%D9%88%D9%86-%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-KF560C36BBE2AK2-32/dp/B0DCGFZ97J": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "كينغستون ذاكرة كمبيوتر مكتبي فيوري بيست RGB 32GB (2x16GB) 6000MT/s DDR5 CL36 | AMD اكسبو | التوصيل والتشغيل | مجموعة من 2 | KF560C36BBE2AK2-32",
+   "image": "https://m.media-amazon.com/images/I/715QXNdKxiL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-Vengeance-6000MHz-Compatible-Computer/dp/B0CND8DT9R": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "كورسير ذاكرة RAM DDR5 RGB 32GB (2x16GB) 6000MHz CL36 انتل XMP iCUE من فينجيانس - اسود (CMH32GX5M2E6000C36K)",
+   "image": "https://m.media-amazon.com/images/I/61EVf-QxpvL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-VENGEANCE-CL40-40-40-77-1-35V-Memory/dp/B0B62WL8MK": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "ذاكرة فينجينس من كورسير، رام DDR5 32 جيجابايت (2×16 جيجابايت) 6000 ميجاهرتز CL40 انتل اكس ام بي اي كيو، متوافقة مع الكمبيوتر، أبيض، CMH32GX5M2B6000C40W، سعة 32.0 GB",
+   "image": "https://m.media-amazon.com/images/I/61Lo0Ab5tFL._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://amazon.sa/-/en/Kingston-FURY-3200MHz-KF432C16BBK2-32/dp/B097K2WKZW": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "مجموعة ذاكرة للكمبيوتر المكتبي كينغستون فيوري بيست 32 جيجا (2×16 جيجا) سرعة 3200 ميجا هرتز DDR4، وسي ال 16، مجموعة من 2، اسود KF432C16BBK2/32، سعة 32.0 GB",
+   "image": "https://m.media-amazon.com/images/I/5150HvlLv0L._AC_SL1000_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/G-SKILL-Ripjaws-PC4-28800-3600MHz-F4-3600C19D-32GVRB/dp/B07FSWN49R": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "G.سكيل ذاكرة كمبيوتر مكتبي 32GB (2 × 16GB) سلسلة V DDR4 PC4-28800 3600MHz موديل F4-3600C19D-32GVRB",
+   "image": "https://m.media-amazon.com/images/I/61HmhEDI7RL._AC_SL1280_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  },
+  "https://www.amazon.sa/-/en/CORSAIR-VENGEANCE-2x16GB-PC4-28800-1-35V/dp/B082DJ19CK": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-10-28T13:03:37+00:00",
+   "title": "كورسير فينجانس RGB برو 32GB (2x16GB) DDR4 3600 (PC4-28800) C18 1.35 فولت",
+   "image": "https://m.media-amazon.com/images/I/71e6YWJio-L._AC_SL1500_.jpg",
+   "status": "out_of_stock",
+   "oos_since": "2026-10-28T13:03:37+00:00"
+  }
+ },
+ "products": {
+  "AMD Ryzen 7 7800X3D": {
+   "image": "img/amd-ryzen-7-7800x3d.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1259.0
+    }
+   ]
+  },
+  "AMD Ryzen 7 9800X3D": {
+   "image": "img/amd-ryzen-7-9800x3d.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1799.0
+    }
+   ]
+  },
+  "AMD Ryzen 5 7600 / 7600X": {
+   "image": "img/amd-ryzen-5-7600-7600x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 677.0
+    }
+   ]
+  },
+  "AMD Ryzen 5 9600X": {
+   "image": "img/amd-ryzen-5-9600x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 769.0
+    }
+   ]
+  },
+  "Intel Core i5-14400F": {
+   "image": "img/intel-core-i5-14400f.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 726.85
+    }
+   ]
+  },
+  "Intel Core i7-14700K": {
+   "image": "img/intel-core-i7-14700k.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1574.97
+    }
+   ]
+  },
+  "AMD Ryzen 5 5600 / 5600X": {
+   "image": "img/amd-ryzen-5-5600-5600x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 615.0
+    }
+   ]
+  },
+  "AMD Ryzen 7 5700X": {
+   "image": "img/amd-ryzen-7-5700x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 857.28
+    }
+   ]
+  },
+  "AMD Ryzen 7 5800X3D": {
+   "image": "img/amd-ryzen-7-5800x3d.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1771.84
+    }
+   ]
+  },
+  "AMD Ryzen 5 8400F": {
+   "image": "img/amd-ryzen-5-8400f.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 679.0
+    }
+   ]
+  },
+  "AMD Ryzen 5 8600G": {
+   "search_tried_at": "2026-10-28T13:47:31+00:00",
+   "image": "img/amd-ryzen-5-8600g.jpg"
+  },
+  "AMD Ryzen 7 7700X": {
+   "image": "img/amd-ryzen-7-7700x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1064.18
+    }
+   ]
+  },
+  "AMD Ryzen 7 7700": {
+   "search_tried_at": "2026-10-28T13:47:36+00:00",
+   "image": "img/amd-ryzen-7-7700.jpg"
+  },
+  "AMD Ryzen 7 9700X": {
+   "image": "img/amd-ryzen-7-9700x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1368.38
+    }
+   ]
+  },
+  "AMD Ryzen 9 9900X": {
+   "image": "img/amd-ryzen-9-9900x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1558.61
+    }
+   ]
+  },
+  "AMD Ryzen 9 9950X3D": {
+   "image": "img/amd-ryzen-9-9950x3d.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 2667.94
+    }
+   ]
+  },
+  "Intel Core i5-12400F": {
+   "image": "img/intel-core-i5-12400f.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 839.0
+    }
+   ]
+  },
+  "Intel Core i5-13400F": {
+   "image": "img/intel-core-i5-13400f.jpg"
+  },
+  "Intel Core i7-14700KF": {
+   "image": "img/intel-core-i7-14700kf.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1544.97
+    }
+   ]
+  },
+  "Intel Core i9-14900K": {
+   "image": "img/intel-core-i9-14900k.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1999.0
+    }
+   ]
+  },
+  "Intel Core Ultra 7 265K": {
+   "image": "img/intel-core-ultra-7-265k.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1499.0
+    }
+   ]
+  },
+  "Intel Core Ultra 5 245K": {
+   "image": "img/intel-core-ultra-5-245k.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 999.0
+    }
+   ]
+  },
+  "NVIDIA RTX 5070 12GB": {
+   "image": "img/nvidia-rtx-5070-12gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3869.95
+    }
+   ]
+  },
+  "NVIDIA RTX 5060 8GB": {
+   "image": "img/nvidia-rtx-5060-8gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 2199.0
+    }
+   ]
+  },
+  "NVIDIA RTX 5060 Ti 16GB": {
+   "image": "img/nvidia-rtx-5060-ti-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3390.45
+    }
+   ]
+  },
+  "NVIDIA RTX 5070 Ti 16GB": {
+   "image": "img/nvidia-rtx-5070-ti-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 5850.15
+    }
+   ]
+  },
+  "AMD Radeon RX 9070 XT 16GB": {
+   "image": "img/amd-radeon-rx-9070-xt-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3990.0
+    }
+   ]
+  },
+  "NVIDIA RTX 5080 16GB": {
+   "image": "img/nvidia-rtx-5080-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 7390.0
+    }
+   ]
+  },
+  "NVIDIA RTX 3050 8GB": {
+   "image": "img/nvidia-rtx-3050-8gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3117.0
+    }
+   ]
+  },
+  "NVIDIA RTX 3050 6GB": {
+   "image": "img/nvidia-rtx-3050-6gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1287.0
+    }
+   ]
+  },
+  "NVIDIA RTX 3060 12GB": {
+   "image": "img/nvidia-rtx-3060-12gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3099.82
+    }
+   ]
+  },
+  "NVIDIA RTX 4060 8GB": {
+   "image": "img/nvidia-rtx-4060-8gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 5627.47
+    }
+   ]
+  },
+  "AMD Radeon RX 7600 8GB": {
+   "image": "img/amd-radeon-rx-7600-8gb.jpg"
+  },
+  "AMD Radeon RX 9060 XT 16GB": {
+   "image": "img/amd-radeon-rx-9060-xt-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3176.5
+    }
+   ]
+  },
+  "AMD Radeon RX 9070 16GB": {
+   "image": "img/amd-radeon-rx-9070-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3399.0
+    }
+   ]
+  },
+  "AMD Radeon RX 7800 XT 16GB": {
+   "image": "img/amd-radeon-rx-7800-xt-16gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 5064.0
+    }
+   ]
+  },
+  "Intel Arc B580 12GB": {
+   "image": "img/intel-arc-b580-12gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1999.0
+    }
+   ]
+  },
+  "NVIDIA RTX 5090 32GB": {
+   "image": "img/nvidia-rtx-5090-32gb.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 43507.99
+    }
+   ]
+  },
+  "MSI MAG B650 Tomahawk WiFi": {
+   "image": "img/msi-mag-b650-tomahawk-wifi.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 757.69
+    }
+   ]
+  },
+  "Gigabyte B650 Aorus Elite AX": {
+   "image": "img/gigabyte-b650-aorus-elite-ax.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 849.61
+    }
+   ]
+  },
+  "Gigabyte B650 Aorus Elite AX V2": {
+   "image": "img/gigabyte-b650-aorus-elite-ax-v2.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1064.0
+    }
+   ]
+  },
+  "Gigabyte B650 Aorus Elite AX ICE (White)": {
+   "image": "img/gigabyte-b650-aorus-elite-ax-ice-white.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 937.0
+    }
+   ]
+  },
+  "Gigabyte B650M Aorus Elite AX": {
+   "image": "img/gigabyte-b650m-aorus-elite-ax.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 779.0
+    }
+   ]
+  },
+  "ASUS TUF Gaming B650-Plus WiFi": {
+   "image": "img/asus-tuf-gaming-b650-plus-wifi.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 561.23
+    }
+   ]
+  },
+  "ASUS TUF Gaming B650M-Plus WiFi": {
+   "search_tried_at": "2026-10-28T13:47:50+00:00",
+   "image": "img/asus-tuf-gaming-b650m-plus-wifi.jpg"
+  },
+  "MSI B650M Gaming WiFi": {
+   "search_tried_at": "2026-10-28T13:47:55+00:00",
+   "image": "img/msi-b650m-gaming-wifi.jpg"
+  },
+  "MSI PRO B760M-A WiFi (DDR5)": {
+   "image": "img/msi-pro-b760m-a-wifi-ddr5.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 769.98
+    }
+   ]
+  },
+  "MSI PRO A620M-E": {
+   "image": "img/msi-pro-a620m-e.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 536.77
+    }
+   ]
+  },
+  "Gigabyte A620M S2H": {
+   "image": "img/gigabyte-a620m-s2h.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 495.98
+    }
+   ]
+  },
+  "Gigabyte A620M Gaming X": {
+   "image": "img/gigabyte-a620m-gaming-x.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 507.85
+    }
+   ]
+  },
+  "ASUS Prime A620M-K": {
+   "image": "img/asus-prime-a620m-k.jpg"
+  },
+  "ASRock A620M-HDV/M.2": {
+   "image": "img/asrock-a620m-hdv-m-2.jpg"
+  },
+  "ASUS TUF Gaming A620M-Plus WiFi": {
+   "image": "img/asus-tuf-gaming-a620m-plus-wifi.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 579.0
+    }
+   ]
+  },
+  "MSI MAG B850 Tomahawk Max WiFi": {
+   "image": "img/msi-mag-b850-tomahawk-max-wifi.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1119.0
+    }
+   ]
+  },
+  "MSI B850 Gaming Plus WiFi": {
+   "image": "img/msi-b850-gaming-plus-wifi.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 899.0
+    }
+   ]
+  },
+  "Gigabyte B850 Aorus Elite WiFi7": {
+   "image": "img/gigabyte-b850-aorus-elite-wifi7.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 956.04
+    }
+   ]
+  },
+  "Gigabyte B850 Aorus Elite WiFi7 Ice": {
+   "image": "img/gigabyte-b850-aorus-elite-wifi7-ice.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1049.0
+    }
+   ]
+  },
+  "Gigabyte B850 Eagle WiFi6E": {
+   "image": "img/gigabyte-b850-eagle-wifi6e.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1007.0
+    }
+   ]
+  },
+  "Gigabyte B850M Gaming X WiFi6E": {
+   "search_tried_at": "2026-10-28T13:48:02+00:00",
+   "image": "img/gigabyte-b850m-gaming-x-wifi6e.jpg"
+  },
+  "ASUS TUF Gaming B850-Plus WiFi": {
+   "image": "img/asus-tuf-gaming-b850-plus-wifi.jpg",
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 995.0
+    }
+   ]
+  },
+  "ASUS TUF Gaming X870-Plus WiFi": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1269.63
+    }
+   ]
+  },
+  "MSI MAG X870 Tomahawk WiFi": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1240.25
+    }
+   ]
+  },
+  "Gigabyte X870 Aorus Elite WiFi7": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1149.0
+    }
+   ]
+  },
+  "MSI MAG B550 Tomahawk": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1212.93
+    }
+   ]
+  },
+  "MSI MAG B550 Tomahawk Max WiFi": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1974.26
+    }
+   ]
+  },
+  "MSI B550M PRO-VDH WiFi": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 448.33
+    }
+   ]
+  },
+  "MSI MAG B550M Mortar WiFi": {},
+  "ASRock B550M Phantom Gaming 4": {},
+  "Gigabyte B760M DS3H DDR4": {},
+  "Gigabyte B760M DS3H DDR5": {},
+  "Gigabyte B760M DS3H AX DDR5": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 686.0
+    }
+   ]
+  },
+  "MSI MAG Z790 Tomahawk WiFi DDR5": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1311.35
+    }
+   ]
+  },
+  "ASUS TUF Gaming Z790-Plus WiFi": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1099.0
+    }
+   ]
+  },
+  "Kingston Fury Beast DDR5 32GB (2x16) 6000MHz CL30": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 3386.0
+    }
+   ]
+  },
+  "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL30": {},
+  "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL36": {},
+  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL30": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 2676.44
+    }
+   ]
+  },
+  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL36": {},
+  "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL40": {},
+  "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL30": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 2846.67
+    }
+   ]
+  },
+  "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL36": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 2719.0
+    }
+   ]
+  },
+  "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6000MHz CL30": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 2686.43
+    }
+   ]
+  },
+  "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6400MHz CL40": {},
+  "Kingston Fury Beast DDR4 16GB (2x8) 3200": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1025.7
+    }
+   ]
+  },
+  "Corsair Vengeance LPX DDR4 16GB (2x8) 3200": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 766.56
+    }
+   ]
+  },
+  "Corsair Vengeance RGB Pro DDR4 16GB (2x8) 3200": {},
+  "Kingston Fury Beast DDR4 32GB (2x16) 3200": {},
+  "Corsair Vengeance LPX DDR4 32GB (2x16) 3200": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1817.0
+    }
+   ]
+  },
+  "Crucial DDR4 32GB (2x16) 3200": {
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1640.83
+    }
+   ]
+  },
+  "G.Skill Ripjaws V DDR4 32GB (2x16) 3600": {},
+  "Corsair Vengeance RGB Pro DDR4 32GB (2x16) 3600": {},
+  "TeamGroup T-Force Delta RGB DDR4 32GB (2x16) 3600": {},
+  "Crucial DDR5 16GB (2x8) 5600": {},
+  "Kingston Fury Beast DDR5 16GB (2x8) 5600": {},
+  "Kingston Fury Beast DDR5 64GB (2x32) 6000": {},
+  "Crucial Pro DDR5 64GB (2x32) 6000": {},
+  "G.Skill Trident Z5 RGB DDR5 64GB (2x32) 6000 CL30": {},
+  "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30": {},
+  "Samsung 990 Pro 2TB NVMe": {},
+  "Samsung 990 Pro 2TB NVMe (Heatsink)": {},
+  "WD Black SN850X 2TB NVMe": {},
+  "WD Black SN850X 2TB NVMe (Heatsink)": {},
+  "WD Black SN850X 1TB NVMe": {},
+  "Kingston NV3 1TB NVMe": {},
+  "Crucial P3 Plus 1TB NVMe": {},
+  "Crucial T500 1TB NVMe": {},
+  "Lexar NM790 2TB NVMe": {},
+  "Lexar NM790 1TB NVMe": {},
+  "Samsung 990 EVO Plus 1TB": {},
+  "Samsung 990 Pro 1TB": {},
+  "Samsung 990 Pro 4TB": {},
+  "Kingston NV3 500GB": {},
+  "Kingston NV3 2TB": {},
+  "Crucial P3 1TB": {},
+  "WD Blue SN580 1TB": {},
+  "Samsung 870 EVO 1TB SATA": {},
+  "Crucial MX500 1TB SATA": {},
+  "Seagate Barracuda 2TB HDD": {},
+  "WD Blue 1TB HDD": {},
+  "Corsair RM850e 850W Gold": {},
+  "Corsair RM850x 850W Gold": {},
+  "MSI MAG A850GL PCIE5 850W Gold": {},
+  "Cooler Master MWE Gold 850 V2 850W": {},
+  "Corsair RM1000e 1000W Gold": {},
+  "Corsair RM1000x 1000W Gold": {},
+  "Cooler Master MWE Bronze 650 V2": {},
+  "Corsair CX650": {},
+  "Corsair RM750e 750W Gold": {},
+  "MSI MAG A750GL PCIE5 750W Gold": {},
+  "DeepCool PQ750M 750W Gold": {},
+  "Corsair HX1200i 1200W Platinum": {},
+  "Corsair RM1200x Shift 1200W": {},
+  "Arctic Liquid Freezer III 360": {},
+  "Arctic Liquid Freezer III Pro 360": {},
+  "NZXT Kraken 360 RGB": {},
+  "NZXT Kraken Plus 360 RGB": {},
+  "NZXT Kraken Elite 360 RGB": {},
+  "NZXT Kraken Elite 360 RGB (2024)": {},
+  "Corsair iCUE H150i Elite LCD XT 360": {},
+  "Corsair iCUE H150i Elite Capellix XT 360": {},
+  "DeepCool LT720 360": {},
+  "DeepCool LS720 360": {},
+  "DeepCool Mystique 360": {},
+  "DeepCool LD360": {},
+  "DeepCool AK400": {},
+  "DeepCool AK400 Zero Dark": {},
+  "DeepCool AK400 Digital": {},
+  "DeepCool AK620": {},
+  "DeepCool AK620 Digital": {},
+  "Thermalright Peerless Assassin 120 SE": {},
+  "Thermalright Peerless Assassin 120 SE ARGB": {},
+  "Noctua NH-D15": {},
+  "Noctua NH-D15 chromax.black": {},
+  "Cooler Master Hyper 212 Black Edition": {},
+  "Cooler Master Hyper 212 Halo": {},
+  "Cooler Master Hyper 212 ARGB": {},
+  "Arctic Liquid Freezer III 240": {},
+  "Arctic Liquid Freezer III Pro 240": {},
+  "DeepCool LT520 240": {},
+  "NZXT Kraken 240 RGB": {},
+  "NZXT Kraken Elite 240 RGB": {},
+  "Corsair iCUE H100i RGB 240": {},
+  "Lian Li O11 Dynamic EVO": {},
+  "Lian Li O11 Dynamic EVO RGB": {},
+  "Lian Li O11 Dynamic EVO XL": {},
+  "NZXT H6 Flow": {},
+  "NZXT H6 Flow RGB": {},
+  "Corsair 4000D Airflow": {},
+  "Corsair iCUE 4000D RGB Airflow": {},
+  "Lian Li Lancool 216": {},
+  "Lian Li Lancool 207": {},
+  "Montech AIR 903 MAX": {},
+  "Corsair 3500X": {},
+  "HYTE Y60": {},
+  "HYTE Y70 Touch": {},
+  "NZXT H9 Flow": {},
+  "Cooler Master MasterBox Q300L": {},
+  "Phanteks XT Pro": {}
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pc-prices-analytics",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute pc_prices_analytics --remote --file=schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "3.114.17"
+  }
+}
