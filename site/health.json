@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-10-29T22:48:31+00:00",
+ "updated_at": "2026-10-30T05:55:29+00:00",
  "run": {
   "available": 0,
-  "out_of_stock": 27,
+  "out_of_stock": 0,
   "no_price": 0,
-  "error": 11,
-  "blocked": 2,
-  "confirmed_oos": 27,
+  "error": 3,
+  "blocked": 3,
+  "confirmed_oos": 0,
   "planned": 359,
   "blocked_stores": [
    "أمازون السعودية",
