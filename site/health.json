@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-10-30T13:02:23+00:00",
+ "updated_at": "2026-10-30T22:25:36+00:00",
  "run": {
-  "available": 1,
-  "out_of_stock": 26,
+  "available": 0,
+  "out_of_stock": 0,
   "no_price": 0,
-  "error": 11,
-  "blocked": 2,
-  "confirmed_oos": 26,
+  "error": 3,
+  "blocked": 3,
+  "confirmed_oos": 0,
   "planned": 359,
   "blocked_stores": [
    "أمازون السعودية",
@@ -17,8 +17,8 @@
  },
  "products": {
   "total": 178,
-  "shown": 97,
-  "hidden": 81
+  "shown": 1,
+  "hidden": 177
  },
  "stores": {
   "أمازون السعودية": {
@@ -52,7 +52,62 @@
  },
  "hidden": [
   {
+   "name": "AMD Ryzen 7 7800X3D",
+   "category": "cpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "AMD Ryzen 7 9800X3D",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 5 7600 / 7600X",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 5 9600X",
+   "category": "cpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "Intel Core i5-14400F",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Core i7-14700K",
+   "category": "cpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "AMD Ryzen 5 5600 / 5600X",
+   "category": "cpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "AMD Ryzen 7 5700X",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 7 5800X3D",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 5 8400F",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "AMD Ryzen 5 8600G",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 7 7700X",
    "category": "cpu",
    "reason": "ما انفحص أو بدون سعر"
   },
@@ -62,14 +117,159 @@
    "reason": "ما انفحص أو بدون سعر"
   },
   {
+   "name": "AMD Ryzen 7 9700X",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 9 9900X",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Ryzen 9 9950X3D",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Core i5-12400F",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Intel Core i5-13400F",
    "category": "cpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "Intel Core i7-14700KF",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Core i9-14900K",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Core Ultra 7 265K",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Core Ultra 5 245K",
+   "category": "cpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NVIDIA RTX 5070 12GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "NVIDIA RTX 5060 8GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "NVIDIA RTX 5060 Ti 16GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "NVIDIA RTX 5070 Ti 16GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "AMD Radeon RX 9070 XT 16GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "NVIDIA RTX 5080 16GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "NVIDIA RTX 3050 8GB",
+   "category": "gpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NVIDIA RTX 3050 6GB",
+   "category": "gpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NVIDIA RTX 3060 12GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "NVIDIA RTX 4060 8GB",
+   "category": "gpu",
    "reason": "نافد"
   },
   {
    "name": "AMD Radeon RX 7600 8GB",
    "category": "gpu",
    "reason": "نافد"
+  },
+  {
+   "name": "AMD Radeon RX 9060 XT 16GB",
+   "category": "gpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Radeon RX 9070 16GB",
+   "category": "gpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "AMD Radeon RX 7800 XT 16GB",
+   "category": "gpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Intel Arc B580 12GB",
+   "category": "gpu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NVIDIA RTX 5090 32GB",
+   "category": "gpu",
+   "reason": "نافد"
+  },
+  {
+   "name": "MSI MAG B650 Tomahawk WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B650 Aorus Elite AX",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "Gigabyte B650 Aorus Elite AX V2",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B650 Aorus Elite AX ICE (White)",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B650M Aorus Elite AX",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "ASUS TUF Gaming B650-Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
   },
   {
    "name": "ASUS TUF Gaming B650M-Plus WiFi",
@@ -82,6 +282,26 @@
    "reason": "نافد"
   },
   {
+   "name": "MSI PRO B760M-A WiFi (DDR5)",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI PRO A620M-E",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte A620M S2H",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte A620M Gaming X",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "ASUS Prime A620M-K",
    "category": "motherboard",
    "reason": "نافد"
@@ -92,9 +312,74 @@
    "reason": "نافد"
   },
   {
+   "name": "ASUS TUF Gaming A620M-Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI MAG B850 Tomahawk Max WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI B850 Gaming Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B850 Aorus Elite WiFi7",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B850 Aorus Elite WiFi7 Ice",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte B850 Eagle WiFi6E",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Gigabyte B850M Gaming X WiFi6E",
    "category": "motherboard",
    "reason": "نافد"
+  },
+  {
+   "name": "ASUS TUF Gaming B850-Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "ASUS TUF Gaming X870-Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI MAG X870 Tomahawk WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Gigabyte X870 Aorus Elite WiFi7",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI MAG B550 Tomahawk",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI MAG B550 Tomahawk Max WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI B550M PRO-VDH WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
   },
   {
    "name": "MSI MAG B550M Mortar WiFi",
@@ -117,6 +402,26 @@
    "reason": "ما انفحص أو بدون سعر"
   },
   {
+   "name": "Gigabyte B760M DS3H AX DDR5",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI MAG Z790 Tomahawk WiFi DDR5",
+   "category": "motherboard",
+   "reason": "نافد"
+  },
+  {
+   "name": "ASUS TUF Gaming Z790-Plus WiFi",
+   "category": "motherboard",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Kingston Fury Beast DDR5 32GB (2x16) 6000MHz CL30",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL30",
    "category": "ram",
    "reason": "نافد"
@@ -125,6 +430,11 @@
    "name": "Kingston Fury Beast RGB DDR5 32GB (2x16) 6000MHz CL36",
    "category": "ram",
    "reason": "نافد"
+  },
+  {
+   "name": "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL30",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
   },
   {
    "name": "Corsair Vengeance RGB DDR5 32GB (2x16) 6000MHz CL36",
@@ -137,7 +447,32 @@
    "reason": "نافد"
   },
   {
+   "name": "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL30",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "G.Skill Trident Z5 RGB DDR5 32GB (2x16) 6000MHz CL36",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6000MHz CL30",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "TeamGroup T-Force Delta RGB DDR5 32GB (2x16) 6400MHz CL40",
+   "category": "ram",
+   "reason": "نافد"
+  },
+  {
+   "name": "Kingston Fury Beast DDR4 16GB (2x8) 3200",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair Vengeance LPX DDR4 16GB (2x8) 3200",
    "category": "ram",
    "reason": "نافد"
   },
@@ -152,6 +487,16 @@
    "reason": "نافد"
   },
   {
+   "name": "Corsair Vengeance LPX DDR4 32GB (2x16) 3200",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Crucial DDR4 32GB (2x16) 3200",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "G.Skill Ripjaws V DDR4 32GB (2x16) 3600",
    "category": "ram",
    "reason": "نافد"
@@ -162,7 +507,17 @@
    "reason": "نافد"
   },
   {
+   "name": "TeamGroup T-Force Delta RGB DDR4 32GB (2x16) 3600",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Crucial DDR5 16GB (2x8) 5600",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Kingston Fury Beast DDR5 16GB (2x8) 5600",
    "category": "ram",
    "reason": "ما انفحص أو بدون سعر"
   },
@@ -177,9 +532,24 @@
    "reason": "ما انفحص أو بدون سعر"
   },
   {
+   "name": "G.Skill Trident Z5 RGB DDR5 64GB (2x32) 6000 CL30",
+   "category": "ram",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30",
    "category": "ram",
    "reason": "نافد"
+  },
+  {
+   "name": "Samsung 990 Pro 2TB NVMe",
+   "category": "storage",
+   "reason": "نافد"
+  },
+  {
+   "name": "Samsung 990 Pro 2TB NVMe (Heatsink)",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
   },
   {
    "name": "WD Black SN850X 2TB NVMe",
@@ -192,9 +562,54 @@
    "reason": "ما انفحص أو بدون سعر"
   },
   {
+   "name": "WD Black SN850X 1TB NVMe",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Kingston NV3 1TB NVMe",
+   "category": "storage",
+   "reason": "نافد"
+  },
+  {
+   "name": "Crucial P3 Plus 1TB NVMe",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Crucial T500 1TB NVMe",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Lexar NM790 1TB NVMe",
    "category": "storage",
    "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Samsung 990 EVO Plus 1TB",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Samsung 990 Pro 1TB",
+   "category": "storage",
+   "reason": "نافد"
+  },
+  {
+   "name": "Samsung 990 Pro 4TB",
+   "category": "storage",
+   "reason": "نافد"
+  },
+  {
+   "name": "Kingston NV3 500GB",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Kingston NV3 2TB",
+   "category": "storage",
+   "reason": "نافد"
   },
   {
    "name": "Crucial P3 1TB",
@@ -227,7 +642,52 @@
    "reason": "ما انفحص أو بدون سعر"
   },
   {
+   "name": "Corsair RM850e 850W Gold",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair RM850x 850W Gold",
+   "category": "psu",
+   "reason": "نافد"
+  },
+  {
+   "name": "MSI MAG A850GL PCIE5 850W Gold",
+   "category": "psu",
+   "reason": "نافد"
+  },
+  {
+   "name": "Cooler Master MWE Gold 850 V2 850W",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair RM1000e 1000W Gold",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair RM1000x 1000W Gold",
+   "category": "psu",
+   "reason": "نافد"
+  },
+  {
+   "name": "Cooler Master MWE Bronze 650 V2",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair CX650",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Corsair RM750e 750W Gold",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "MSI MAG A750GL PCIE5 750W Gold",
    "category": "psu",
    "reason": "ما انفحص أو بدون سعر"
   },
@@ -237,9 +697,29 @@
    "reason": "ما انفحص أو بدون سعر"
   },
   {
+   "name": "Corsair HX1200i 1200W Platinum",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Corsair RM1200x Shift 1200W",
+   "category": "psu",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
    "name": "Arctic Liquid Freezer III 360",
    "category": "cooler",
    "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "Arctic Liquid Freezer III Pro 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
+  },
+  {
+   "name": "NZXT Kraken 360 RGB",
+   "category": "cooler",
+   "reason": "نافد"
   },
   {
    "name": "NZXT Kraken Plus 360 RGB",
@@ -458,11 +938,6 @@
   }
  ],
  "missing_images": [
-  "WD Black SN850X 1TB NVMe",
-  "Kingston NV3 1TB NVMe",
-  "Lexar NM790 2TB NVMe",
-  "Kingston NV3 500GB",
-  "Kingston NV3 2TB",
-  "NZXT Kraken 360 RGB"
+  "Lexar NM790 2TB NVMe"
  ]
 }
