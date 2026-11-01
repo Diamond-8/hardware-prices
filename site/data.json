@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T06:14:56+00:00",
+ "updated_at": "2026-11-01T13:36:47+00:00",
  "currency": "SAR",
  "demo": false,
  "categories": {
@@ -12,46 +12,5 @@
   "case": "الكيسات",
   "cooler": "التبريد"
  },
- "products": [
-  {
-   "name": "Lexar NM790 2TB NVMe",
-   "category": "storage",
-   "image": null,
-   "offers": [
-    {
-     "store": "أمازون السعودية",
-     "url": "https://www.amazon.sa/-/en/Lexar-Internal-Compatible-Creators-LNM790X002T-RNNNU/dp/B0C91X5DZL",
-     "price": 1569.32,
-     "title": "Lexar NM790 SSD 2TB PCIe Gen4 NVMe M.2 2280 Internal Solid State Drive, Up to 7400MB/s, Compatible with PS5, for Gamers and Creators (LNM790X002T-RNNNU)",
-     "in_stock": true
-    }
-   ],
-   "best": {
-    "store": "أمازون السعودية",
-    "url": "https://www.amazon.sa/-/en/Lexar-Internal-Compatible-Creators-LNM790X002T-RNNNU/dp/B0C91X5DZL",
-    "price": 1569.32,
-    "title": "Lexar NM790 SSD 2TB PCIe Gen4 NVMe M.2 2280 Internal Solid State Drive, Up to 7400MB/s, Compatible with PS5, for Gamers and Creators (LNM790X002T-RNNNU)",
-    "in_stock": true
-   },
-   "previous_best": 829.0,
-   "history": [
-    {
-     "t": "2026-10-28T18:10:21+00:00",
-     "price": 829.0
-    },
-    {
-     "t": "2026-10-29T22:48:31+00:00",
-     "price": 829.0
-    },
-    {
-     "t": "2026-10-30T22:25:36+00:00",
-     "price": 1569.32
-    },
-    {
-     "t": "2026-10-31T21:40:27+00:00",
-     "price": 1569.32
-    }
-   ]
-  }
- ]
+ "products": []
 }
