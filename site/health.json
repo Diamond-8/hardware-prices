@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-03T23:27:35+00:00",
+ "updated_at": "2026-11-04T06:32:44+00:00",
  "run": {
-  "available": 0,
-  "out_of_stock": 0,
+  "available": 3,
+  "out_of_stock": 23,
   "no_price": 0,
-  "error": 3,
-  "blocked": 3,
-  "confirmed_oos": 0,
+  "error": 11,
+  "blocked": 2,
+  "confirmed_oos": 23,
   "planned": 359,
   "blocked_stores": [
    "أمازون السعودية",
@@ -17,12 +17,12 @@
  },
  "products": {
   "total": 178,
-  "shown": 0,
-  "hidden": 178
+  "shown": 3,
+  "hidden": 175
  },
  "stores": {
   "أمازون السعودية": {
-   "available": 129,
+   "available": 132,
    "out_of_stock": 24,
    "no_price": 0,
    "errors": 8,
@@ -557,11 +557,6 @@
    "reason": "نافد"
   },
   {
-   "name": "WD Black SN850X 2TB NVMe (Heatsink)",
-   "category": "storage",
-   "reason": "ما انفحص أو بدون سعر"
-  },
-  {
    "name": "WD Black SN850X 1TB NVMe",
    "category": "storage",
    "reason": "ما انفحص أو بدون سعر"
@@ -578,11 +573,6 @@
   },
   {
    "name": "Crucial T500 1TB NVMe",
-   "category": "storage",
-   "reason": "ما انفحص أو بدون سعر"
-  },
-  {
-   "name": "Lexar NM790 2TB NVMe",
    "category": "storage",
    "reason": "ما انفحص أو بدون سعر"
   },
@@ -644,11 +634,6 @@
   {
    "name": "WD Blue 1TB HDD",
    "category": "storage",
-   "reason": "ما انفحص أو بدون سعر"
-  },
-  {
-   "name": "Corsair RM850e 850W Gold",
-   "category": "psu",
    "reason": "ما انفحص أو بدون سعر"
   },
   {
@@ -942,5 +927,8 @@
    "reason": "ما انفحص أو بدون سعر"
   }
  ],
- "missing_images": []
+ "missing_images": [
+  "WD Black SN850X 2TB NVMe (Heatsink)",
+  "Lexar NM790 2TB NVMe"
+ ]
 }

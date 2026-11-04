@@ -100,7 +100,7 @@
   },
   "https://www.amazon.sa/-/en/7600X-Desktop-Processor-DDR5-5200-Compatible/dp/B0F9F8N37Z": {
    "store": "أمازون السعودية",
-   "last_error": "صفحة تحقق من الروبوت"
+   "last_error": "HTTP 404"
   },
   "https://www.amazon.sa/-/en/AMD-9600X-Processor-Threads-Graphics/dp/B0D6NN6TM7": {
    "store": "أمازون السعودية",
@@ -1952,6 +1952,36 @@
    "price": 1569.32,
    "seen_at": "2026-10-30T13:02:23+00:00",
    "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/WD_BLACK-SN850X-Heatsink-Internal-Gaming/dp/B0B7CKZGN6": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-11-04T06:32:44+00:00",
+   "title": "Canon WD_BLACK SN850X NVMe SSD with Heatsink 2 TB Internal SSD (Gaming Memory)",
+   "image": "https://m.media-amazon.com/images/I/618RFfiA8dL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 2161.59,
+   "seen_at": "2026-11-04T06:32:44+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Lexar-7400-6500-NM790-NVME/dp/B0C4ZLXGQ8": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-11-04T06:32:44+00:00",
+   "title": "Lexar SSD 2TB 7400/6500 NM790 M.2 Lex NVME",
+   "image": "https://m.media-amazon.com/images/I/61Mb7kcpThL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1707.98,
+   "seen_at": "2026-11-04T06:32:44+00:00",
+   "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/Corsair-RM850e-Fully-Modular-Low-Noise/dp/B0BYKT9SNJ": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-11-04T06:32:44+00:00",
+   "title": "Corsair PSU RM850e (2023) Fully Modular Low-Noise - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 PLUS Gold Efficiency - Modern Standby Support - Black",
+   "image": "https://m.media-amazon.com/images/I/61d8b4gfVbL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 702.37,
+   "seen_at": "2026-11-04T06:32:44+00:00",
+   "oos_since": null
   }
  },
  "products": {
@@ -3284,7 +3314,13 @@
    "search_tried_at": "2026-10-28T18:27:18+00:00"
   },
   "WD Black SN850X 2TB NVMe (Heatsink)": {
-   "search_tried_at": "2026-10-28T18:27:21+00:00"
+   "search_tried_at": "2026-10-28T18:27:21+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T06:32:44+00:00",
+     "price": 2161.59
+    }
+   ]
   },
   "WD Black SN850X 1TB NVMe": {
    "search_tried_at": "2026-10-28T18:27:25+00:00",
@@ -3357,9 +3393,13 @@
     {
      "t": "2026-10-31T21:40:27+00:00",
      "price": 1569.32
+    },
+    {
+     "t": "2026-11-04T06:32:44+00:00",
+     "price": 1707.98
     }
    ],
-   "previous_best": 829.0
+   "previous_best": 1569.32
   },
   "Lexar NM790 1TB NVMe": {
    "search_tried_at": "2026-10-28T18:27:37+00:00"
@@ -3463,8 +3503,13 @@
     {
      "t": "2026-10-29T22:48:31+00:00",
      "price": 529.0
+    },
+    {
+     "t": "2026-11-04T06:32:44+00:00",
+     "price": 702.37
     }
-   ]
+   ],
+   "previous_best": 529.0
   },
   "Corsair RM850x 850W Gold": {
    "image": "img/corsair-rm850x-850w-gold.jpg",
