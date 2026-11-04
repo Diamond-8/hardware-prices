@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04T06:32:44+00:00",
+ "updated_at": "2026-11-04T19:49:53+00:00",
  "currency": "SAR",
  "demo": false,
  "categories": {
@@ -13,6 +13,42 @@
   "cooler": "التبريد"
  },
  "products": [
+  {
+   "name": "Samsung 990 Pro 2TB NVMe",
+   "category": "storage",
+   "image": "img/samsung-990-pro-2tb-nvme.jpg",
+   "offers": [
+    {
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/SAMSUNG-Samsung-V-NAND-1200TBW-Warranty/dp/B0BXX1JJH8",
+     "price": 1998.57,
+     "title": "SAMSUNG Samsung 990 PRO 2TB, 3-bit MLC V-NAND, M.2 (2280), NVMe 2.0, R/W(Max) 7,450MB/s/6,900MB/s, 1,400K/1,550K IOPS, 1200TBW, 5 Years Warranty",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/SAMSUNG-Samsung-V-NAND-1200TBW-Warranty/dp/B0BXX1JJH8",
+    "price": 1998.57,
+    "title": "SAMSUNG Samsung 990 PRO 2TB, 3-bit MLC V-NAND, M.2 (2280), NVMe 2.0, R/W(Max) 7,450MB/s/6,900MB/s, 1,400K/1,550K IOPS, 1200TBW, 5 Years Warranty",
+    "in_stock": true
+   },
+   "previous_best": 1740.54,
+   "history": [
+    {
+     "t": "2026-10-28T18:10:21+00:00",
+     "price": 1740.54
+    },
+    {
+     "t": "2026-10-29T22:48:31+00:00",
+     "price": 1740.54
+    },
+    {
+     "t": "2026-11-04T19:49:53+00:00",
+     "price": 1998.57
+    }
+   ]
+  },
   {
    "name": "WD Black SN850X 2TB NVMe (Heatsink)",
    "category": "storage",

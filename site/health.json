@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-04T06:32:44+00:00",
+ "updated_at": "2026-11-04T19:49:53+00:00",
  "run": {
-  "available": 3,
-  "out_of_stock": 23,
+  "available": 1,
+  "out_of_stock": 22,
   "no_price": 0,
   "error": 11,
   "blocked": 2,
-  "confirmed_oos": 23,
+  "confirmed_oos": 22,
   "planned": 359,
   "blocked_stores": [
    "أمازون السعودية",
@@ -17,12 +17,12 @@
  },
  "products": {
   "total": 178,
-  "shown": 3,
-  "hidden": 175
+  "shown": 4,
+  "hidden": 174
  },
  "stores": {
   "أمازون السعودية": {
-   "available": 132,
+   "available": 133,
    "out_of_stock": 24,
    "no_price": 0,
    "errors": 8,
@@ -539,11 +539,6 @@
   {
    "name": "XPG Lancer RGB DDR5 64GB (2x32) 6000 CL30",
    "category": "ram",
-   "reason": "نافد"
-  },
-  {
-   "name": "Samsung 990 Pro 2TB NVMe",
-   "category": "storage",
    "reason": "نافد"
   },
   {

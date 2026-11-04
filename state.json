@@ -1982,6 +1982,16 @@
    "price": 702.37,
    "seen_at": "2026-11-04T06:32:44+00:00",
    "oos_since": null
+  },
+  "https://www.amazon.sa/-/en/SAMSUNG-Samsung-V-NAND-1200TBW-Warranty/dp/B0BXX1JJH8": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-11-04T19:49:53+00:00",
+   "title": "SAMSUNG Samsung 990 PRO 2TB, 3-bit MLC V-NAND, M.2 (2280), NVMe 2.0, R/W(Max) 7,450MB/s/6,900MB/s, 1,400K/1,550K IOPS, 1200TBW, 5 Years Warranty",
+   "image": "https://m.media-amazon.com/images/I/51cqaiSEi9L._AC_SL1000_.jpg",
+   "status": "available",
+   "price": 1998.57,
+   "seen_at": "2026-11-04T19:49:53+00:00",
+   "oos_since": null
   }
  },
  "products": {
@@ -3294,8 +3304,13 @@
     {
      "t": "2026-10-29T22:48:31+00:00",
      "price": 1740.54
+    },
+    {
+     "t": "2026-11-04T19:49:53+00:00",
+     "price": 1998.57
     }
-   ]
+   ],
+   "previous_best": 1740.54
   },
   "Samsung 990 Pro 2TB NVMe (Heatsink)": {
    "image": "img/samsung-990-pro-2tb-nvme-heatsink.jpg",
