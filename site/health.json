@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-09T22:26:11+00:00",
+ "updated_at": "2026-11-10T07:25:26+00:00",
  "run": {
-  "available": 0,
+  "available": 1,
   "out_of_stock": 22,
   "no_price": 0,
   "error": 11,
@@ -17,8 +17,8 @@
  },
  "products": {
   "total": 178,
-  "shown": 0,
-  "hidden": 178
+  "shown": 1,
+  "hidden": 177
  },
  "stores": {
   "أمازون السعودية": {
@@ -29,7 +29,7 @@
    "never": 8
   },
   "نون": {
-   "available": 0,
+   "available": 1,
    "out_of_stock": 0,
    "no_price": 0,
    "errors": 1,
@@ -51,11 +51,6 @@
   }
  },
  "hidden": [
-  {
-   "name": "AMD Ryzen 7 7800X3D",
-   "category": "cpu",
-   "reason": "نافد"
-  },
   {
    "name": "AMD Ryzen 7 9800X3D",
    "category": "cpu",

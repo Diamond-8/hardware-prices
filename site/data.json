@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-09T22:26:11+00:00",
+ "updated_at": "2026-11-10T07:25:26+00:00",
  "currency": "SAR",
  "demo": false,
  "categories": {
@@ -12,5 +12,46 @@
   "case": "الكيسات",
   "cooler": "التبريد"
  },
- "products": []
+ "products": [
+  {
+   "name": "AMD Ryzen 7 7800X3D",
+   "category": "cpu",
+   "image": "img/amd-ryzen-7-7800x3d.jpg",
+   "offers": [
+    {
+     "store": "نون",
+     "url": "https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/",
+     "price": 1834.25,
+     "title": "معالج سطح المكتب رايزن 7 7800X3D ثماني النواة، 4.2 جيجا هرتز، AM5 و16 خيط",
+     "in_stock": true
+    }
+   ],
+   "best": {
+    "store": "نون",
+    "url": "https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/",
+    "price": 1834.25,
+    "title": "معالج سطح المكتب رايزن 7 7800X3D ثماني النواة، 4.2 جيجا هرتز، AM5 و16 خيط",
+    "in_stock": true
+   },
+   "previous_best": 1259.0,
+   "history": [
+    {
+     "t": "2026-10-28T13:03:37+00:00",
+     "price": 1259.0
+    },
+    {
+     "t": "2026-10-29T13:10:10+00:00",
+     "price": 1259.0
+    },
+    {
+     "t": "2026-10-30T13:02:23+00:00",
+     "price": 1259.0
+    },
+    {
+     "t": "2026-11-10T07:25:26+00:00",
+     "price": 1834.25
+    }
+   ]
+  }
+ ]
 }

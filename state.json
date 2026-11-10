@@ -12,7 +12,13 @@
   },
   "https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/": {
    "store": "نون",
-   "last_error": "HTTP 403"
+   "checked_at": "2026-11-10T07:25:26+00:00",
+   "title": "معالج سطح المكتب رايزن 7 7800X3D ثماني النواة، 4.2 جيجا هرتز، AM5 و16 خيط",
+   "image": "https://f.nooncdn.com/p/pzsku/ZAB1A222B5E87BF94BB41Z/45/_/1773225491/0ab6de0d-52b8-4386-9f6d-d29d43be07b2.jpg?width=1200",
+   "status": "available",
+   "price": 1834.25,
+   "seen_at": "2026-11-10T07:25:26+00:00",
+   "oos_since": null
   },
   "https://infiniarc.com/en/shop/100-100001084wof-amd-ryzen-7-9800x3d-ryzen-7-9000-series-zen-5-8-core-5-2-ghz-socket-am5-120w-amd-radeon-graphics-desktop-processor-100-100001084wof-7303": {
    "store": "إنفني أرك",
@@ -1992,6 +1998,10 @@
    "price": 1998.57,
    "seen_at": "2026-11-04T19:49:53+00:00",
    "oos_since": null
+  },
+  "https://www.noon.com/saudi-en/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70052064V/p/": {
+   "store": "نون",
+   "last_error": "HTTP 403"
   }
  },
  "products": {
@@ -2009,8 +2019,13 @@
     {
      "t": "2026-10-30T13:02:23+00:00",
      "price": 1259.0
+    },
+    {
+     "t": "2026-11-10T07:25:26+00:00",
+     "price": 1834.25
     }
-   ]
+   ],
+   "previous_best": 1259.0
   },
   "AMD Ryzen 7 9800X3D": {
    "image": "img/amd-ryzen-7-9800x3d.jpg",
