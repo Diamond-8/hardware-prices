@@ -2002,6 +2002,16 @@
   "https://www.noon.com/saudi-en/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70052064V/p/": {
    "store": "نون",
    "last_error": "HTTP 403"
+  },
+  "https://www.amazon.sa/-/en/Corsair-H150i-Elite-Liquid-Cooler/dp/B0BQWSP2ZP": {
+   "store": "أمازون السعودية",
+   "checked_at": "2026-11-12T19:59:29+00:00",
+   "title": "Corsair iCUE H150i Elite LCD XT Liquid CPU Cooler - IPS LCD Screen - Three AF120 RGB Elite Fans - 360mm Radiator - Fits Intel® LGA 1700, AMD® AM5, and More - Included iCUE Commander CORE - Black",
+   "image": "https://m.media-amazon.com/images/I/71EN9Vc-qsL._AC_SL1500_.jpg",
+   "status": "available",
+   "price": 1825.79,
+   "seen_at": "2026-11-12T19:59:29+00:00",
+   "oos_since": null
   }
  },
  "products": {
@@ -3745,7 +3755,14 @@
    "search_tried_at": "2026-10-28T18:28:34+00:00"
   },
   "Corsair iCUE H150i Elite LCD XT 360": {
-   "search_tried_at": "2026-10-28T18:28:38+00:00"
+   "search_tried_at": "2026-10-28T18:28:38+00:00",
+   "image": "img/corsair-icue-h150i-elite-lcd-xt-360.jpg",
+   "history": [
+    {
+     "t": "2026-11-12T19:59:29+00:00",
+     "price": 1825.79
+    }
+   ]
   },
   "Corsair iCUE H150i Elite Capellix XT 360": {
    "search_tried_at": "2026-10-28T18:28:40+00:00"

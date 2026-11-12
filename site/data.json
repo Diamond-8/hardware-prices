@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T07:18:33+00:00",
+ "updated_at": "2026-11-12T19:59:29+00:00",
  "currency": "SAR",
  "demo": false,
  "categories": {
@@ -14,50 +14,30 @@
  },
  "products": [
   {
-   "name": "AMD Ryzen 7 7800X3D",
-   "category": "cpu",
-   "image": "img/amd-ryzen-7-7800x3d.jpg",
+   "name": "Corsair iCUE H150i Elite LCD XT 360",
+   "category": "cooler",
+   "image": "img/corsair-icue-h150i-elite-lcd-xt-360.jpg",
    "offers": [
     {
-     "store": "نون",
-     "url": "https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/",
-     "price": 1834.25,
-     "title": "معالج سطح المكتب رايزن 7 7800X3D ثماني النواة، 4.2 جيجا هرتز، AM5 و16 خيط",
+     "store": "أمازون السعودية",
+     "url": "https://www.amazon.sa/-/en/Corsair-H150i-Elite-Liquid-Cooler/dp/B0BQWSP2ZP",
+     "price": 1825.79,
+     "title": "Corsair iCUE H150i Elite LCD XT Liquid CPU Cooler - IPS LCD Screen - Three AF120 RGB Elite Fans - 360mm Radiator - Fits Intel® LGA 1700, AMD® AM5, and More - Included iCUE Commander CORE - Black",
      "in_stock": true
     }
    ],
    "best": {
-    "store": "نون",
-    "url": "https://www.noon.com/saudi-ar/ryzen-7-7800x3d-8-core-16-thread-desktop-processor/N70011872V/p/",
-    "price": 1834.25,
-    "title": "معالج سطح المكتب رايزن 7 7800X3D ثماني النواة، 4.2 جيجا هرتز، AM5 و16 خيط",
+    "store": "أمازون السعودية",
+    "url": "https://www.amazon.sa/-/en/Corsair-H150i-Elite-Liquid-Cooler/dp/B0BQWSP2ZP",
+    "price": 1825.79,
+    "title": "Corsair iCUE H150i Elite LCD XT Liquid CPU Cooler - IPS LCD Screen - Three AF120 RGB Elite Fans - 360mm Radiator - Fits Intel® LGA 1700, AMD® AM5, and More - Included iCUE Commander CORE - Black",
     "in_stock": true
    },
-   "previous_best": 1259.0,
+   "previous_best": null,
    "history": [
     {
-     "t": "2026-10-28T13:03:37+00:00",
-     "price": 1259.0
-    },
-    {
-     "t": "2026-10-29T13:10:10+00:00",
-     "price": 1259.0
-    },
-    {
-     "t": "2026-10-30T13:02:23+00:00",
-     "price": 1259.0
-    },
-    {
-     "t": "2026-11-10T07:25:26+00:00",
-     "price": 1834.25
-    },
-    {
-     "t": "2026-11-11T06:34:23+00:00",
-     "price": 1834.25
-    },
-    {
-     "t": "2026-11-12T07:18:33+00:00",
-     "price": 1834.25
+     "t": "2026-11-12T19:59:29+00:00",
+     "price": 1825.79
     }
    ]
   }
