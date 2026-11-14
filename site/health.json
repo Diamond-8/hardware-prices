@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T18:11:35+00:00",
+ "updated_at": "2026-11-14T22:30:13+00:00",
  "run": {
   "available": 0,
   "out_of_stock": 21,
@@ -17,8 +17,8 @@
  },
  "products": {
   "total": 178,
-  "shown": 1,
-  "hidden": 177
+  "shown": 0,
+  "hidden": 178
  },
  "stores": {
   "أمازون السعودية": {
@@ -740,6 +740,11 @@
    "name": "NZXT Kraken Elite 360 RGB (2024)",
    "category": "cooler",
    "reason": "نافد"
+  },
+  {
+   "name": "Corsair iCUE H150i Elite LCD XT 360",
+   "category": "cooler",
+   "reason": "ما انفحص أو بدون سعر"
   },
   {
    "name": "Corsair iCUE H150i Elite Capellix XT 360",
