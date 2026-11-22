@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T19:22:12+00:00",
+ "updated_at": "2026-11-22T06:57:25+00:00",
  "run": {
   "available": 0,
   "out_of_stock": 0,
@@ -17,8 +17,8 @@
  },
  "products": {
   "total": 178,
-  "shown": 1,
-  "hidden": 177
+  "shown": 0,
+  "hidden": 178
  },
  "stores": {
   "أمازون السعودية": {
@@ -545,6 +545,11 @@
    "name": "Samsung 990 Pro 2TB NVMe",
    "category": "storage",
    "reason": "نافد"
+  },
+  {
+   "name": "Samsung 990 Pro 2TB NVMe (Heatsink)",
+   "category": "storage",
+   "reason": "ما انفحص أو بدون سعر"
   },
   {
    "name": "WD Black SN850X 2TB NVMe",

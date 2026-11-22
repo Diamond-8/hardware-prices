@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T19:22:12+00:00",
+ "updated_at": "2026-11-22T06:57:25+00:00",
  "currency": "SAR",
  "demo": false,
  "categories": {
@@ -12,50 +12,5 @@
   "case": "الكيسات",
   "cooler": "التبريد"
  },
- "products": [
-  {
-   "name": "Samsung 990 Pro 2TB NVMe (Heatsink)",
-   "category": "storage",
-   "image": "img/samsung-990-pro-2tb-nvme-heatsink.jpg",
-   "offers": [
-    {
-     "store": "أمازون السعودية",
-     "url": "https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D9%85%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D9%84%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-MZ-V9P2T0CW%D8%8C/dp/B0BHJDY57J",
-     "price": 1999.0,
-     "title": "SAMSUNG 990 PRO w/Heatsink SSD 2TB, PCIe Gen4 M.2 2280 Internal Solid State Hard Drive, Seq. Read Speeds Up To 7,450MB/s for High End Computing, Workstations, Compatible w/PlayStation 5, MZ-V9P2T0CW",
-     "in_stock": true
-    }
-   ],
-   "best": {
-    "store": "أمازون السعودية",
-    "url": "https://www.amazon.sa/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D9%85%D9%8A%D8%AC%D8%A7%D8%A8%D8%A7%D9%8A%D8%AA-%D9%84%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-MZ-V9P2T0CW%D8%8C/dp/B0BHJDY57J",
-    "price": 1999.0,
-    "title": "SAMSUNG 990 PRO w/Heatsink SSD 2TB, PCIe Gen4 M.2 2280 Internal Solid State Hard Drive, Seq. Read Speeds Up To 7,450MB/s for High End Computing, Workstations, Compatible w/PlayStation 5, MZ-V9P2T0CW",
-    "in_stock": true
-   },
-   "previous_best": 1885.0,
-   "history": [
-    {
-     "t": "2026-10-28T18:10:21+00:00",
-     "price": 1885.0
-    },
-    {
-     "t": "2026-10-29T22:48:31+00:00",
-     "price": 1885.0
-    },
-    {
-     "t": "2026-11-19T20:43:01+00:00",
-     "price": 1999.0
-    },
-    {
-     "t": "2026-11-20T20:27:21+00:00",
-     "price": 1999.0
-    },
-    {
-     "t": "2026-11-21T19:22:12+00:00",
-     "price": 1999.0
-    }
-   ]
-  }
- ]
+ "products": []
 }
